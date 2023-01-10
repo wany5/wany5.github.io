@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript目录</title>
+    <script src="../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/bg.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+
+<body>
+    <div class="index-bg">
+        <div class="nav-page">
+            <div class="header">
+                <!-- Hellow,word! -->
+                <a class="link link--mallki" href="#">
+                    Hello, word!
+                    <span data-letters="Hello, word!"></span>
+                    <span data-letters="Hello, word!"></span>
+                </a>
+            </div>
+            <div class="body">
+                <div class="lunbo">
+                    <!-- <img src="../images/kontakt/bg-kontakt-1280.jpg" alt=""> -->
+                </div>
+                <div class="content">
+                    <div class="nav-list">
+                        <div class="nav-item" onclick="goPage('fzls.html')">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>发</span><span>展</span><span>历</span><span>史</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    JavaScript 是一种轻量级的脚本语言。
+                                    JavaScript 是一种嵌入式（embedded）语言。它本身提供的核心语法不算很多，只能用来做一些数学和逻辑运算。JavaScript 本身不提供任何与
+                                    I/O（输入/输出）相关的 API，都要靠宿主环境（host）提供，所以 JavaScript 只合适嵌入更大型的应用程序环境，去调用宿主环境提供的底层 API。
+                                </div>
+                                <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item" onclick="goPage('type.html')">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>数</span><span>据</span><span>类</span><span>型</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    ECMAScript 中有 5 种简单数据类型（也称为基本数据类型）：Undefined、Null、Boolean、Number
+                                    和 String。还有 1 种复杂数据类型——Object，Object 本质上是由一组无序的名值对组成的。ECMAScript
+                                    不支持任何创建自定义类型的机制，而所有值最终都将是上述 6 种数据类型之一。乍一看，好像只有 6
+                                    种数据类型不足以表示所有数据；但是，由于 ECMAScript 数据类型具有动态性，因此的确没有再定义
+                                    其他数据类型的必要了。
+                                </div>
+                                <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item" onclick="goPage('string.html')">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>字</span><span>符</span><span>串</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    String 类型用于表示由零或多个 16 位 Unicode 字符组成的字符序列，即字符串。字符串可以由双引号（"）或单引号（'）表示。
+                                </div>
+                                <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item" onclick="goPage('opt.html')">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>操</span><span>作</span><span>符</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    ECMA-262 描述了一组用于操作数据值的操作符，包括算术操作符（如加号和减号）、位操作符、
+                                    关系操作符和相等操作符。ECMAScript 操作符的与众不同之处在于，它们能够适用于很多值，例如字
+                                    符串、数字值、布尔值，甚至对象。不过，在应用于对象时，相应的操作符通常都会调用对象的 valueOf()
+                                    和（或）toString()方法，以便取得可以操作的值。
+                                </div>
+                                <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>数</span><span>组</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    JavaScript 是一种轻量级的脚本语言。
+                                    JavaScript 是一种嵌入式（embedded）语言。它本身提供的核心语法不算很多，只能用来做一些数学和逻辑运算。JavaScript 本身不提供任何与
+                                    I/O（输入/输出）相关的 API，都要靠宿主环境（host）提供，所以 JavaScript 只合适嵌入更大型的应用程序环境，去调用宿主环境提供的底层 API。
+                                </div>
+                                <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>D</span><span>O</span><span>M</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    JavaScript 是一种轻量级的脚本语言。
+                                    JavaScript 是一种嵌入式（embedded）语言。它本身提供的核心语法不算很多，只能用来做一些数学和逻辑运算。JavaScript 本身不提供任何与
+                                    I/O（输入/输出）相关的 API，都要靠宿主环境（host）提供，所以 JavaScript 只合适嵌入更大型的应用程序环境，去调用宿主环境提供的底层 API。
+                                </div>
+                                <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>B</span><span>O</span><span>M</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    JavaScript 是一种轻量级的脚本语言。
+                                    JavaScript 是一种嵌入式（embedded）语言。它本身提供的核心语法不算很多，只能用来做一些数学和逻辑运算。JavaScript 本身不提供任何与
+                                    I/O（输入/输出）相关的 API，都要靠宿主环境（host）提供，所以 JavaScript 只合适嵌入更大型的应用程序环境，去调用宿主环境提供的底层 API。
+                                </div>
+                                <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                    </div>
+                    <div class="art-list">
+                        <div class="art-item">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                欢迎
+            </div>
+        </div>
+        <div class="offbtn">
+            <a class="link link--surinami" href="#"><span data-letters-l="点我" data-letters-r="点我">点我点我</span></a>
+        </div>
+        <canvas></canvas>
+    </div>
+</body>
+<script src="../js/bg.js"></script>
+<script>
+    var off = false;
+
+    var content = $(".content");
+    $(document).on("mousemove", function (e) {
+        if (!off) {
+            return;
+        }
+        var ax = -($(window).innerWidth() / 2 - e.pageX) / 20;
+        var ay = ($(window).innerHeight() / 2 - e.pageY) / 10;
+        content.attr("style", "transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-webkit-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-moz-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg)");
+    });
+
+    $('.offbtn').on('click', function () {
+        off = !off;
+    });
+
+    function goPage(url) {
+        // console.log(url);
+        location.href = url;
+    }
+</script>
+
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>操作符</title>
+    <script src="../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/bg.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+
+<body>
+    <div class="index-bg">
+        <div class="nav-page">
+            <div class="header">
+                <!-- Hellow,word! -->
+                <a class="link link--mallki" href="#">
+                    操作符
+                    <span data-letters="操作符"></span>
+                    <span data-letters="操作符"></span>
+                </a>
+            </div>
+            <div class="body">
+                <div class="lunbo">
+                    <!-- <img src="../images/kontakt/bg-kontakt-1280.jpg" alt=""> -->
+                </div>
+                <div class="content">
+                    <div class="nav-list">
+                        <div class="nav-item" id="fzls">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>一</span><span>元</span><span>操</span><span>作</span><span>符</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">只能操作一个值的操作符叫做一元操作符。一元操作符是 ECMAScript 中最简单的操作符。</p>
+                                    <p class="p1">1. 递增和递减操作符</p>
+                                    <p class="p2">各有两个版本：前置型和后置型。顾名思义，前置型应该位
+                                        于要操作的变量之前，而后置型则应该位于要操作的变量之后。因此，在使用前置递增操作符给一个数
+                                        值加 1 时，要把两个加号（++）放在这个数值变量前面。</p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+                var age = 29;
+                var anotherAge = --age + 2;
+                alert(age); // 输出 28
+                alert(anotherAge); // 输出 30
+                                        </code></pre>
+                                    </div>
+                                    <p class="p2">各有两个版本：前置型和后置型。顾名思义，前置型应该位
+                                        于要操作的变量之前，而后置型则应该位于要操作的变量之后。因此，在使用前置递增操作符给一个数
+                                        值加 1 时，要把两个加号（++）放在这个数值变量前面。</p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+                var age = 29;
+                var anotherAge = --age + 2;
+                alert(age); // 输出 28
+                alert(anotherAge); // 输出 30
+                                        </code></pre>
+                                    </div>
+                                    <p class="p2">
+                                        <br />
+                                         在应用于一个包含有效数字字符的字符串时，先将其转换为数字值，再执行加减 1 的操作。字
+                                        符串变量变成数值变量。
+                                        <br />
+                                         在应用于一个不包含有效数字字符的字符串时，将变量的值设置为 NaN（第 4 章将详细讨论）。
+                                        字符串变量变成数值变量。
+                                        <br />
+                                         在应用于布尔值 false 时，先将其转换为 0 再执行加减 1 的操作。布尔值变量变成数值变量。
+                                        <br />
+                                         在应用于布尔值 true 时，先将其转换为 1 再执行加减 1 的操作。布尔值变量变成数值变量。
+                                        <br />
+                                         在应用于浮点数值时，执行加减 1 的操作。
+                                        <br />
+                                         在应用于对象时，先调用对象的 valueOf()方法（第 5 章将详细讨论）以取得一个可供操作的
+                                        值。然后对该值应用前述规则。如果结果是 NaN，则在调用 toString()方法后再应用前述规
+                                        则。对象变量变成数值变量。
+                                    </p>
+                                    <p class="p1">2. 一元加和减操作符</p>
+                                    <p class="p2">
+                                        在对非数值应用一元加操作符时，该操作符会像 Number()转型函数一样对这个值执行转换。
+                                        换句话说，布尔值 false 和 true 将被转换为 0 和 1，字符串值会被按照一组特殊的规则进行解析，而
+                                        对象是先调用它们的 valueOf()和（或）toString()方法，再转换得到的值
+                                    </p>
+                                    <p class="p2">一元减操作符主要用于表示负数，例如将 1 转换成1。</p>
+                                    <p class="p2">在将一元减操作符应用于数值时，该值会变成负数（如上面的例子所示）。而当应用于非数值时，
+                                        一元减操作符遵循与一元加操作符相同的规则，最后再将得到的数值转换为负数。</p>
+                                    <p class="p2">一元加和减操作符主要用于基本的算术运算，也可以像前面示例所展示的一样用于转换数据类型。</p>
+                                    
+                                </div>
+                                <!-- <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div> -->
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>位</span><span>操</span><span>作</span><span>符</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">位操作符用于在最基本的层次上，即按内存中表示数值的位来操作数值。ECMAScript 中的所有数
+                                        值都以 IEEE-754 64 位格式存储，但位操作符并不直接操作 64 位的值。而是先将 64 位的值转换成 32 位
+                                        的整数，然后执行操作，最后再将结果转换回 64 位。对于开发人员来说，由于 64 位存储格式是透明的，
+                                        因此整个过程就像是只存在 32 位的整数一样。</p>
+                                    <p class="p1">
+                                        对于有符号的整数，32 位中的前 31 位用于表示整数的值。第 32 位用于表示数值的符号：0 表示正
+                                        数，1 表示负数。这个表示符号的位叫做符号位，符号位的值决定了其他位数值的格式。其中，正数以
+                                        纯二进制格式存储，31 位中的每一位都表示 2 的幂。第一位（叫做位 0）表示 20，第二位表示 21，以此
+                                        类 推 。 没 有 用 到 的 位 以
+                                        0 填 充 ， 即 忽 略 不 计。
+                                    </p>
+                                    <p class="p1">
+                                        负数同样以二进制码存储，但使用的格式是二进制补码。计算一个数值的二进制补码，需要经过下
+                                        列 3 个步骤：
+                                    </p>
+                                    <p class="p2">(1) 求这个数值绝对值的二进制码（例如，要求18 的二进制补码，先求 18 的二进制码）；</p>
+                                    <p class="p2">(2) 求二进制反码，即将 0 替换为 1，将 1 替换为 0；</p>
+                                    <p class="p2">(3) 得到的二进制反码加 1。</p>
+                                    <p class="p2">
+                                        在 ECMAScript 中，当对数值应用位操作符时，后台会发生如下转换过程：64 位的数值被转换成 32
+                                        位数值，然后执行位操作，最后再将 32 位的结果转换回 64 位数值。这样，表面上看起来就好像是在操
+                                        作 32 位数值，就跟在其他语言中以类似方式执行二进制操作一样。但这个转换过程也导致了一个严重
+                                        的副效应，即在对特殊的 NaN 和 Infinity 值应用位操作时，这两个值都会被当成 0 来处理。
+                                    </p>
+                                    <p class="p2">如果对非数值应用位操作符，会先使用 Number()函数将该值转换为一个数值（自动完成），然后
+                                        再应用位操作。得到的结果将是一个数值。</p>
+                                    <p class="p2">1. 按位非（NOT）</p>
+                                    <p class="p2">按位非操作符由一个波浪线（~）表示，执行按位非的结果就是返回数值的反码。按位非是
+                                        ECMAScript 操作符中少数几个与二进制计算有关的操作符之一。</p>
+                                    <p class="p2">这里，对 25 执行按位非操作，结果得到了26。这也验证了按位非操作的本质：操作数的负值减 1。</p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+                var num1 = 25;
+                // 二进制 00000000000000000000000000011001
+                var num2 = ~num1;
+                // 二进制 11111111111111111111111111100110
+                alert(num2);
+                // -26
+                                        </code></pre>
+                                    </div>
+                                    <p class="p1">2. 按位与（AND）</p>
+                                    <p class="p2">位与操作符由一个和号字符（&）表示，它有两个操作符数。从本质上讲，按位与操作就是将两
+                                        个数值的每一位对齐，然后根据下表中的规则，对相同位置上的两个数执行 AND 操作：</p>
+                                    <table>
+                                        <tr>
+                                            <td>第一个数值的位</td>
+                                            <td>第一个数值的位</td>
+                                            <td>结 果</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                        </tr>
+                                    </table>
+                                    <p class="p2">简而言之，按位与操作只在两个数值的对应位都是 1 时才返回 1，任何一位是 0，结果都是 0。
+                                        下面看一个对 25 和 3 执行按位与操作的例子：</p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+                var result = 25 & 3;
+                alert(result); //1
+                                        </code></pre>
+                                    </div>
+                                    <p class="p1">3. 按位或（OR）</p>
+                                    <p class="p2">按位或操作符由一个竖线符号（|）表示，同样也有两个操作数。按位或操作遵循下面这个真值表。</p>
+                                    <table>
+                                        <tr>
+                                            <td>第一个数值的位</td>
+                                            <td>第一个数值的位</td>
+                                            <td>结 果</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>0</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                        </tr>
+                                    </table>
+                                    <p class="p2">按位或操作在有一个位是 1 的情况下就返回 1，而只有在两个位都是 0 的情况下才返回 0。
+                                        如果在前面按位与的例子中对 25 和 3 执行按位或操作，则代码如下所示：</p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+                    var result = 25 | 3;
+                    alert(result); //27
+                    // 25 与 3 按位或的结果是 27：
+                    25 = 0000 0000 0000 0000 0000 0000 0001 1001
+                    3 = 0000 0000 0000 0000 0000 0000 0000 0011
+                    --------------------------------------------
+                    OR = 0000 0000 0000 0000 0000 0000 0001 1011
+                                        </code></pre>
+                                    </div>
+                                    <p class="p2">这两个数值的都包含 4 个 1，因此可以把每个 1 直接放到结果中。二进制码 11011 等于十进制值 27。</p>
+                                    <p class="p1">4. 按位异或（XOR）</p>
+                                    <p class="p2">按位异或操作符由一个插入符号（^）表示，也有两个操作数。以下是按位异或的真值表。</p>
+                                    <table>
+                                        <tr>
+                                            <td>第一个数值的位</td>
+                                            <td>第一个数值的位</td>
+                                            <td>结 果</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>0</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                        </tr>
+                                    </table>
+                                    <p class="p2">按位异或与按位或的不同之处在于，这个操作在两个数值对应位上只有一个 1 时才返回 1，如果对
+                                        应的两位都是 1 或都是 0，则返回 0。</p>
+                                    <p class="p2">对 25 和 3 执行按位异或操作的代码如下所示：</p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+                    var result = 25 ^ 3;
+                    alert(result); //26
+                    // 25 与 3 按位异或的结果是 26，其底层操作如下所示：
+                    25 = 0000 0000 0000 0000 0000 0000 0001 1001
+                    3 = 0000 0000 0000 0000 0000 0000 0000 0011
+                    ---------------------------------------------
+                    XOR = 0000 0000 0000 0000 0000 0000 0001 1010
+                                        </code></pre>
+                                    </div>
+                                    <p class="p2">这两个数值都包含 4 个 1，但第一位上则都是 1，因此结果的第一位变成了 0。而其他位上的 1 在另
+                                        一个数值中都没有对应的 1，可以直接放到结果中。二进制码 11010 等于十进制值 26（注意这个结果比
+                                        执行按位或时小 1）。</p>
+                                    <p class="p1">5. 左移</p>
+                                    <p class="p2">左移操作符由两个小于号（<<）表示，这个操作符会将数值的所有位向左移动指定的位数。</p>
+                                    <p class="p1">6. 有符号的右移</p>
+                                    <p class="p2">有符号的右移操作符由两个大于号（>>）表示，这个操作符会将数值向右移动，但保留符号位（即
+                                        正负号标记）。</p>
+                                    <p class="p1">7. 无符号右移</p>
+                                    <p class="p2">无符号右移操作符由 3 个大于号（>>>）表示，这个操作符会将数值的所有 32 位都向右移动。对正
+                                        数来说，无符号右移的结果与有符号右移相同。</p>
+                                    <p class="p2">但是对负数来说，情况就不一样了。首先，无符号右移是以 0 来填充空位，而不是像有符号右移那
+                                        样以符号位的值来填充空位。所以，对正数的无符号右移与有符号右移结果相同，但对负数的结果就不一样了。其次，无符号右移操作符会把负数的二进制码当成正数的二进制码。而且，由于负数以其绝对
+                                        值的二进制补码形式表示，因此就会导致无符号右移后的结果非常之大。</p>
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                    </div>
+                    <div class="art-list">
+                        <div class="art-item">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                欢迎
+            </div>
+        </div>
+        <div class="offbtn">
+            <a class="link link--surinami" href="#"><span data-letters-l="点我" data-letters-r="点我">点我点我</span></a>
+        </div>
+        <canvas></canvas>
+    </div>
+</body>
+<script src="../js/bg.js"></script>
+<script>
+    var off = false;
+
+    var content = $(".content");
+    $(document).on("mousemove", function (e) {
+        if (!off) {
+            return;
+        }
+        var ax = -($(window).innerWidth() / 2 - e.pageX) / 20;
+        var ay = ($(window).innerHeight() / 2 - e.pageY) / 10;
+        content.attr("style", "transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-webkit-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-moz-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg)");
+    });
+
+    $('.offbtn').on('click', function () {
+        off = !off;
+    });
+    
+</script>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/highlight/highlight.pack.js"></script>
+    <!-- <link rel="stylesheet" href="../js/highlight/styles/atom-one-dark.css"> -->
+    <link rel="stylesheet" href="../css/common.css">
+    <!-- <link rel="stylesheet" href="../css/bg.css">
+    <link rel="stylesheet" href="../css/nav.css"> -->
+    <style>
+        li {
+            background-color: slategray;
+            color: red;
+            height: 30px;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="index-bg"> -->
+    <ul id="js-list"></ul>
+    <!-- </div> -->
+    <div class="root">
+        <div class="container">
+            <section class="sidebar">
+                <ul class="menu"></ul>
+            </section>
+            <section class="main">
+                <article class="post"></article>
+                <p class="copyright"></p>
+            </section>
+        </div>
+    </div>
+</body>
+
+<script>
+    // 大量dom元素渲染
+    (() => {
+        const $ul = document.getElementById('js-list');
+        if (!$ul) {
+            return;
+        }
+
+        const total = 30000;
+        const pageSize = 10;
+        const countPage = Math.ceil(total / pageSize); // 需要批量处理次数
+        let page = 0; // 已经完成的批量次数
+
+        function appendLi() {
+            const $smallDoc = document.createDocumentFragment();
+            for (let i = 0; i < pageSize; i++) {
+
+                const leval = (page * pageSize) + i + 1;
+
+                if (leval > total) {
+                    break;
+                }
+
+                const $li = document.createElement('li');
+
+                $li.innerText = (page * pageSize) + i + 1;
+
+                $smallDoc.appendChild($li);
+            }
+
+            $ul.appendChild($smallDoc);
+
+            ++page;
+
+            doAppend();
+        }
+
+        function doAppend() {
+            if (page < countPage) {
+                window.requestAnimationFrame(appendLi);
+            }
+        }
+
+        // doAppend();
+
+        $ul.addEventListener('click', function (e) {
+            const target = e.target;
+            if (target.tagName == 'LI') {
+                alert(target.innerText);
+            }
+        })
+
+    })();
+
+
+    // 遍历.root dom树节点 (广度优先)
+
+    (() => {
+
+        const mapNode = (root) => {
+
+            const queue = [root];
+
+            while (queue.length) {
+                const node = queue.shift();
+
+                point(node);
+
+                if (!node.children.length) {
+                    continue;
+                }
+
+                Array.prototype.slice.call(node.children).forEach(ele => {
+                    queue.push(ele);
+                });
+
+            }
+
+        }
+
+        const point = (node) => {
+            // console.log(node.children);
+            // console.log(node.childNodes, 'childNodes');
+            console.log(node.tagName, `.${node.className}`);
+        }
+
+
+        mapNode(document.querySelector('.root'))
+
+
+    })();
+
+</script>
+
+</html>

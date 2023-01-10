@@ -1,0 +1,443 @@
+
+/* APC MODUL IM FRONTEND #####################*/
+
+.apcmap, .apcad {
+	display: none;
+}
+
+
+
+/* APC COOKIE-BANNER #####################*/
+
+#apc {
+	bottom: 0;
+	display: none;
+	height: 100vh;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	perspective: 700px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99999;
+}
+
+#apc * {
+	font-family: 'Poppins', sans-serif !important;
+}
+
+#apcbg {
+	background-color: rgba(0,0,0,0.5);
+	bottom: 0;
+	height: 100vh;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+#apcinner {
+	background-color: #fff;
+	border: 1px solid #777;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 10px 10px -5px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 10px 10px -5px rgba(0,0,0,0.20);
+	-ms-box-shadow: 0 10px 10px -5px rgba(0,0,0,0.20);
+	-o-box-shadow: 0 10px 10px -5px rgba(0,0,0,0.20);
+	box-shadow: 0 10px 10px -5px rgba(0,0,0,0.20);
+	color: #777;
+	font-size: 14px;
+	left: 50%;
+	line-height: 22px;
+	margin: 0;
+	max-width: 400px;
+	padding: 20px 25px 10px 25px;
+	position: absolute;
+	top: 45vh;
+	-webkit-transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+	-moz-transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+	-ms-transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+	-o-transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+	transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-o-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	width: 80%;
+	z-index: 10;
+}
+
+#apcinner.apcflip {
+	animation: apcflip 0.75s ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes apcflip {
+0% {
+	opacity: 1;
+	-webkit-transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+	-moz-transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+	-ms-transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+	-o-transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+	transform: rotateX(0deg) scale(1) translate(-50%, -50%);
+}
+25% {
+	opacity: 1;
+	-webkit-transform: rotateX(-25deg) scale(1) translate(-50%, -50%);
+	-moz-transform: rotateX(-25deg) scale(1) translate(-50%, -50%);
+	-ms-transform: rotateX(-25deg) scale(1) translate(-50%, -50%);
+	-o-transform: rotateX(-25deg) scale(1) translate(-50%, -50%);
+	transform: rotateX(-25deg) scale(1) translate(-50%, -50%);
+}
+100% {
+	opacity: 0;
+	-webkit-transform: rotateX(90deg) scale(0.5) translate(-50%, -50%);
+	-moz-transform: rotateX(90deg) scale(0.5) translate(-50%, -50%);
+	-ms-transform: rotateX(90deg) scale(0.5) translate(-50%, -50%);
+	-o-transform: rotateX(90deg) scale(0.5) translate(-50%, -50%);
+	transform: rotateX(90deg) scale(0.5) translate(-50%, -50%);
+}
+}
+
+
+/* APC Header */
+
+#apcheader {
+	border-bottom: 1px dashed #ccc;
+	padding: 0 0 15px 0;
+}
+
+#apcheader h3 {
+	background: transparent url("apc.png") no-repeat left 2px;
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-ms-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	border: none !important;
+	color: #777 !important;
+	font-size: 16px;
+	margin: 0 0 5px 0;
+	padding: 0 0 0 25px;
+}
+
+#apcheader p {
+	color: #777;
+	font-size: 13px;
+	line-height: 20px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#apcheader a {
+	color: #333;
+}
+
+#apcheader-buttons {
+	display: inline-block;
+	margin: 5px 0 0 0;
+	text-align: right;
+	width: 100%;
+}
+
+#apcheader button, #apcheader input {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 7px 15px;
+}
+
+#apccookiecustomise, #apccookiesave {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #aaa;
+	margin: 0;
+}
+
+#apccookiesave {
+	display: none;
+}
+
+#apccookieaccept {
+	background-color: #0a0;
+	border: 1px solid #fff;
+	color: #fff;
+	margin: 0 0 0 15px;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.25s ease-in-out 0s;
+	-moz-transition: all 0.25s ease-in-out 0s;
+	-ms-transition: all 0.25s ease-in-out 0s;
+	-o-transition: all 0.25s ease-in-out 0s;
+	transition: all 0.25s ease-in-out 0s;
+}
+
+#apccookieaccept:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+#apcflyout {
+	display: none;
+}
+
+
+
+/* APC Cookie Types */
+
+#apctogglebox {
+	list-style-type: none !important;
+	padding: 5px 0 10px 0 !important;
+	width: 100%;
+}
+
+.apctogglebox {
+	border-bottom: 1px dashed #ccc;
+	clear: both;
+	cursor: pointer;
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0 0 10px 0;
+	position: relative;
+	width: 100%;
+}
+
+.apctogglebox.apcna {
+	display: none !important;
+	height: 0 !important;
+	opacity: 0 !important;
+}
+
+.apctogglebox h3 {
+	color: #aaa;
+	font-size: 15px;
+	letter-spacing: 0;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-align: left;
+	text-transform: uppercase;
+	-webkit-transition: all 0.35s ease-in-out 0s;
+	-moz-transition: all 0.35s ease-in-out 0s;
+	-ms-transition: all 0.35s ease-in-out 0s;
+	-o-transition: all 0.35s ease-in-out 0s;
+	transition: all 0.35s ease-in-out 0s;
+}
+
+.apccheck {
+	height: 30px;
+	position: absolute;
+	margin: 0;
+	right: 0;
+	top: 28px;
+	width: 50px;
+	z-index: 2000;
+}
+
+.apccheckbg {
+	background-color: #ddd;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	height: 16px;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	margin: 0;
+	top: 7px;
+	width: 100%;
+	z-index: 10;
+}
+
+.apccheck input {
+	position:absolute;
+	width:100%;
+	height:100%;
+	cursor:pointer;
+	opacity:0;
+	z-index:999;
+}
+
+.apccheck .toggle {
+	background-color: #fff;
+	border: 1px solid #bbb;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+	display: block;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	width: 30px;
+	z-index: 20;
+}
+
+.apccheck .toggle:before {
+	color: #aaa;
+	content: "OFF";
+	font-family: sans-serif;
+	font-size: 10px;
+	left: 0;
+	padding: 5px 0 0 0;
+	position: absolute;
+	width: 100%;
+}
+
+.apccheck .toggle.toggle-de:before {
+	content: "AUS";
+}
+
+.apccheck input:checked ~ .toggle {
+	background-color: #0c0;
+	border: 1px solid #fff;
+	background-image: radial-gradient(#0c0, #090);
+	margin-left: 18px;
+}
+
+.apccheck input:checked ~ .toggle:before {
+	color: #fff !important;
+	content: "ON";
+}
+
+.apccheck input:checked ~ .toggle.toggle-de:before {
+	content: "AN";
+}
+
+.apctogglebox p {
+	color: #777;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0 !important;
+	padding: 0;
+	text-align: left;
+	width: calc(100% - 80px);
+}
+
+p.apcanbieter {
+	color: #aaa;
+	padding: 5px 0 0 0;
+}
+
+.apcanbieter span {
+	color: #333;
+	padding-left: 3px;
+}
+
+.apcanbieter span em {
+	color: #aaa;
+}
+
+
+
+/* APC Footer */
+
+#apcfooter {
+	display: inline-block;
+	margin: 10px 0 0 0;
+	text-align: center;
+	width: 100%;
+}
+
+#apcfooter p, #apcfooter a {
+	color: #999;
+	font-size: 10px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+#apcfooter p {
+	padding: 0 5px;
+	width: 100%;
+}
+
+#apcfooter p strong {
+	font-size: 11px;
+}
+
+#apcfooter a {
+	display: inline-block;
+	padding: 0 5px;
+	-webkit-transition: all 0.35s ease-in-out 0s;
+	-moz-transition: all 0.35s ease-in-out 0s;
+	-ms-transition: all 0.35s ease-in-out 0s;
+	-o-transition: all 0.35s ease-in-out 0s;
+	transition: all 0.35s ease-in-out 0s;
+}
+
+#apcfooter a:hover {
+	color: #333;
+}
+
+
+
+/* MOBILE ##### */
+
+@media screen and (max-width: 720px) {
+
+#apcheader h2,
+p.apcdescription,
+.apcanbieter span label {
+	display: none !important;
+}
+
+#apcheader p {
+	font-size: 12px;
+	line-height: 17px;
+}
+
+#apcheader button, #apcheader input {
+	font-size: 14px;
+	padding: 7px 10px;
+}
+
+.apctogglebox {
+	margin: 7px 0 0 0;
+	padding: 0 0 7px 0;
+}
+
+.apctogglebox h3 {
+	margin: 0 !important;
+}
+
+.apccheck {
+	top: 5px;
+}
+
+}

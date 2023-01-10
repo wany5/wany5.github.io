@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字符串</title>
+    <script src="../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/bg.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+
+<body>
+    <div class="index-bg">
+        <div class="nav-page">
+            <div class="header">
+                <!-- Hellow,word! -->
+                <a class="link link--mallki" href="#">
+                    字符串
+                    <span data-letters="字符串"></span>
+                    <span data-letters="字符串"></span>
+                </a>
+            </div>
+            <div class="body">
+                <div class="lunbo">
+                    <!-- <img src="../images/kontakt/bg-kontakt-1280.jpg" alt=""> -->
+                </div>
+                <div class="content">
+                    <div class="nav-list">
+                        <div class="nav-item" id="fzls">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>字</span><span>符</span><span>串</span><span>特</span><span>点</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">ECMAScript 中的字符串是不可变的，也就是说，字符串一旦创建，它们的值就不能改变。要改变
+                                        某个变量保存的字符串，首先要销毁原来的字符串，然后再用另一个包含新值的字符串填充该变量。</p>
+                                </div>
+                                <!-- <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div> -->
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>转</span><span>换</span><span>为</span><span>字</span><span>符</span><span>串</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">1）toString() 方法</p>
+                                    <p class="p2">
+                                        数值、布尔值、对象和字符串值（没错，每个字符串也都有一个 toString()方法，该方法返回字
+                                        符串的一个副本）都有 toString()方法。但 null 和 undefined 值没有这个方法。
+                                    </p>
+                                    <p class="p2">多数情况下，调用 toString()方法不必传递参数。但是，在调用数值的 toString()方法时，可
+                                        以传递一个参数：输出数值的基数。默认情况下，toString()方法以十进制格式返回数值的字符串表
+                                        示。而通过传递基数，toString()可以输出以二进制、八进制、十六进制，乃至其他任意有效进制格
+                                        式表示的字符串值。</p>
+                                    <p class="p2">
+                                        在不知道要转换的值是不是 null 或 undefined 的情况下，还可以使用转型函数 String()，这个
+                                        函数能够将任何类型的值转换为字符串。String()函数遵循下列转换规则：
+                                          <br />
+                                          &nbsp;&nbsp;&nbsp;&nbsp; 如果值有 toString()方法，则调用该方法（没有参数）并返回相应的结果；
+                                          <br />
+                                          &nbsp;&nbsp;&nbsp;&nbsp; 如果值是 null，则返回"null"；
+                                          <br />
+                                          &nbsp;&nbsp;&nbsp;&nbsp; 如果值是 undefined，则返回"undefined"。
+                                    </p>
+                                    <p class="p1">
+                                       2） 要把某个值转换为字符串，可以使用加号操作符把它与一个字符串 "" 加在一起。
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                    </div>
+                    <div class="art-list">
+                        <div class="art-item">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                欢迎
+            </div>
+        </div>
+        <div class="offbtn">
+            <a class="link link--surinami" href="#"><span data-letters-l="点我" data-letters-r="点我">点我点我</span></a>
+        </div>
+        <canvas></canvas>
+    </div>
+</body>
+<script src="../js/bg.js"></script>
+<script>
+    var off = false;
+
+    var content = $(".content");
+    $(document).on("mousemove", function (e) {
+        if (!off) {
+            return;
+        }
+        var ax = -($(window).innerWidth() / 2 - e.pageX) / 20;
+        var ay = ($(window).innerHeight() / 2 - e.pageY) / 10;
+        content.attr("style", "transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-webkit-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-moz-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg)");
+    });
+
+    $('.offbtn').on('click', function () {
+        off = !off;
+    });
+    
+</script>
+
+</html>

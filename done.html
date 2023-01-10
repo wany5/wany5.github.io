@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>倒计时</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 62.5%;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      line-height: 1rem;
+      letter-spacing: 0.08rem;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      font-size: 1.4rem;
+      font-weight: inherit;
+      background: url("https://haiyong.site/img/bizhi/2301061.png" );
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    }
+
+    .container {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      /* height: 20rem; */
+      /* width: 60rem; */
+      background-color: transparent;
+      border-radius: 3px;
+      /* transform-style: preserve-3d; */
+      box-shadow: none;
+      animation: conAnm 20s ease infinite;
+    }
+
+    .clock-column {
+      margin-right: 7rem;
+      text-align: center;
+      position: relative;
+      /* background-color: #fff; */
+      background-color: transition;
+      height: 160px;
+      width: 160px;
+      /* perspective: 250px; */
+      /* border-radius: 5px; */
+      transform-style: preserve-3d;
+      /* backface-visibility: hidden; */
+      transition: all 1s linear;
+    }
+
+    .clock-column::after {
+      content: ":";
+      display: block;
+      height: 0.25rem;
+      width: 0.25rem;
+      font-size: 75px;
+      font-weight: 200;
+      color: #feffff;
+      position: absolute;
+      top: 60px;
+      right: -25px;
+    }
+
+
+    .clock-column:last-child::after {
+      display: none;
+    }
+
+    .clock-column:last-child {
+      margin-right: 0;
+    }
+
+    .clock-label {
+      /* padding-top: 20px; */
+      text-transform: uppercase;
+      color: #131313;
+      font-size: 16px;
+      text-align: center;
+      height: 38px;
+      line-height: 38px;
+      border-top: 2px solid rgba(6, 121, 215, 0.989);
+    }
+
+    .clock-timer {
+      color: #131313;
+      font-size: 46px;
+      height: 120px;
+      line-height: 120px;
+    }
+
+    .clock-input {
+      clear: both;
+      text-align: center;
+      max-width: 250px;
+      width: 100%;
+      height: 60px;
+      line-height: 60px;
+      background-color: #fff;
+      margin: 0 auto 90px;
+    }
+
+    input#time-to {
+      padding: 5px;
+      border: 0;
+      border-radius: 3px;
+      font-size: 23px;
+      font-family: sans-serif;
+      text-align: center;
+      color: #066dcd;
+      background-color: #fff;
+    }
+
+    .done {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .page-footer {
+      position: fixed;
+      right: 0px;
+      bottom: 0px;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      color: black;
+      background: rgba(255, 255, 255, 0.65);
+    }
+
+    .page-left {
+      position: fixed;
+      left: 0px;
+      bottom: 0px;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      color: black;
+      background: rgba(255, 255, 255, 0.65);
+    }
+
+    .page-footer a {
+      display: flex;
+      margin-left: 4px;
+    }
+
+    .touxiang {
+      bottom: 0px;
+      width: 30px;
+      height: 30px;
+    }
+
+    .box {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 160px;
+      height: 160px;
+      color: #131313;
+      font-size: 46px;
+      font-weight: 700;
+      /* line-height: 160px; */
+      text-align: center;
+      opacity: 0.8;
+    }
+
+    .box1 {
+      background: #2b669a;
+      transform: rotateY(90deg) translateZ(-80px);
+    }
+
+    .box2 {
+      background: #509a64;
+      transform: rotateY(90deg) translateZ(80px);
+    }
+
+    .box3 {
+      background: #9a5468;
+      transform: rotateX(-90deg) translateZ(80px);
+    }
+
+    .box4 {
+      background: #979a25;
+      transform: rotateX(90deg) translateZ(80px);
+    }
+
+    .box5 {
+      background: #97709a;
+      transform: rotateX(180deg) translateZ(80px);
+    }
+
+    .box6 {
+      background: #7f3839;
+      transform: translateZ(80px);
+    }
+
+    .sec-box {
+      animation: secRo 4s ease infinite;
+    }
+
+    @keyframes secRo {
+      0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+      }
+
+      25% {
+        transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+      }
+
+      50% {
+        transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+      }
+
+      75% {
+        transform: rotateX(270deg) rotateY(0deg) rotateZ(0deg);
+      }
+
+      100% {
+        transform: rotateX(360deg) rotateY(0deg) rotateZ(0deg);
+      }
+    }
+
+    @keyframes conAnm {
+      0% {
+        transform: rotate3d(0, 0, 1, 0deg);
+      }
+
+      25% {
+        transform: rotate3d(0, 0, 1, 30deg);
+      }
+
+      50% {
+        transform: rotate3d(0, 0, 1, 0deg);
+      }
+
+      75% {
+        transform: rotate3d(0, 0, 1, -30deg);
+      }
+
+      100% {
+        transform: rotate3d(0, 0, 1, 0deg);
+      }
+    }
+
+  </style>
+  <script type="text/javascript" src="./system/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="clock-input" style="display: none;">
+    <input type="date" name="time-to" class="time-to" id="time-to" value="" onchange="calcTime(this.value)">
+  </div>
+  <div class="container">
+    <div class="clock-column day-box">
+      <!-- <div class="parent"> -->
+      <div class="box box1">
+      </div>
+      <div class="box box2">
+      </div>
+      <div class="box box3">
+        <p class="clock-day clock-timer"></p>
+        <p class="clock-label">日</p>
+      </div>
+      <div class="box box4">
+        <p class="clock-day clock-timer"></p>
+        <p class="clock-label">日</p>
+      </div>
+      <div class="box box5">
+        <p class="clock-day clock-timer"></p>
+        <p class="clock-label">日</p>
+      </div>
+      <div class="box box6">
+        <p class="clock-day clock-timer"></p>
+        <p class="clock-label">日</p>
+      </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="clock-column hours-box">
+      <div class="box box1">
+      </div>
+      <div class="box box2">
+      </div>
+      <div class="box box3">
+        <p class="clock-hours clock-timer"></p>
+        <p class="clock-label">时</p>
+      </div>
+      <div class="box box4">
+        <p class="clock-hours clock-timer"></p>
+        <p class="clock-label">时</p>
+      </div>
+      <div class="box box5">
+        <p class="clock-hours clock-timer"></p>
+        <p class="clock-label">时</p>
+      </div>
+      <div class="box box6">
+        <p class="clock-hours clock-timer"></p>
+        <p class="clock-label">时</p>
+      </div>
+    </div>
+
+    <div class="clock-column min-box">
+      <div class="box box1">
+      </div>
+      <div class="box box2">
+      </div>
+      <div class="box box3">
+        <p class="clock-minutes clock-timer"></p>
+        <p class="clock-label">分</p>
+      </div>
+      <div class="box box4">
+        <p class="clock-minutes clock-timer"></p>
+        <p class="clock-label">分</p>
+      </div>
+      <div class="box box5">
+        <p class="clock-minutes clock-timer"></p>
+        <p class="clock-label">分</p>
+      </div>
+      <div class="box box6">
+        <p class="clock-minutes clock-timer"></p>
+        <p class="clock-label">分</p>
+      </div>
+    </div>
+
+    <div class="clock-column sec-box">
+      <div class="box box1">
+      </div>
+      <div class="box box2">
+      </div>
+      <div class="box box3">
+        <p class="clock-seconds clock-timer"></p>
+        <p class="clock-label">秒</p>
+      </div>
+      <div class="box box4">
+        <p class="clock-seconds clock-timer"></p>
+        <p class="clock-label">秒</p>
+      </div>
+      <div class="box box5">
+        <p class="clock-seconds clock-timer"></p>
+        <p class="clock-label">秒</p>
+      </div>
+      <div class="box box6">
+        <p class="clock-seconds clock-timer"></p>
+        <p class="clock-label">秒</p>
+      </div>
+
+    </div>
+  </div>
+  <script>
+    $(function ($) {
+      // 加载事件监听器
+      // loadEventListeners();
+
+      // function loadEventListeners() {
+      //   // DOMContentLoaded事件在初始 HTML 文档已完全加载时触发
+      //   document.addEventListener('DOMContentLoaded', function () { 
+      //     console.log(123123123);
+
+      //   });
+      // };
+      calcTime('2023-01-22');
+
+      var timeTo = document.getElementById('time-to').value,
+        date,
+        now = new Date(),
+        newYear = new Date('2023-01-22').getTime(),
+        startTimer = '';
+
+      var mindeg = 0, hoursdeg = 0, daydeg = 0;
+
+      // 计算日期、小时、分钟和秒
+      function calcTime(dates) {
+        //ui变量
+        clearInterval(startTimer);
+
+        if (typeof (dates) == 'undefined') {
+          date = new Date(newYear).getTime();
+        } else {
+          date = new Date(dates).getTime();
+        }
+
+        var rotatDeg = 0;
+
+        function updateTimer(date) {
+
+          var now = new Date().getTime();
+          var distance = date - now;
+
+          // 天、小时、分钟和秒的时间计算
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // select元素
+          // document.querySelector('.clock-day').innerHTML = days;
+          // document.querySelector('.clock-hours').innerHTML = hours;
+          // document.querySelector('.clock-minutes').innerHTML = minutes;
+          // document.querySelector('.clock-seconds').innerHTML = seconds;
+          // console.log($('.clock-day'), 1231231)
+          $('.clock-day').text(days)
+          $('.clock-hours').text(hours)
+          $('.clock-minutes').text(minutes)
+          $('.clock-seconds').text(seconds)
+
+          if (seconds == 0) {
+            mindeg = mindeg + 90
+            $('.min-box').css({ transform: 'rotateX(' + (mindeg) + 'deg) rotateY(0deg) rotateZ(0deg)'})
+          }
+
+          if (minutes == 0) {
+            hoursdeg = hoursdeg + 90
+            $('.hours-box').css({ transform: 'rotateX(' + (hoursdeg) + 'deg) rotateY(0deg) rotateZ(0deg)'})
+          }
+
+          if (hours == 0) {
+            daydeg = daydeg + 90
+            $('.day-box').css({ transform: 'rotateX(' + (daydeg) + 'deg) rotateY(0deg) rotateZ(0deg)'})
+          }
+
+
+    if (now >= date) {
+      clearInterval(startTimer);
+      $('.clock-day').text('L')
+      $('.clock-hours').text('O')
+      $('.clock-minutes').text('V')
+      $('.clock-seconds').text('E')
+      // document.querySelector('.clock-day').innerHTML = 'L';
+      // document.querySelector('.clock-hours').innerHTML = 'O';
+      // document.querySelector('.clock-minutes').innerHTML = 'V';
+      // document.querySelector('.clock-seconds').innerHTML = 'E';
+    }
+        }
+
+    updateTimer(date)
+
+    startTimer = setInterval(function () { updateTimer(date); }, 1000);
+
+      }
+    })
+  </script>
+</body>
+
+</html>

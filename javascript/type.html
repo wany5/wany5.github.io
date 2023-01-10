@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据类型</title>
+    <script src="../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/bg.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+
+<body>
+    <div class="index-bg">
+        <div class="nav-page">
+            <div class="header">
+                <!-- Hellow,word! -->
+                <a class="link link--mallki" href="#">
+                    数据类型
+                    <span data-letters="数据类型"></span>
+                    <span data-letters="数据类型"></span>
+                </a>
+            </div>
+            <div class="body">
+                <div class="lunbo">
+                    <!-- <img src="../images/kontakt/bg-kontakt-1280.jpg" alt=""> -->
+                </div>
+                <div class="content">
+                    <div class="nav-list">
+                        <div class="nav-item" id="fzls">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>J</span><span>S</span><span>数</span><span>据</span><span>类</span><span>型</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">
+                                        ECMAScript 中有 5 种简单数据类型（也称为基本数据类型）：Undefined、Null、Boolean、Number
+                                        和 String。还有 1 种复杂数据类型——Object，Object 本质上是由一组无序的名值对组成的。ECMAScript
+                                        不支持任何创建自定义类型的机制，而所有值最终都将是上述 6 种数据类型之一。
+                                    </p>
+                                </div>
+                                <!-- <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div> -->
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>typeof</span><span>操</span><span>作</span><span>符</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">用来检测给定变量的数据类型</p>
+                                    <p class="p2">
+                                         "undefined"——如果这个值未定义；
+                                        <br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "boolean"——如果这个值是布尔值；
+                                        <br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "string"——如果这个值是字符串
+                                        <br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "number"——如果这个值是数值；
+                                        <br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "object"——如果这个值是对象或 null；
+                                        <br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "function"——如果这个值是函数
+                                    </p>
+                                    <p class="p1">typeof 是一个操作符而不是函数，因此例子中的圆括号尽管可以使用，但不是必需的</p>
+                                    <p class="p1">
+                                        从技术角度讲，函数在 ECMAScript 中是对象，不是一种数据类型。然而，函数也
+                                        确实有一些特殊的属性，因此通过 typeof 操作符来区分函数和其他对象是有必要的。
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>undefined</span><span>类</span><span>型</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">Undefined 类型只有一个值，即特殊的 undefined。在使用 var 声明变量但未对其加以初始化时，
+                                        这个变量的值就是 undefined。</p>
+                                    <p class="p1">Undefined 类型只有一个值，即特殊的 undefined。在使用 var 声明变量但未对其加以初始化时，
+                                        这个变量的值就是 undefined。</p>
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>null</span><span>类</span><span>型</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">Null 类型是第二个只有一个值的数据类型，这个特殊的值是 null。从逻辑角度来看，null 值表
+                                        示一个空对象指针，而这也正是使用 typeof 操作符检测 null 值时会返回"object"的原因。</p>
+                                    <p class="p1">实际上，undefined 值是派生自 null 值的，因此 ECMA-262 规定对它们的相等性测试要返回 true：
+                                        alert(null == undefined); //true</p>
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>boolean</span><span>类</span><span>型</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">该类型只有两个字面值：true 和 false。
+                                        这两个值与数字值不是一回事，因此 true 不一定等于 1，而 false 也不一定等于 0。</p>
+                                    <p class="p1">实际上，undefined 值是派生自 null 值的，因此 ECMA-262 规定对它们的相等性测试要返回 true：
+                                        alert(null == undefined); //true</p>
+                                    <p class="p1">
+                                        需要注意的是，Boolean 类型的字面值 true 和 false 是区分大小写的。也就是说，True 和 False
+                                        （以及其他的混合大小写形式）都不是 Boolean 值，只是标识符。
+                                    </p>
+                                    <p class="p1">
+                                        虽然 Boolean 类型的字面值只有两个，但 ECMAScript 中所有类型的值都有与这两个 Boolean 值
+                                        等价的值。要将一个值转换为其对应的 Boolean 值，可以调用转型函数 Boolean()。
+                                    </p>
+                                    <p class="p1">
+                                        各种数据类型及其对应的转换规则：
+                                    </p>
+                                    <p class="p2">
+                                        <table>
+                                            <tr>
+                                                <td>Boolean</td>
+                                                <td>true</td>
+                                                <td>false</td>
+                                            </tr>
+                                            <tr>
+                                                <td>String</td>
+                                                <td>任何非空字符串</td>
+                                                <td>""（空字符串）</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Number</td>
+                                                <td>任何非零数字值（包括无穷大）</td>
+                                                <td>0和NaN（参见本章后面有关NaN的内容）</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Object</td>
+                                                <td>任何对象</td>
+                                                <td>null</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Undefined</td>
+                                                <td></td>
+                                                <td>undefined</td>
+                                            </tr>
+                                        </table>                          
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <a class="link link--yaku" href="#">
+                                        <span>number</span><span>类</span><span>型</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">最基本的数值字面量格式是十进制整数，十进制整数可以像下面这样直接在代码中输入：</p>
+                                    <p class="p2">
+                                        var intNum = 55;    // 整数
+                                    </p>
+                                    <p class="p1">除了以十进制表示外，整数还可以通过八进制（以 8 为基数）或十六进制（以 16 为基数）的字面值
+                                        来表示。其中，八进制字面值的第一位必须是零（0），然后是八进制数字序列（0～7）。如果字面值中的
+                                        数值超出了范围，那么前导零将被忽略，后面的数值将被当作十进制数值解析。请看下面的例子：</p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+        var octalNum1 = 070;    // 八进制的 56
+        var octalNum2 = 079;    // 无效的八进制数值——解析为 79
+        var octalNum3 = 08;     // 无效的八进制数值——解析为 8
+                                        </code></pre>
+                                    </div>
+                                    <p class="p1">
+                                        八进制字面量在严格模式下是无效的，会导致支持的 JavaScript 引擎抛出错误。
+                                    </p>
+                                    <p class="p1">
+                                        十六进制字面值的前两位必须是 0x，后跟任何十六进制数字（0～9 及 A～F）。其中，字母 A～F
+                                        可以大写，也可以小写。如下面的例子所示：</p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+        var hexNum1 = 0xA;   // 十六进制的 10
+        var hexNum2 = 0x1f;  // 十六进制的 31
+                                        </code></pre>
+                                    </div>
+                                    <p class="p1">
+                                        在进行算术计算时，所有以八进制和十六进制表示的数值最终都将被转换成十进制数值。
+                                    </p>
+                                    <p class="p1">
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+                    </div>
+                    <div class="art-list">
+                        <div class="art-item">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                欢迎
+            </div>
+        </div>
+        <div class="offbtn">
+            <a class="link link--surinami" href="#"><span data-letters-l="点我" data-letters-r="点我">点我点我</span></a>
+        </div>
+        <canvas></canvas>
+    </div>
+</body>
+<script src="../js/bg.js"></script>
+<script>
+    var off = false;
+
+    var content = $(".content");
+    $(document).on("mousemove", function (e) {
+        if (!off) {
+            return;
+        }
+        var ax = -($(window).innerWidth() / 2 - e.pageX) / 20;
+        var ay = ($(window).innerHeight() / 2 - e.pageY) / 10;
+        content.attr("style", "transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-webkit-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-moz-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg)");
+    });
+
+    $('.offbtn').on('click', function () {
+        off = !off;
+    });
+    
+</script>
+
+</html>

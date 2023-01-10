@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta name="keywords" content="html5、css3、jquery">
+    <meta name="description" content="一个前端工作者的学习笔记">
+    <title>Html5 Canvas 实现图片合成 |</title>
+
+
+    <style>
+        img {
+            border: solid 1px #ddd;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div align="center">
+        <img src="../images/agentur/bg-agentur-1024.jpg" width="300">
+        <img src="../images/kontakt/kontakt-head.png" width="300">
+    </div>
+    <div id="imgBox" align="center">
+        <input id="btn" type="button" value="一键合成">
+    </div>
+    <script>
+
+        var btn = document.getElementById('btn')
+
+        btn.addEventListener('click', hecheng);
+
+        function hecheng() {
+            console.log(123)
+            draw(function () {
+                document.getElementById('imgBox').innerHTML = '<p style="padding:10px 0">合成图片成功！可以鼠标另存图片查看我是否是一张图片~~！</p><img src="' + base64[0] + '">';
+            })
+        }
+
+
+        var data = ['../images/agentur/bg-agentur-1024.jpg', '../images/kontakt/kontakt-head.png'], base64 = [];
+        function draw(fn) {
+            var c = document.createElement('canvas'),
+                ctx = c.getContext('2d'),
+                len = data.length;
+            c.width = 400;
+            c.height = 700;
+            ctx.rect(0, 0, c.width, c.height);
+            ctx.fillStyle = '#fff';
+            ctx.fill();
+            function drawing(n) {
+                if (n < len) {
+                    var img = new Image;
+                    //img.crossOrigin = 'Anonymous'; //解决跨域 
+
+                    img.src = data[n];
+                    img.οnlοad = function () {
+                        if (n == 1) {
+                            ctx.drawImage(img, 100, 490, 180, 160);
+                        }
+                        else {
+                            ctx.drawImage(img, 0, 0, c.width, c.height);
+                        }
+
+                        drawing(n + 1);//递归 
+                    }
+                } else {
+                    //保存生成作品图片 
+                    base64.push(c.toDataURL("image/jpeg", 0.8));
+                    //alert(JSON.stringify(base64)); 
+                    fn();
+                }
+            }
+            drawing(0);
+        } 
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>步骤加减（没什么用）</title>
+    <script type="text/javascript" src="./system/jquery.min.js"></script>
+</head>
+
+<body class="navlaunch">
+    <div id="my-form" class="my-form">
+    </div>
+    <div id="save">保存</div>
+    <style>
+        .form-tit {
+           padding: 20px;
+           display: flex;
+        }
+        .form-text {
+            flex: 1;
+            font-weight: 600;
+        }
+        .form-opt {
+            padding-right: 250px;
+        }
+        .form-opt span {
+            margin-right: 40px;
+            cursor: pointer;
+            color: blue;
+        }
+        .form-body {
+            padding: 20px;
+        }
+        .form-item {
+            display: flex;
+            margin-bottom: 30px;
+        }
+        .form-label {
+            width: 200px;
+            text-align: right;
+            margin-right: 20px;
+        }
+    </style>
+</body>
+<script>
+    $(function ($) {
+        var formItem = [
+            {
+                id: 1,
+                stepType: '2',// 步骤类型
+                stepDes: '65454546',// 步骤说明
+                stepTitle: '32231221',// 步骤标题
+                //收集信息
+                infoTit: '',// 收集信息名称
+                paramLength: '',// 参数字段长度
+                paramFlag: '',// 参数唯一性
+                
+                // 问题问答
+                question: '',// 试题
+                answer: '',// 正确答案
+                times: '',// 答题次数
+
+                // 二维码
+                qrcodeImg: '',// 步骤图片
+
+                // 步骤图
+                stepImg: '',// 步骤图片
+                // 文本描述
+
+                // 链接
+                linkUrl: '',// 链接地址
+            }
+        ];
+
+        
+
+        formItem.forEach((v, idx) => {
+            creatForm(v, idx+1);
+        })
+
+        // 任务步骤${idx == 1 ? '一' : (idx == 2 ? '二' : '三')}
+        function creatForm(item, idx) {
+            var htmlStr = `
+            <div id="step-${item.id}" class="step">
+                <div class="form-tit">
+                    <div class="form-text">
+                        任务步骤${idx}
+                    </div>
+                    <div class="form-opt">
+                        <span id="add-step-${item.id}">添加步骤</span>
+                        <span id="del-step-${item.id}">删除步骤</span>
+                    </div>
+                </div>
+                <div class="form-body">
+                    <div class="com-item">
+                        <div class="form-item">
+                            <div class="form-label">
+                                步骤类型
+                            </div>
+                            <div class="form-input">
+                                <select name="" id="type-select-${item.id}">
+                                    <option value="0">请选择</option>
+                                    <option value="1">问题问答</option>
+                                    <option value="2">收集信息</option>
+                                    <option value="3">二维码</option>
+                                    <option value="4">步骤图</option>
+                                    <option value="5">文本描述</option>
+                                    <option value="6">链接</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-label">
+                                步骤说明
+                            </div>
+                            <div class="form-input">
+                                <textarea name="" id="step-des-${item.id}" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-label">
+                                步骤标题
+                            </div>
+                            <div class="form-input">
+                                <input id="step-tit-${item.id}" type="text">
+                            </div>
+                        </div>    
+                    </div>
+                    <!-- 问题问答 -->
+                    <div class="answer-item">
+                        <div class="form-item answer-item">
+                            <div class="form-label">
+                                试题
+                            </div>
+                            <div class="form-input">
+                                <input id="question-${item.id}" type="text">
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-label">
+                                正确答案
+                            </div>
+                            <div class="form-input">
+                                <input id="answer-${item.id}" type="text">
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-label">
+                                答题次数
+                            </div>
+                            <div class="form-input">
+                                <input id="times-${item.id}" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 收集信息 -->
+                    <div class="info-item">
+                        <div class="form-item">
+                            <div class="form-label">
+                                收集信息名称
+                            </div>
+                            <div class="form-input">
+                                <input id="info-tit-${item.id}" type="text">
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-label">
+                                参数字段长度
+                            </div>
+                            <div class="form-input">
+                                <input id="param-length-${item.id}" type="text">
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <div class="form-label">
+                                参数唯一性
+                            </div>
+                            <div class="form-input">
+                                <input id="param-flag-${item.id}" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 二维码 -->
+                    <div class="form-item qrcode-item">
+                        <div class="form-label">
+                            步骤图片
+                        </div>
+                        <div class="form-input">
+                            <input id="qrcode-${item.id}" type="file">
+                        </div>
+                    </div>
+                    <!-- 步骤图 -->
+                    <div class="form-item img-item">
+                        <div class="form-label">
+                            步骤图片
+                        </div>
+                        <div class="form-input">
+                            <input id="stepimg-${item.id}" type="file">
+                        </div>
+                    </div>
+                    <!-- 链接 -->
+                    <div class="form-item link-item">
+                        <div class="form-label">
+                            链接地址
+                        </div>
+                        <div class="form-input">
+                            <input id="link-url-${item.id}" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+            $('#my-form').append(htmlStr);
+            
+            // <span id="add-step-${item.id}">添加步骤</span>
+            // <span id="del-step-${item.id}">删除步骤</span>
+
+            var boxId = '#step-'+ item.id,
+                // 添加步骤按钮id 
+                addId = '#add-step-'+ item.id,
+                // 删除步骤按钮 id
+                delId = '#del-step-'+ item.id;
+            // $('#my-form').on('click', function(e){
+            //     console.log(e.target.id)
+            //     delStep(item.id)
+            // })
+            
+            // 新创建的步骤项初始化显示隐藏
+            hideItem(item.id, item.stepType);
+
+            // 删除按钮
+            $(delId).click(function(e) {
+                // console.log(123)
+                delStep(item.id)
+            });
+
+            // 添加按钮
+            $(addId).click(function(e) {
+                addStep()
+            });
+
+            // 选择步骤类型
+            var selId = '#type-select-' + item.id;
+            $(selId + "  option[value='"+ item.stepType +"'] ").attr("selected",true)
+            $(selId).change(function() {
+                item.stepType = $(selId + ' option:selected').attr('value');
+                hideItem(item.id, item.stepType);
+                // console.log($(selId + ' option:selected').attr('value'), item.stepType);
+            });
+            // 步骤说明
+            inputModel(item, 'stepDes', `step-des-${item.id}`);
+            // 步骤名称
+            inputModel(item, 'stepTitle', `step-tit-${item.id}`);
+            // 问题
+            inputModel(item, 'question', `question-${item.id}`);
+            // 答案
+            inputModel(item, 'answer', `answer-${item.id}`);
+            // 答题次数
+            inputModel(item, 'times', `times-${item.id}`);
+            // 收集信息名称
+            inputModel(item, 'infoTit', `info-tit-${item.id}`);
+            // 参数字段长度
+            inputModel(item, 'paramLength', `param-length-${item.id}`);
+            // 参数唯一性
+            inputModel(item, 'paramFlag', `param-flag-${item.id}`);
+            // 二维码 步骤图片
+            // inputModel(item, 'qrcodeImg', `qrcode-${item.id}`);
+            // 步骤图 步骤图片
+            // inputModel(item, 'stepImg', `stepimg-${item.id}`);
+            // 链接地址
+            inputModel(item, 'linkUrl', `link-url-${item.id}`);
+            
+
+        }
+
+        $('#save').click(function() {
+            console.log(formItem, 'formItem')
+        })
+
+        // 表单数据双向绑定
+        function inputModel(item, modelKey, id) {
+            var elId = '#' + id;
+            // console.log(item[modelKey], modelKey)
+            // if() {
+            //     $("#sel  option[value='s2'] ").attr("selected",true)
+            // }
+            $(elId).val(item[modelKey]);
+            $(elId).on('change', function() {
+                console.log($(elId).val())
+                item[modelKey] = $(elId).val();
+            });
+        }
+
+        // 隐藏无关表单
+        function hideItem(id, type) {
+            console.log(type, 'type')
+            var hideClassName = [], showClass = '';
+            var boxId = '#step-'+ id;
+            switch(type + '') {
+                case '1':
+                    showClass = '.answer-item';
+                    hideClassName = ['.info-item', '.qrcode-item', '.img-item', '.link-item'];
+                    console.log(showClass)
+                    break;
+                case '2':
+                    showClass = '.info-item';
+                    hideClassName = ['.answer-item', '.qrcode-item', '.img-item', '.link-item'];
+                    break;
+                case '3':
+                    showClass = '.qrcode-item'
+                    hideClassName = ['.answer-item', '.info-item', '.img-item', '.link-item'];
+                    break;
+                case '4':
+                    showClass = '.img-item'
+                    hideClassName = ['.answer-item', '.info-item', '.qrcode-item', '.link-item'];
+                    break;
+                case '6':
+                    showClass = '.link-item'
+                    hideClassName = ['.answer-item', '.info-item', '.qrcode-item', '.img-item'];
+                    break;
+                default:
+                    showClass = ''
+                    hideClassName = ['.answer-item', '.info-item', '.qrcode-item', '.img-item', '.link-item'];
+            }
+
+            if(showClass) {
+                $(boxId).find(showClass).show();
+            }
+            
+            hideClassName.forEach((el) => {
+                $(boxId).find(el).hide();
+            })
+
+        }
+        
+        // 删除步骤
+        function delStep(id) {
+            
+            if(formItem.length < 2) {
+                return
+            }
+            var idStr = '#step-'+ id;
+            var copyList = formItem.slice(0);
+            copyList.forEach((ele, idx) => {
+                if(ele.id == id) {
+                    formItem.splice(idx, 1)
+                }
+            });
+            // console.log(formItem);
+            $(idStr).remove();
+
+            // var len = $('.step .form-text').length;
+
+            // for (var i = 0; i < len; i ++) {
+            //     $('.step .form-text')[i].innerHTML = '任务步骤' + (i + 1)
+            // }
+
+            // console.log([0].text())
+           
+        }
+
+        // 添加步骤
+        function addStep() {
+            if(formItem.length > 2) {
+                return
+            }
+            var addItem = {
+                id: formItem.length + 1,
+                stepType: '0',// 步骤类型
+                stepDes: '',// 步骤说明
+                stepTitle: '',// 步骤标题
+                //收集信息
+                infoTit: '',// 收集信息名称
+                paramLength: '',// 参数字段长度
+                paramFlag: '',// 参数唯一性
+                
+                // 问题问答
+                question: '',// 试题
+                answer: '',// 正确答案
+                times: '',// 答题次数
+
+                // 二维码
+                qrcodeImg: '',// 步骤图片
+
+                // 步骤图
+                stepImg: '',// 步骤图片
+                // 文本描述
+
+                // 链接
+                linkUrl: '',// 链接地址
+            };
+            console.log(addItem)
+            console.log(formItem, 'formItem.length')
+            formItem.push(addItem);
+            creatForm(addItem, formItem.length);
+        }
+    })
+</script>
+
+</html>

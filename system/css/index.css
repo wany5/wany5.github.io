@@ -1,0 +1,251 @@
+/* Video */
+
+#video-container {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#video {
+    height: 100%;
+    left: 0px;
+    margin: 0 auto;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 100%;
+    z-index: -1000;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #video {
+        height: 300%;
+        top: -100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #video {
+        width: 300%;
+        left: -100%;
+    }
+}
+
+#video-mobile {
+    background: #fff url("../../images/werbeagentur-ingolstadt/responsive-webdesign-ingolstadt.jpg") no-repeat scroll center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* Werbung ####################### */
+
+#werbung {
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+.mobile #werbung {
+    background: #fff url("../../images/grafikdesign/werbung.jpg") no-repeat scroll center center;
+}
+
+#heaven,
+#heaven-bg {
+    bottom: 50vh;
+    height: 50vh;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+#hell,
+#hell-bg {
+    bottom: 0;
+    height: 50vh;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 50vh;
+    width: 100%;
+}
+
+#heaven {
+    z-index: 4;
+}
+
+#hell {
+    z-index: 3;
+}
+
+#hell h3 {
+    color: #fff;
+}
+
+#glass1 {
+    background: transparent url("../../images/grafikdesign/glass1.png") no-repeat scroll left top;
+    height: 100%;
+    left: 50%;
+    margin: 0 0 0 -100px;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 7;
+}
+
+#glass2 {
+    background: transparent url("../../images/grafikdesign/glass2.png") no-repeat scroll left top;
+    height: 100%;
+    left: 50%;
+    margin: 0 0 0 -100px;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 6;
+}
+
+.mobile #glass2 {
+    display: none;
+}
+
+#heaven-bg {
+    background: #fff no-repeat fixed center center;
+    z-index: 2;
+}
+
+.mobile #heaven-bg {
+    background: none;
+}
+
+#hell-bg {
+    background: #000 no-repeat fixed center center;
+    z-index: 1;
+}
+
+.mobile #hell-bg {
+    background: none;
+}
+
+#werbung .holder {
+    height: 100%;
+    z-index: 50;
+}
+
+#heaven .content {
+    bottom: 0;
+    color: #555;
+    height: 335px;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    width: 450px;
+}
+
+#hell .content {
+    color: #fff;
+    left: 25px;
+    overflow: hidden;
+    position: absolute;
+    top: 15px;
+    width: 450px;
+}
+
+#werbung h2 {
+    color: #c00;
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 33px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#werbung h2 span {
+    color: #9bd;
+    display: block;
+    font-size: 38px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    padding-top: 5px;
+    position: relative;
+    text-shadow: 0 8px 8px rgba(0, 0, 0, 0.15), 0 -2px 1px #eee;
+    text-transform: uppercase;
+}
+
+#heaven .content h2 {
+    padding: 20px 0 0 0
+}
+
+#hell .content h2 {
+    padding: 20px 0 0 0
+}
+
+#hell .content h2 span {
+    color: #e30;
+    text-shadow: none;
+}
+
+#hell .content p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.werbung-link {
+    display: inline-block;
+    height: 70px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.werbung-link a {
+    display: inline-block;
+    font-size: 16px;
+    padding: 24px 0 0 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -ms-transition: all 0.35s ease-in-out 0s;
+    -webkit-transition: all 0.35s ease-in-out 0s;
+    -moz-transition: all 0.35s ease-in-out 0s;
+    -o-transition: all 0.35s ease-in-out 0s;
+    transition: all 0.35s ease-in-out 0s;
+}
+
+.werbung-link a:hover {
+    padding: 24px 0 0 55px;
+}
+
+#heaven .werbung-link {
+    background: transparent url("../../images/grafikdesign/angel-icon.png") no-repeat scroll left top;
+}
+
+#hell .werbung-link {
+    background: transparent url("../../images/grafikdesign/devil-icon.png") no-repeat scroll left top;
+}
+
+#heaven .werbung-link a {
+    color: #9bd;
+}
+
+#hell .werbung-link a {
+    color: #e30;
+}

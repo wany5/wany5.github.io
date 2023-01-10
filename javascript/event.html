@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript事件</title>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/highlight/highlight.pack.js"></script>
+    <link rel="stylesheet" href="../js/highlight/styles/atom-one-dark.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/bg.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+
+<body>
+    <div class="index-bg">
+        <div class="nav-page">
+            <div class="header">
+                <!-- Hellow,word! -->
+                <a class="link link--mallki" href="#">
+                    JavaScript事件
+                    <span data-letters="JavaScript事件"></span>
+                    <span data-letters="JavaScript事件"></span>
+                </a>
+            </div>
+            <div class="body">
+                <div class="lunbo">
+                    <!-- <img src="../images/kontakt/bg-kontakt-1280.jpg" alt=""> -->
+                </div>
+                <div class="content">
+                    <div class="nav-list">
+                        <div class="nav-item" id="fzls">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>学</span><span>习</span><span>目</span><span>标</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">理解事件流</p>
+                                    <p class="p1">使用事件处理程序</p>
+                                    <p class="p1">不同的事件类型</p>
+                                </div>
+                                <!-- <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div> -->
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>事</span><span>件</span><span>介</span><span>绍</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">
+                                        Javascript和html之间的交互是通过事件实现的。事件，就是文档和浏览器窗口中发生的一些特定的交互瞬间。
+                                        可以使用侦听器（或处理程序）来预定事件，以便事件发生时执行相应的代码。这种在传统软件工程中被称为观察员模式的模型，
+                                        支持页面的行为（js代码）与页面的外观（html和css代码）之间的松散耦合。
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <a class="link link--yaku" href="#">
+                                        <span>事</span><span>件</span><span>流</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">
+                                        事件流描述的是从页面中接收事件的顺序。IE和Netspace提出了差不多完全相反的事件流概念。IE的是事件冒泡，
+                                        Netspace的是事件捕获。
+                                    </p>
+                                    <h3 class="h3">事件冒泡</h3>
+                                    <p class="p2">
+                                        IE的事件流是事件冒泡（event bubbling），即事件开始时由最具体的元素（嵌套最深的节点）接收，
+                                        然后逐级向上传播到较为不具体的节点（文档）。
+                                    </p>
+                                    <p class="p2">
+                                        所有现代的浏览器都支持事件冒泡，但在具体实现上有一定差别。IE5.5及更早的版本会跳过html元素（直接从body到document）。
+                                        IE9、Firefox、Chrome和Safari则将事件一直冒泡到window上。
+                                    </p>
+                                    <h3 class="h3">事件捕获</h3>
+                                    <p class="p2">
+                                        Netscape Communicator团队提出的另一种事件流叫做事件捕获（event capturing）。事件捕获的思想是
+                                        不太具体的节点应该更早接收到事件，而更具体的节点最后接收到事件。事件捕获的用意在于事件到达预定目标之前
+                                        捕获它。
+                                    </p>
+                                    <p class="p2">
+                                        虽然事件捕获是Netscape Communicator唯一支持的事件流模型，但IE9、Safari、Chrome、Opera
+                                        和Firefox目前也都支持这种事件流模型。尽管“DOM2级事件”规范要求事件应该从document对象
+                                        开始传播，但这些浏览器都是从window对象开始捕获事件的。
+                                    </p>
+                                    <p class="p2">
+                                        由于老版本的浏览器不支持，因此很少有人使用事件捕获。我们也建议读者放心地使用事件冒泡，
+                                        在有特殊需要时再使用事件捕获。
+                                    </p>
+                                    <h3 class="h3">DOM事件流</h3>
+                                    <p class="p2">
+                                        “DOM2级事件”规定的事件流有三个阶段：事件捕获阶段、处于目标阶段和事件冒泡阶段。首先发生的
+                                        是事件捕获，为截获事件提供了机会。然后是实际的目标接收到事件。最后一个阶段是冒泡阶
+                                        段，可以在这个阶段对事件做出响应。
+                                    </p>
+                                    <p class="p2">
+                                        在DOM事件流中，实际的目标（div元素）在捕获阶段不会接收到事件。这意味着在捕获阶段，
+                                        事件从document到html再到 body后就停止了。下一个阶段是“处于目标”阶段，于是事件在div
+                                        上发生，并在事件处理中被看成冒泡阶段的一部分。然后，冒泡阶段发生， 事件又传播回文档。
+                                    </p>
+                                    <p class="p2">
+                                        多数支持DOM事件流的浏览器都实现了一种特定的行为；即使“DOM2级事件”规范明确要求捕
+                                        获阶段不会涉及事件目标，但IE9、Safari、Chrome、Firefox和Opera 9.5及更高版本都会在捕获阶段触
+                                        发事件对象上的事件。结果，就是有两个机会在目标对象上面操作事件。
+                                    </p>
+                                    <p class="p2">
+                                        IE9、Opera、Firefox、Chrome和Safari都支持DOM事件流；IE8及更早版本不支持DOM事件流。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <a class="link link--yaku" href="#">
+                                        <span>事</span><span>件</span><span>处</span><span>理</span><span>程</span><span>序</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p2">
+                                        事件就是用户或浏览器自己执行的某种动作。诸如click、load、mouseover等都是事件名字。
+                                        而响应某个事件的函数就是事件处理程序（或事件监听器）。事件处理程序的名字以"on"开头。
+                                        比如onclick。为事件指定处理程序的方式有好几种。
+                                    </p>
+                                    <h3 class="h3">HTML事件处理程序</h3>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+    &lt;input type="button" value="Click Me" onclick="alert('Clicked')" /&gt;
+
+    &lt;;script type="text/javascript"&gt;
+        function showMessage(){ 
+            alert("Hello world!"); 
+        } 
+    &lt;/script&gt;
+    &lt;input type="button" value="Click Me" onclick="showMessage()" /&gt;
+    /如果在showMessage()函数有定义之前单击了按钮，用户将不会看到JavaScript错误，因为
+    在浏览器有机会处理错误之前，错误就被捕获了。
+                                    </code></pre>
+                                    </div>
+                                    <p class="p2">
+                                        另一个缺点是，这样扩展事件处理程序的作用域链在不同浏览器中会导致不同结果。不同JavaScript
+                                        引擎遵循的标识符解析规则略有差异，很可能会在访问非限定对象成员时出错。
+                                    </p>
+                                    <p class="p2">
+                                        通过HTML指定事件处理程序的最后一个缺点是HTML与JavaScript代码紧密耦合。如果要更换事
+                                        件处理程序，就要改动两个地方：HTML代码和JavaScript代码。而这正是许多开发人员摒弃HTML事
+                                        件处理程序，转而使用JavaScript指定事件处理程序的原因所在。
+                                    </p>
+                                    <h3 class="h3">DOM0级事件处理程序</h3>
+                                    <p class="p2">
+                                        通过JavaScript指定事件处理程序的传统方式，就是将一个函数赋值给一个事件处理程序属性。这
+                                        种为事件处理程序赋值的方法是在第四代Web浏览器中出现的，而且至今仍然为所有现代浏览器所支
+                                        持。原因一是简单，二是具有跨浏览器的优势。要使用JavaScript指定事件处理程序，首先必须取得一
+                                        个要操作的对象的引用。
+                                    </p>
+                                    <p class="p2">
+                                        每个元素（包括window和document）都有自己的事件处理程序属性，这些属性通常全部小写，
+                                        例如onclick。将这种属性的值设置为一个函数，就可以指定事件处理程序
+                                    </p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+    var btn = document.getElementById("myBtn"); 
+    btn.onclick = function(){ 
+        alert(this.id); //"myBtn" 
+    }; 
+                                    </code></pre>
+                                    </div>
+                                    <p class="p2">
+                                        使用DOM0级方法指定的事件处理程序被认为是元素的方法。因此，这时候的事件处理程序是在
+                                        元素的作用域中运行；换句话说，程序中的this引用当前元素
+                                    </p>
+                                    <p class="p2">
+                                        以这种方式添加的事件处理程序会在事件流的冒泡阶段被处理。
+                                    </p>
+                                    <p class="p2">
+                                        也可以删除通过DOM0级方法指定的事件处理程序，只要像下面这样将事件处理程序属性的值设
+                                        置为null即可：
+                                    </p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+     btn.onclick = null; //删除事件处理程序 
+                                        </code></pre>
+                                    </div>
+                                    <p class="p2">
+                                        将事件处理程序设置为null之后，再单击按钮将不会有任何动作发生。
+                                    </p>
+                                    <h3 class="h3">DOM2级事件处理程序</h3>
+                                    <p class="p2">
+                                        “DOM2级事件”定义了两个方法，用于处理指定和删除事件处理程序的操作：addEventListener()
+                                        和removeEventListener()。所有DOM节点中都包含这两个方法，并且它们都接受3个参数：要处
+                                        理的事件名、作为事件处理程序的函数和一个布尔值。最后这个布尔值参数如果是true，表示在捕获
+                                        阶段调用事件处理程序；如果是false，表示在冒泡阶段调用事件处理程序。
+                                    </p>
+                                    <p class="p2">
+                                        与DOM0级方法一样，这里添加的事件处理程序也是在其依附的元素的作用域
+                                        中运行。使用DOM2级方法添加事件处理程序的主要好处是可以添加多个事件处理程序
+                                    </p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+    var btn = document.getElementById("myBtn"); 
+    btn.addEventListener("click", function(){ 
+        alert(this.id); 
+    }, false); 
+    btn.addEventListener("click", function(){ 
+        alert("Hello world!"); 
+    }, false);
+                                        </code></pre>
+                                    </div>
+                                    <p class="p2">
+                                        这两个事件处理程序会按照添加它们的顺序触发，因此首先会显示元素的ID，其次会显示"Hello world!"消息。
+                                    </p>
+                                    <p class="p2">
+                                        通过addEventListener()添加的事件处理程序只能使用removeEventListener()来移除；移
+                                        除时传入的参数与添加处理程序时使用的参数相同。<span>通过addEventListener()添加的匿
+                                            名函数将无法移除。</span>
+                                    </p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+    var btn = document.getElementById("myBtn"); 
+    btn.addEventListener("click", function(){ 
+        alert(this.id);  
+    }, false); 
+    //这里省略了其他代码
+    btn.removeEventListener("click", function(){ //没有用！
+        alert(this.id); 
+    }, false);
+
+    var btn = document.getElementById("myBtn"); 
+    var handler = function(){ 
+        alert(this.id); 
+    }; 
+    btn.addEventListener("click", handler, false); 
+    //这里省略了其他代码
+    btn.removeEventListener("click", handler, false); //有效！
+                                        </code></pre>
+                                    </div>
+                                    <p class="p2">
+                                        大多数情况下，都是将事件处理程序添加到事件流的冒泡阶段，这样可以最大限度地兼容各种浏览
+                                        器。不建议在事件捕获阶段注册事件处理程序。
+                                    </p>
+                                    <h3 class="h3">IE事件处理程序</h3>
+                                    <p class="p2">
+                                        IE实现了与DOM中类似的两个方法：attachEvent()和detachEvent()。这两个方法接受相同
+                                        的两个参数：事件处理程序名称与事件处理程序函数。由于IE8 及更早版本只支持事件冒泡，所以通过
+                                        attachEvent()添加的事件处理程序都会被添加到冒泡阶段。
+                                    </p>
+                                    <p class="p2">
+                                        <span>attachEvent()的第一个参数是"onclick"，而非DOM的addEventListener()方法中的"click"。</span>
+                                    </p>
+                                    <p class="p2">
+                                        在IE中使用attachEvent()与使用DOM0级方法的主要区别在于事件处理程序的作用域。
+                                        在使用attachEvent()方法的情况下，事件处理程序会在全局作用域中运行，因此this等于window。
+                                    </p>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+    var btn = document.getElementById("myBtn"); 
+    btn.attachEvent("onclick", function(){ 
+        alert(this === window); //true 
+    });
+                                        </code></pre>
+                                    </div>
+                                    <p class="p2">
+                                        与addEventListener()类似，attachEvent()方法也可以用来为一个元素添加多个事件处理程
+                                        序。
+                                    </p>
+                                    <p class="p2">
+                                        与addEventListener()类似，attachEvent()方法也可以用来为一个元素添加多个事件处理程
+                                        序。<span>但是这些事件处理程序不是以添加它们的顺序执行，而是以相反的顺序被触发。</span>
+                                    </p>
+                                    <p class="p2">
+                                        使用attachEvent()添加的事件可以通过detachEvent()来移除，条件是必须提供相同的参数。
+                                        与DOM方法一样，<span>添加的匿名函数将不能被移除。</span>
+                                    </p>
+                                    <h3 class="">跨浏览器的事件处理程序</h3>
+                                    <div class="code">
+                                        <pre><code class="javascript">
+    var EventUtil = { 
+        addHandler: function(element, type, handler){ 
+            if (element.addEventListener){ 
+                element.addEventListener(type, handler, false); 
+            } else if (element.attachEvent){ 
+                element.attachEvent("on" + type, handler); 
+            } else { 
+                element["on" + type] = handler; 
+            } 
+        }, 
+        removeHandler: function(element, type, handler){ 
+            if (element.removeEventListener){ 
+                element.removeEventListener(type, handler, false); 
+            } else if (element.detachEvent){ 
+                element.detachEvent("on" + type, handler); 
+            } else { 
+                element["on" + type] = null; 
+            } 
+        } 
+    };
+
+    // 使用
+    var btn = document.getElementById("myBtn"); 
+    var handler = function(){ 
+        alert("Clicked"); 
+    }; 
+    EventUtil.addHandler(btn, "click", handler); 
+    //这里省略了其他代码
+    EventUtil.removeHandler(btn, "click", handler); 
+                                        </code></pre>
+                                    </div>
+                                    <p class="p2">
+                                        addHandler()和removeHandler()没有考虑到所有的浏览器问题，例如在IE中的作用域问题。
+                                        不过，使用它们添加和移除事件处理程序还是足够了。此外还要注意，DOM0级对每个事件只支持一
+                                        个事件处理程序。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <a class="link link--yaku" href="#">
+                                        <span>事</span><span>件</span><span>对</span><span>象</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <a class="link link--yaku" href="#">
+                                        <span>JS</span><span>的</span><span>版</span><span>本</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <a class="link link--yaku" href="#">
+                                        <span>JS</span><span>的</span><span>版</span><span>本</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <a class="link link--yaku" href="#">
+                                        <span>JS</span><span>的</span><span>版</span><span>本</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+
+                        <div class="nav-item">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <a class="link link--yaku" href="#">
+                                        <span>JS</span><span>的</span><span>版</span><span>本</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+
+                                </div>
+                            </div>
+                            <div class="nitem-cir"></div>
+                        </div>
+
+                    </div>
+                    <div class="art-list">
+                        <div class="art-item">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                欢迎
+            </div>
+        </div>
+        <div class="offbtn">
+            <a class="link link--surinami" href="#"><span data-letters-l="点我" data-letters-r="点我">点我点我</span></a>
+        </div>
+        <canvas></canvas>
+
+    </div>
+</body>
+<script src="../js/bg.js"></script>
+<script>
+    // 页面代码高亮
+    hljs.initHighlightingOnLoad();
+
+    var off = false;
+
+    var content = $(".content");
+    $(document).on("mousemove", function (e) {
+        if (!off) {
+            return;
+        }
+        var ax = -($(window).innerWidth() / 2 - e.pageX) / 20;
+        var ay = ($(window).innerHeight() / 2 - e.pageY) / 10;
+        content.attr("style", "transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-webkit-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-moz-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg)");
+    });
+
+    $('.offbtn').on('click', function () {
+        off = !off;
+    });
+
+    $('.ihead').on('click', function () {
+        $(this).siblings('.icontent').slideToggle(500);
+        // if ($(this).siblings('.icontent').hasClass('open')) {
+        //     $(this).siblings('.icontent').removeClass('open').hide(500);
+        // } else {
+        //     $(this).siblings('.icontent').addClass('open').show(500);
+        // }
+
+    })
+
+</script>
+
+</html>
+
+
+

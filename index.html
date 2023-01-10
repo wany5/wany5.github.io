@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>写给自己</title>
+    <script type="text/javascript" src="./system/lodash.min.js"></script>
+    <script type="text/javascript" src="./system/jquery.min.js"></script>
+    <script type="text/javascript" src="./system/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="./system/scripts/bubbles.js"></script>
+
+    <script type="text/javascript" src="./system/scripts/threecanvas.js"></script>
+    <script type="text/javascript" src="./system/scripts/snow.js"></script>
+    <script type="text/javascript" src="./system/scripts/winter.js"></script>
+
+    <link rel="stylesheet" href="./system/css/normalize.css">
+    <link rel="stylesheet" href="./system/css/style.css">
+    <link rel="stylesheet" href="./system/css/responsive.css">
+</head>
+
+<body class="navlaunch">
+    <div class="home">
+        <div id="intro" class="section inview" style="position: relative;">
+            <div id="home">
+                <div id="logo">
+                </div>
+                <div id="claim" style="display: block;">
+                    <!-- <p>Preisgekröntes Design seit 1997</p> -->
+                </div>
+                <div id="sprachen" style="display: block;">
+                    <ul class="menu">
+                        <li class="nav1"><a href="" class="active">主页</a>
+                        </li>
+                        <li class="nav2"><a href="">自我介绍</a>
+                        </li>
+                        <li class="nav3"><a href="">摆设</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="loader" style="display: none;">
+                    <div id="loadingtext" style="display: none;">
+                        <p>100<span>%</span></p>
+                    </div>
+                    <div id="loadedtext">
+                        <p>Viel Spaß!</p>
+                    </div>
+                </div>
+                <ul id="intronav" style="display: block;">
+
+                    <li id="intro1" class="intro-link"><a href="#werbung" class="nav-item"
+                            title="Webdesign und Printwerbung in Ingolstadt" style="display: inline;">Part1哈哈</a></li>
+                    <li id="intro2" class="intro-link"><a href="#agentur" class="nav-item"
+                            title="Beckett Werbeagentur in Ingolstadt" style="display: inline;">Part2</a></li>
+                    <li id="intro3" class="intro-link"><a href="#testimonials" class="nav-item"
+                            style="display: inline;">Part3</a></li>
+                </ul>
+            </div>
+            <div id="video-container">
+                <video id="video" muted="" autobuffer="" autoplay="" loop="" volume="0">
+                    <source src="images/werbeagentur-ingolstadt/werbeagentur-ingolstadt.mp4"
+                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                    <source src="images/werbeagentur-ingolstadt/werbeagentur-ingolstadt.webm"
+                        type="video/webm; codecs=&quot;vp8, vorbis&quot;">
+                    <source src="images/werbeagentur-ingolstadt/werbeagentur-ingolstadt.ogv"
+                        type="video/ogg; codecs=&quot;theora, vorbis&quot;">
+                </video>
+            </div>
+            <div class="downlink" style="display: block;"><a href="#werbung" class="nav-item"
+                    title="Homepage mit CMS, Joomla, Wordpress, Typo3 und HTML5 und E-Commerce mit Magento"><img
+                        src="images/ingolstadt-webdesign.png"
+                        alt="Ingolstadt Werbeagentur Responsive Webdesign mit CMS Joomla, Typo3 und Wordpress"
+                        title="Beckett Werbeagentur in Ingolstadt" width="50" height="50"></a></div>
+        </div>
+
+        <div id="nav">
+            <div id="nav-hotspot1" class="nav-hotspot"></div>
+            <div id="nav-hotspot2" class="nav-hotspot"></div>
+            <div id="nav-inner"></div>
+            <div id="nav-symbol" style="display: block;">
+                <p><img src="images/webdesign-ingolstadt.png"
+                        alt="Ihre Werbeagentur für Printwerbung und Grafikdesign in Ingolstadt bei Eichstätt und München"
+                        title="Werbeagentur für Responsive Webdesign und Printwerbung, Druck und Grafikdesign in Ingolstadt"
+                        width="40" height="30"></p>
+            </div>
+            <div id="nav-home">
+                <p><a href="#" class="toplink"
+                        title="Beckett Werbeagentur in Ingolstadt für Webdesign und Print Werbung">&nbsp;</a></p>
+            </div>
+            <div id="nav-dots">
+                <ul style="display: block;">
+                    <li>
+                        <p><img src="images/werbeagentur-ingolstadt.png"
+                                alt="Werbeagentur für Webdesign und Printwerbung, Druck und Grafikdesign in Ingolstadt"
+                                title="Ihre Werbeagentur in Ingolstadt für Webdesign, Print-Werbung und Logo-Design"
+                                width="20" height="20"></p>
+                    </li>
+                    <li>
+                        <p><img src="images/werbeagentur-ingolstadt.png"
+                                alt="Responsive Webdesign in Ingolstadt bei der Beckett Werbeagentur für Printwerbung"
+                                title="Website mit CMS, Joomla, Wordpress, Typo3 und HTML5 aus Bayern mit Webhosting"
+                                width="20" height="20"></p>
+                    </li>
+                    <li>
+                        <p><img src="images/werbeagentur-ingolstadt.png"
+                                alt="Printwerbung und Grafikdesign Werbeagentur in Ingolstadt bei Eichstätt und München in Bayern"
+                                title="Suchmaschinenoptimierung, Website, PR Design, Homepage und Grafikdesign in Bayern"
+                                width="20" height="20"></p>
+                    </li>
+                    <li>
+                        <p><img src="images/werbeagentur-ingolstadt.png"
+                                alt="Homepages und Grafikdesign aus Ingolstadt, Bayern bei der Beckett Werbeagentur"
+                                title="Responsive Webdesign in Ingolstadt für eine mobile Website mit Webhosting auf Bayerisch"
+                                width="20" height="20"></p>
+                    </li>
+                </ul>
+            </div>
+            <div id="nav-real">
+                <ul>
+                    <li id="ni1"><a href="#werbung" class="nav-item" title="Html学习笔记">Html</a></li>
+                    <li id="ni2"><a href="./javascript/nav.html" class="nav-item" title="CSS学习笔记">CSS</a></li>
+                    <li id="ni3"><a href="#werbung" class="nav-item" title="Javascript学习笔记">JS</a>
+                    </li>
+                    <li id="ni4"><a href="" class="nav-item" title="三大框架以及其他类库的学习使用">框架</a>
+                    </li>
+                    <li id="ni5"><a href="" class="nav-item" title="项目工程化工具">Webpack</a>
+                    <li id="ni6"><a href="" class="nav-item" title="关于模块化的学习理解">模块化</a></li>
+                    </li>
+                    <li id="ni7"><a href="#testimonials" class="nav-item" title="git、svn版本工具">版本</a></li>
+                    <li id="ni8"><a href="" class="nav-item" title="Werbeagentur in Ingolstadt">Love</a></li>
+                </ul>
+            </div>
+            <div id="nav-impressum">
+                <p><a href="#footer" class="nav-item"
+                        title="Beckett Werbeagentur in Ingolstadt für Webdesign und Print Werbung">Impressum</a></p>
+            </div>
+        </div>
+
+        <div id="werbung" class="section inview">
+            <div id="heaven">
+                <div class="holder">
+                    <div class="content">
+                        <h2>JavaScript<span>发展简介...</span></h2>
+                        <h3>什么是JavaScript？</h3>
+                        <p>
+
+                            JavaScript 是一种轻量级的脚本语言。
+                            <!-- 所谓“脚本语言”，指的是它不具备开发操作系统的能力，而是只用来编写控制其他大型应用程序的“脚本”。 -->
+                            JavaScript 是一种嵌入式（embedded）语言。它本身提供的核心语法不算很多，只能用来做一些数学和逻辑运算。JavaScript 本身不提供任何与
+                            I/O（输入/输出）相关的 API，都要靠宿主环境（host）提供，所以 JavaScript 只合适嵌入更大型的应用程序环境，去调用宿主环境提供的底层 API。
+                        </p>
+                        <div class="werbung-link">
+                            <p><a href="./javascript/nav.html" class="nav-item" title="Js发展历史和基本语法">Js发展历史和基本语法 »</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="hell">
+                <div class="holder">
+                    <div class="content">
+                        <!-- <h2><span>... oder Teufelszeug!</span></h2> -->
+                        <h3>JavaScript的诞生...</h3>
+                        <p>
+                            1995年，Netscape公司雇佣了程序员Brendan Eich开发这种网页脚本语言，只用了10天，就设计完成了这种语言的第一版。
+                            1995年12月4日，Netscape公司与Sun公司联合发布了JavaScript语言。1996年3月，Navigator 2.0浏览器正式内置了JavaScript脚本语言。
+                            1997年7月，ECMAScript 1.0发布。1998年6月，ECMAScript 2.0版发布。
+                            1999年12月，ECMAScript 3.0版发布，成为JavaScript的通行标准。
+                            2007年10月，ECMAScript 4.0版草案发布，对3.0版做了大幅升级。
+                            2009年12月，ECMAScript 5.0版正式发布。
+                            2011年6月，ECMAscript 5.1版发布，并且成为ISO国际标准。12年底，所有主要浏览器都支持ECMAScript 5.1的全部功能。
+                            2015年6月，ECMAScript 6正式发布，并且更名为“ECMAScript 2015”。
+                        </p>
+                        <div class="werbung-link">
+                            <p><a href="./javascript/nav.html" class="nav-item" title="Js核心知识">js核心知识点
+                                    »</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="glass1"></div>
+            <div id="glass2"></div>
+            <div id="heaven-bg"></div>
+            <div id="hell-bg"></div>
+            <div id="agentur-head"></div>
+            <div class="downlink" style="display: block;"><a href="#agentur" class="nav-item"
+                    title="Visitenkarte, Logo, Briefbogen und Geschäftsausstattung bei der Beckett Werbeagentur in Bayern"><img
+                        src="images/ingolstadt-werbeagentur.png"
+                        alt="Marketing und PR Agentur in Ingolstadt für Werbung und Printanzeigen, Webdesign und Apps"
+                        title="Beckett Werbeagentur in Ingolstadt" width="50" height="50"></a></div>
+        </div>
+        <div id="agentur" class="section inview">
+            <div class="anibox"><img src="images/agentur/werbeagentur-ingolstadt.png"
+                    alt="Ihre Werbeagentur für Bayerisch online und Bairisch Webdesign Lösungen aus Ingolstadt"
+                    title="Frankenbot - I love Ingolstadt" class="device" width="525" height="250">
+                <div id="xray">
+                    <div id="organs">
+                        <div id="organs-overlay"></div>
+                        <div id="brain">
+                            <div id="cog1" class="cog animate"><img src="images/agentur/webdesign-ingolstadt.gif"
+                                    alt="Flyer, Anzeige und Erscheinungsbild Erstellung bei München in Ingolstadt auf Bayerisch"
+                                    title="Homepage Erstellung, SEO Suchmaschinenoptimierung, PR Design und Webdesign in Ingolstadt"
+                                    width="115" height="115"></div>
+                            <div id="cog2" class="cog animate"><img src="images/agentur/werbeagentur-ingolstadt.gif"
+                                    alt="Websites mit Joomla, Magento, Typo3 und Wordpress für Responsive Webdesign"
+                                    title="Content Management System mit Website mit CMS, Joomla, Wordpress und Typo3 in Ingolstadt"
+                                    width="113" height="113"></div>
+                            <div id="cog3" class="cog animate"><img src="images/agentur/printwerbung-ingolstadt.gif"
+                                    alt="Responsive Webdesign in Ingolstadt für Ihre Website und Homepage bei Neuburg"
+                                    title="Ingolstadt Werbeagentur für Werbung und Design auf Bairisch und kreative Marketing Ideen"
+                                    width="108" height="108"></div>
+                        </div>
+                        <div id="heart" class="animate"><img src="images/agentur/webdesign-ingolstadt.png"
+                                alt="Webdesign und Marketing Werbung auf Bayerisch, Logo Design, Geschäftsausstattung und CI"
+                                title="Homepage Erstellung, SEO Suchmaschinenoptimierung, PR Design und Webdesign in Ingolstadt">
+                        </div>
+                        <ul id="clock">
+                            <li class="seconds" style="transform: translateZ(-0.01px) scale(1) rotate(162deg);"></li>
+                            <li class="hours" style="transform: translateZ(-0.01px) scale(1) rotate(450deg);"></li>
+                            <li class="minutes" style="transform: translateZ(-0.01px) scale(1) rotate(6deg);"></li>
+                        </ul>
+                        <div id="butterfly">
+                            <div id="butterfly-body"></div>
+                            <div id="butterfly-leftwing" class="butterfly-wing animate"><img
+                                    src="images/agentur/responsive-webdesign.png"
+                                    alt="CMS Webdesign mit Joomla, Wordpress, Typo3 und HTML5 auf Bayerisch mit Webhosting"
+                                    title="Ingolstadt Werbeagentur für Werbung und Design auf Bairisch und kreative Marketing Ideen">
+                            </div>
+                            <div id="butterfly-rightwing" class="butterfly-wing animate"><img
+                                    src="images/agentur/webdesign-agentur.png"
+                                    alt="Content Management System mit Website mit CMS, Joomla, Wordpress und Typo3 in Ingolstadt"
+                                    title="Webdesign und Bildbearbeitung aus Ingolstadt, Bayern bei der Beckett Werbeagentur">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="holder">
+
+                <h2><span>写我想写，做我想做...</span></h2>
+                <div class="content">
+                    <div class="agentur_text agenturlead opened">
+                        <h1 style="text-align: center;">《将进酒·君不见黄河之水天上来》</h1>
+                        <p>君不见黄河之水天上来，奔流到海不复回。</p>
+                        <p>君不见高堂明镜悲白发，朝如青丝暮成雪。</p>
+                        <p>人生得意须尽欢，莫使金樽空对月。</p>
+                        <p>天生我材必有用，千金散尽还复来。</p>
+                        <p>烹羊宰牛且为乐，会须一饮三百杯。</p>
+                        <p>岑夫子，丹丘生，将进酒，杯莫停。</p>
+                        <p>与君歌一曲，请君为我倾耳听。</p>
+                        <p>钟鼓馔玉不足贵，但愿长醉不复醒。</p>
+                        <p>古来圣贤皆寂寞，惟有饮者留其名。</p>
+                        <p>陈王昔时宴平乐，斗酒十千恣欢谑。</p>
+                        <p>主人何为言少钱，径须沽取对君酌。</p>
+                        <p>五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。</p>
+                        <p style="text-align: right; margin-top: 20px;">————李太白</p>
+
+                    </div>
+
+                    <div class="agentur_text agentur_agentur-1">
+                        <h1 style="text-align: center;">《长相思·山一程》</h1>
+                        <p>山一程，水一程，身向榆关那畔行，夜深千帐灯。</p>
+                        <p>风一更，雪一更，聒碎乡心梦不成，故园无此声。</p>
+                        <h1 style="text-align: center; margin-top: 20px;">《浣溪沙》</h1>
+                        <p>谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立斜阳。</p>
+                        <p>被酒莫惊春睡重，赌书消得泼茶香，当时只道是寻常。</p>
+                        <p style="text-align: right; margin-top: 20px;">————纳兰容若</p>
+                    </div>
+
+                    <div class="agentur_text agentur_agentur-2">
+                        <h1 style="text-align: center;">《鹊桥仙·纤云弄巧》</h1>
+                        <p>纤云弄巧，飞星传恨，银汉迢迢暗度。金风玉露一相逢，便胜却人间无数。</p>
+                        <p>柔情似水，佳期如梦，忍顾鹊桥归路。两情若是久长时，又岂在朝朝暮暮。</p>
+                        <p style="text-align: right; margin-top: 20px;">————秦观</p>
+                        <h1 style="text-align: center; margin-top: 20px;">《雨霖铃·寒蝉凄切》</h1>
+                        <p>寒蝉凄切，对长亭晚，骤雨初歇。都门帐饮无绪，留恋处，兰舟催发。执手相看泪眼，竟无语凝噎。念去去，千里烟波，暮霭沉沉楚天阔。</p>
+                        <p>多情自古伤离别，更那堪冷落清秋节！今宵酒醒何处？杨柳岸，晓风残月。此去经年，应是良辰好景虚设。便纵有千种风情，更与何人说？</p>
+                        <p style="text-align: right; margin-top: 20px;">————柳永</p>
+                    </div>
+
+                    <div class="agentur_text agentur_agentur-3">
+                        <h1 style="text-align: center;">《定风波·莫听穿林打叶声》</h1>
+                        <p>莫听穿林打叶声，何妨吟啸且徐行。</p>
+                        <p>竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。</p>
+                        <p>料峭春风吹酒醒，微冷，山头斜照却相迎。</p>
+                        <p>回首向来萧瑟处，归去，也无风雨也无晴。</p>
+                        <h1 style="text-align: center; margin-top: 20px;">《江城子·乙卯正月二十日夜记梦》</h1>
+                        <p>十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。</p>
+                        <p>夜来幽梦忽还乡，小轩窗，正梳妆。相顾无言，惟有泪千行。料得年年肠断处，明月夜，短松冈。
+                        </p>
+                        <p style="text-align: right; margin-top: 20px;">————苏东坡</p>
+                    </div>
+                </div>
+
+                <div id="agentur-links">
+                    <!-- <h4>Erfahren Sie mehr...</h4> -->
+                    <ul>
+                        <li id="agentur-1" class="agenturlink herz"><img src="content/de/logo-design-ingolstadt.gif"
+                                alt="" title="" width="150" height="200">
+                        </li>
+                        <li id="agentur-2" class="agenturlink hirn"><img src="content/de/print-werbung-ingolstadt.gif"
+                                width="150" height="200"></li>
+                        <li id="agentur-3" class="agenturlink bauch"><img
+                                src="content/de/responsive-webdesign-ingolstadt.gif" width="150" height="200">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="downlink" style="display: block;"><a href="#testimonials" class="nav-item"
+                    src="images/ingolstadt-werbeagentur.png" width="50" height="50"></a></div>
+        </div>
+        <div id="testimonials" class="section inview" style="height: 626px;">
+            <div id="danke-head"></div>
+            <div id="danke-foot"></div>
+            <div id="thanks"><img src="content/de/werbeagentur-ingolstadt.png" width="180" height="130"></div>
+            <div id="coffee">
+                <div id="ripple-overlay"></div>
+                <div id="ripple" class="jquery-ripples" style="background-image: none;"><canvas width="235" height="230"
+                        style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; z-index: -1;"></canvas>
+                </div>
+            </div>
+            <div id="planets-wrapper">
+                <div id="planets">
+                    <div id="sun" class="planet animate"><img class="pball animate"
+                            src="images/testimonials/corporate-design.png" width="120" height="120"></div>
+                    <div class="mercury planet animate"><img class="pbar"
+                            src="images/testimonials/werbeagentur-design.jpg" width="95" height="10"><img
+                            class="pball animate" src="images/testimonials/responsive-webdesign.png" width="46"
+                            height="46"></div>
+                    <div class="venus planet animate"><img class="pbar"
+                            src="images/testimonials/werbeagentur-design.jpg" width="120" height="10"><img
+                            class="pball animate" src="images/testimonials/responsive-webdesign.png" width="60"
+                            height="60"></div>
+                    <div class="earth planet animate"><img class="pbar"
+                            src="images/testimonials/werbeagentur-design.jpg" width="135" height="10"><img
+                            class="pball animate" src="images/testimonials/werbeagentur-ingolstadt.png" width="60"
+                            height="60"></div>
+                    <div class="mars planet animate"><img class="pbar" src="images/testimonials/werbeagentur-design.jpg"
+                            width="165" height="10"><img class="pball animate"
+                            src="images/testimonials/responsive-webdesign.png" width="50" height="50"></div>
+                    <div class="jupiter planet animate"><img class="pbar"
+                            src="images/testimonials/werbeagentur-design.jpg" width="180" height="10"><img
+                            class="pball animate" src="images/testimonials/responsive-webdesign.png" width="90"
+                            height="90"></div>
+                    <div class="saturn planet animate"><img class="pbar"
+                            src="images/testimonials/werbeagentur-design.jpg" width="225" height="10"><img
+                            class="pball animate" src="images/testimonials/responsive-webdesign.png" width="80"
+                            height="80"><img class="saturn-rings" src="images/testimonials/werbeagentur-saturn.png"
+                            width="130" height="130"></div>
+                    <div class="uranus planet animate"><img class="pbar"
+                            src="images/testimonials/werbeagentur-design.jpg" width="260" height="10"><img
+                            class="pball animate" src="images/testimonials/responsive-webdesign.png" width="60"
+                            height="60"></div>
+                    <div class="neptune planet animate"><img class="pbar"
+                            src="images/testimonials/werbeagentur-design.jpg" width="275" height="10"><img
+                            class="pball animate" src="images/testimonials/responsive-webdesign.png" width="70"
+                            height="70"></div>
+                    <div class="pluto planet animate"><img class="pbar"
+                            src="images/testimonials/werbeagentur-design.jpg" width="310" height="10"><img
+                            class="pball animate" src="images/testimonials/responsive-webdesign.png" width="50"
+                            height="50"></div>
+                </div>
+                <div id="planets-shadow">
+                    <div class="mercury planet-shadow animate"></div>
+                    <div class="venus planet-shadow animate"></div>
+                    <div class="earth planet-shadow animate"></div>
+                    <div class="mars planet-shadow animate"></div>
+                    <div class="jupiter planet-shadow animate"></div>
+                    <div class="saturn planet-shadow animate"></div>
+                    <div class="uranus planet-shadow animate"></div>
+                    <div class="neptune planet-shadow animate"></div>
+                    <div class="pluto planet-shadow animate"></div>
+                </div>
+            </div>
+            <div class="holder">
+                <div class="content">
+                    <div class="testimonial" style="display: block;">
+                        <!-- <p class="testimonial-logo"><img
+                                alt="Werbeagentur für Printanzeigen, Flyer, Logo-Design und Webdesign aus Ingolstadt"
+                                title="Beckett Werbeagentur sagt danke" width="200" height="60"
+                                ng-src="images/testimonials/danke/global-spot-muenchen.svg"
+                                src="images/testimonials/danke/global-spot-muenchen.svg"></p> -->
+                        <div class="quote">
+                            <p class="quote-start"><img src="images/testimonials/design-open.png" width="68"
+                                    height="60"></p>
+                            <p class="quote-text">
+                                知之为知之，不知为不知，是知也。<br />
+                                好记性不如烂笔头，该记还是得记 (*^__^*)<br />
+                                你要克服懒惰，你要克服游手好闲，你要克服漫长的白日梦，你要克服一蹴而就的妄想，你要克服自以为是浅薄的幽默感
+                            </p>
+                            <p class="quote-end"><img src="images/testimonials/design-close.png" width="68" height="60">
+                            </p>
+                        </div>
+                        <!-- <p class="testimonial-name ng-binding">Kai Ostermann</p> -->
+                        <!-- <p class="testimonial-firma ng-binding">Geschäftsführer, Global Spot GmbH, München</p> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="testimonials-nav">
+                <p id="testimonials-last"><img class="testimonials-link" src="images/testimonials/design-last.png"
+                        ng-click="prev()" alt="Beckett Webdesign in Ingolstadt"
+                        title="Beckett Werbeagentur in Ingolstadt" width="50" height="30"></p>
+                <p id="testimonials-next"><img class="testimonials-link" src="images/testimonials/design-next.png"
+                        ng-click="next();" alt="Beckett Werbeagentur in Ingolstadt"
+                        title="Beckett Webdesign in Ingolstadt" width="50" height="30"></p>
+            </div> -->
+            <div id="kontakt-head"></div>
+        </div>
+    </div>
+</body>
+<script>
+    $(function ($) {
+
+        // snowfall();
+
+        var aniPrevTop = -400,
+            orgPrevTop = -400;
+
+        var hasInter = false;
+
+        showNavIcon();
+
+        $(document).on('scroll', function (e) {
+            // console.log(1)
+            var cH = document.body.clientHeight,
+                sTop = $(document).scrollTop(),
+                werbungOT = $('#werbung').offset().top;
+
+            if (sTop > cH / 2) {
+                $('body').removeClass('navlaunch');
+                $('#nav-symbol').css({ display: 'block' });
+            } else {
+                if ($('body').hasClass('navlaunch')) {
+                    return;
+                }
+                $('body').addClass('navlaunch');
+                $('#nav-symbol').css({ display: 'none' });
+            }
+
+            // 
+            $('#werbung').height(cH + 30);
+            $('#hell').height(cH / 2 + 30);
+            if (sTop - cH < werbungOT) {
+                $('#glass1').css({
+                    'background-position': '0%' + ' ' + ((sTop - cH) / cH * 500) + 'px'
+                });
+            }
+
+
+
+            // 
+
+            var agenturST = $('#agentur').offset().top;
+
+            // console.log(agenturST, sTop, cH);
+
+            var aniPrevTop = parseFloat($('.anibox').css('top')),
+                orgPrevTop = parseFloat($('#organs').css('top'));
+
+            // console.log(sTop - agenturST)
+            // console.log(sTop + cH - agenturST)
+
+            // var antop;
+            if (sTop > agenturST - cH && !hasInter) {
+                $('.agenturlead').slideDown(1000);
+            }
+
+            if (sTop > agenturST - cH && sTop < agenturST + 1000) {
+                $('.anibox').show();
+                setTimeout(function () {
+                    $('#organs').show();
+                }, 500);
+
+
+                var antop = sTop + cH - agenturST - 230;
+
+                // 1000 1200  antop 1626
+                // console.log(antop);
+                if (antop > 300) {
+                    $('.anibox').stop().animate({ 'top': (sTop - agenturST) * 1000 / 1626 + 300 + 'px' }, 500, 'swing')
+                    $('#organs').stop().animate({ 'top': -((sTop - agenturST) * 1000 / 1626 + 300) + 'px' }, 500, 'swing')
+                } else {
+                    $('.anibox').stop().animate({ 'top': antop + 'px' }, 500, 'swing');
+                    $('#organs').stop().animate({ 'top': -antop + 'px' }, 500, 'swing');
+                }
+            } else {
+                $('.anibox').hide();
+                setTimeout(function () {
+                    $('#organs').hide();
+                }, 500);
+            }
+        })
+
+
+        // var enter = false;
+        $('#agentur-links li').on('mouseenter', function (e) {
+            // console.log(e.target)
+            var top;
+            var targetID = $(e.target).parent('li').attr('id');
+            hasInter = true;
+            $('.agentur_text').stop().slideUp(500);
+            // console.log(targetID);
+            if (targetID == 'agentur-1') {
+                top = '420px';
+                $('.anibox').stop();
+                $('#organs').stop();
+                $('.agentur_agentur-1').stop().slideDown(500);
+            } else if (targetID == 'agentur-2') {
+                top = '180px';
+                $('.anibox').stop();
+                $('#organs').stop();
+                $('.agentur_agentur-2').stop().slideDown(500);
+            } else if (targetID == 'agentur-3') {
+                top = '550px';
+                $('.anibox').stop();
+                $('#organs').stop();
+                $('.agentur_agentur-3').stop().slideDown(500);
+            }
+            // $('.anibox').css({ 'display': 'block' });
+            // $('#organs').css({ 'display': 'block' });
+            $('.anibox').animate({ 'top': top }, 500, 'swing');
+            $('#organs').animate({ 'top': '-' + top }, 500, 'swing');
+        })
+
+
+        $('.downlink').click(function (e) {
+            // console.log(e.target);
+            e.preventDefault();
+            var mid = $(e.target).parents('.downlink').find('a').attr('href');
+            // console.log(mid);
+            htmlScorll(mid);
+        });
+
+        $('#intronav li a, #nav-real li a, #nav-home p a').click(function (e) {
+            // console.log(e.target);
+            e.preventDefault();
+            var mid = $(e.target).attr('href');
+            if (mid) {
+                htmlScorll(mid);
+            }
+        })
+
+        $('#sprachen .menu a').click(function (e) {
+            e.preventDefault();
+            $(this).parent('li').siblings('li').find('a').removeClass('active');
+            $(this).addClass('active');
+        })
+
+        function htmlScorll(id) {
+            if (id && id.indexOf('#') === -1) {
+                location.href = id;
+                return;
+            }
+            if (id == '#') {
+                $('html').animate({ scrollTop: '0px' }, 1000, 'swing');
+            } else {
+                var scrollTo = $(id).offset().top;
+                // console.log(scrollTo);
+                $('html').animate({ scrollTop: scrollTo + 'px' }, 1000, 'swing');
+            }
+        }
+
+        // 菜单图标
+        function showNavIcon() {
+            if ($('body').hasClass('navlaunch')) {
+                $('#nav-symbol').css({ display: 'none' });
+            } else {
+                $('#nav-symbol').css({ display: 'block' });
+            }
+        }
+    })
+</script>
+
+</html>

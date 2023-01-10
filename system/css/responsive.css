@@ -1,0 +1,510 @@
+/* PRINT ##################################################################################### */
+@media print {
+
+body {
+	background: none;
+	background-color: #fff;
+	color: #555;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #777;
+}
+
+}
+
+
+/* BACKGROUNDS ##################################################################################### */
+
+@media screen and (min-width: 1921px) {
+#heaven-bg {background-image: url("../../images/grafikdesign/bg-heaven.jpg");}
+#hell-bg {background-image: url("../../images/grafikdesign/bg-hell.jpg");}
+#agentur {background-image: url("../../images/agentur/bg-agentur.jpg");}
+#werbeagentur {background-image: url("../../images/werbeagentur/bg-werbeagentur.jpg");}
+#design {background-image: url("../../images/webdesign/bg-webdesign.jpg");}
+#kunden {background-image: url("../../images/kunden/bg-kunden.jpg");}
+#testimonials {background-image: url("../../images/testimonials/bg-testimonials.jpg");}
+#kontakt {background-image: url("../../images/kontakt/bg-kontakt.jpg");}
+}
+
+@media screen and (max-width: 1920px) {
+#heaven-bg {background-image: url("../../images/grafikdesign/bg-heaven-1920.jpg");}
+#hell-bg {background-image: url("../../images/grafikdesign/bg-hell-1920.jpg");}
+#agentur {background-image: url("../../images/agentur/bg-agentur-1920.jpg");}
+#werbeagentur {background-image: url("../../images/werbeagentur/bg-werbeagentur-1920.jpg");}
+#design {background-image: url("../../images/webdesign/bg-webdesign-1920.jpg");}
+#kunden {background-image: url("../../images/kunden/bg-kunden-1920.jpg");}
+#testimonials {background-image: url("../../images/testimonials/bg-testimonials-1920.jpg");}
+#kontakt {background-image: url("../../images/kontakt/bg-kontakt-1920.jpg");}
+}
+
+@media screen and (max-width: 1680px) {
+#heaven-bg {background-image: url("../../images/grafikdesign/bg-heaven-1680.jpg");}
+#hell-bg {background-image: url("../../images/grafikdesign/bg-hell-1680.jpg");}
+#agentur {background-image: url("../../images/agentur/bg-agentur-1680.jpg");}
+#werbeagentur {background-image: url("../../images/werbeagentur/bg-werbeagentur-1680.jpg");}
+#design {background-image: url("../../images/webdesign/bg-webdesign-1680.jpg");}
+#kunden {background-image: url("../../images/kunden/bg-kunden-1680.jpg");}
+#testimonials {background-image: url("../../images/testimonials/bg-testimonials-1680.jpg");}
+#kontakt {background-image: url("../../images/kontakt/bg-kontakt-1680.jpg");}
+}
+
+@media screen and (max-width: 1440px) {
+#heaven-bg {background-image: url("../../images/grafikdesign/bg-heaven-1440.jpg");}
+#hell-bg {background-image: url("../../images/grafikdesign/bg-hell-1440.jpg");}
+#agentur {background-image: url("../../images/agentur/bg-agentur-1440.jpg");}
+#werbeagentur {background-image: url("../../images/werbeagentur/bg-werbeagentur-1440.jpg");}
+#design {background-image: url("../../images/webdesign/bg-webdesign-1440.jpg");}
+#kunden {background-image: url("../../images/kunden/bg-kunden-1440.jpg");}
+#testimonials {background-image: url("../../images/testimonials/bg-testimonials-1440.jpg");}
+#kontakt {background-image: url("../../images/kontakt/bg-kontakt-1440.jpg");}
+}
+
+@media screen and (max-width: 1280px) {
+#heaven-bg {background-image: url("../../images/grafikdesign/bg-heaven-1280.jpg");}
+#hell-bg {background-image: url("../../images/grafikdesign/bg-hell-1280.jpg");}
+#agentur {background-image: url("../../images/agentur/bg-agentur-1280.jpg");}
+#werbeagentur {background-image: url("../../images/werbeagentur/bg-werbeagentur-1280.jpg");}
+#design {background-image: url("../../images/webdesign/bg-webdesign-1280.jpg");}
+#kunden {background-image: url("../../images/kunden/bg-kunden-1280.jpg");}
+#testimonials {background-image: url("../../images/testimonials/bg-testimonials-1280.jpg");}
+#kontakt {background-image: url("../../images/kontakt/bg-kontakt-1280.jpg");}
+}
+
+@media screen and (max-width: 1024px) {
+#heaven-bg {background-image: url("../../images/grafikdesign/bg-heaven-1024.jpg");}
+#hell-bg {background-image: url("../../images/grafikdesign/bg-hell-1024.jpg");}
+#agentur {background-image: url("../../images/agentur/bg-agentur-1024.jpg");}
+#werbeagentur {background-image: url("../../images/werbeagentur/bg-werbeagentur-1024.jpg");}
+#design {background-image: url("../../images/webdesign/bg-webdesign-1024.jpg");}
+#kunden {background-image: url("../../images/kunden/bg-kunden-1024.jpg");}
+#testimonials {background-image: url("../../images/testimonials/bg-testimonials-1024.jpg");}
+#kontakt {background-image: url("../../images/kontakt/bg-kontakt-1024.jpg");}
+}
+
+@media screen and (max-width: 800px) {
+#heaven-bg {background-image: url("../../images/grafikdesign/bg-heaven-800.jpg");}
+#hell-bg {background-image: url("../../images/grafikdesign/bg-hell-800.jpg");}
+#agentur {background-image: url("../../images/agentur/bg-agentur-800.jpg");}
+#werbeagentur {background-image: url("../../images/werbeagentur/bg-werbeagentur-800.jpg");}
+#design {background-image: url("../../images/webdesign/bg-webdesign-800.jpg");}
+#kunden {background-image: url("../../images/kunden/bg-kunden-800.jpg");}
+#testimonials {background-image: url("../../images/testimonials/bg-testimonials-800.jpg");}
+#kontakt {background-image: url("../../images/kontakt/bg-kontakt-800.jpg");}
+}
+
+
+
+/* Huge SCREEN #################################################################################### */
+@media screen and (min-width: 1441px) {
+
+
+}
+
+
+/* BIG SCREEN #################################################################################### */
+@media screen and (max-width: 1440px) {
+
+
+
+}
+
+
+
+/* STANDARD VIEW ################################################################################# */
+@media screen and (max-width: 1280px) {
+
+
+}
+
+
+
+/* IPAD QUER ##################################################################################### */
+@media screen and (max-width: 1024px) {
+
+#agentur h2 {
+	padding-top: 30px;
+}
+
+#agentur .content {
+	margin: 5px 0 0 -80px;
+	width: 48%;
+}
+
+#design .content {
+	width: 480px;
+}
+
+#design-links li {
+	width: 150px;
+}
+
+#kunden .content {
+	padding-right: 70px;
+	width: 420px;
+}
+
+#kunden .content img {
+	height: auto;
+	width: 100%;
+}
+
+#chem-1 {margin: 0 400px 0 0;}
+#chem-2 {margin: 0 250px 0 0;}
+#chem-3 {margin: 0 210px 0 0;}
+#chem-4 {margin: 0 110px 0 0;}
+#chem-5 {margin: 0 0 0 0;}
+
+#kontakt .content {
+	width: 450px;
+}
+
+#charity ul li.first {
+	width: 13%;
+}
+
+#charity ul li.last {
+	display: none;
+}
+
+}
+
+
+
+/* TABLET HOCH ##################################################################################### */
+@media screen and (max-width: 800px) {
+
+#design-examples,
+.doors2 {
+	display: none !important;
+}
+
+#agentur h1, #agentur h3 {
+	font-size: 16px;
+	margin: 0 0 5px 0;
+}
+
+#agentur h2 span {
+	font-size: 48px;
+	line-height: 48px;
+}
+
+#agentur .content {
+    margin: -15px 0 0 -100px;
+	width: 52%;
+}
+
+#agentur-links h4 {
+	display: none;
+}
+
+#agentur-links ul {
+	margin: 20px 0 0 -80px;
+	width: 400px;
+}
+
+#agentur-links li.herz {
+	margin: -5px 0 0 0;
+}
+
+#agentur-links li.hirn {
+	margin: 5px 0 0 -25px;
+}
+
+#agentur-links li.bauch {
+	margin: 8px 0 0 -50px;
+}
+
+#design .content {
+	width: 420px;
+}
+
+#design-links li {
+	width: 130px;
+}
+
+
+#kunden h2 span {
+	font-size: 48px;
+	line-height: 48px;
+	text-align: left;
+}
+
+.chem {
+	display: none;
+}
+
+#kontakt .content {
+	width: 350px;
+}
+
+#kontakt-form input[type=text] {
+	background-color: #fff;
+}
+
+#kontakt-form textarea {
+	background-color: #fff;
+}
+
+
+
+/* Bereich: FOOTER */
+
+#footerbox2 {
+	display: none;
+}
+
+.footerbox {
+	width: 45%;
+}
+
+#charity ul li {
+	width: 100px;
+}
+
+#charity ul li.first {
+	width: 130px;
+}
+
+.doors .left-door, .doors .right-door {
+	width: 50%;
+}
+
+
+
+}
+
+
+/* SMARTPHONE ##################################################################################### */
+@media screen and (max-width: 570px) {
+
+/* Hide */
+
+#nav,
+.downlink,
+#werbung h3,
+#agentur .anibox .device,
+#agentur #xray,
+#agentur-links,
+#design-links,
+#design .content .togglebox-hinweis,
+.testimonial p.quote-start,
+.testimonial p.quote-end,
+#spiel,
+#cube,
+#footerbox1,
+#charity {
+	display: none !important;
+}
+
+#home {
+	left: 20px;
+}
+
+.intro-link a {
+    font-size: 52px;
+    height: 39px;
+    line-height: 38px;
+}
+
+#intro1 {top: 0;}
+#intro2 {top: 37px;}
+#intro3 {top: 74px;}
+#intro4 {top: 111px;}
+#intro5 {top: 148px;}
+
+#bdg-ihk {
+	bottom: 50px;
+}
+
+#bdg-ihk ul.menu li {
+	margin: 0 1px;
+}
+
+#bdg-ihk img {
+	height: 40px;
+	width: auto;
+}
+
+.holder {
+	padding: 0 10px;
+}
+
+
+#werbung h2 span {
+	font-size: 24px;
+	line-height: 24px;
+	text-align: left;
+}
+
+#heaven .content {
+	height: 280px;
+}
+
+#heaven .content, #hell .content {
+	bottom: 0;
+	color: #555;
+	left: 0;
+	padding: 0 10px;
+	width: auto;
+}
+
+.werbung-link {
+	display: none;
+}
+
+
+#werbung .content .werbung-link p {
+	display: block;
+}
+
+#agentur .content {
+	left: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: auto;
+	top: 0;
+	width: 100%;
+}
+
+#agentur h1 {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 26px;
+	text-align: left;
+}
+
+#agentur h2 {
+	font-size: 16px;
+	padding-top: 0;
+	text-align: left;
+}
+
+#agentur h2 span {
+	font-size: 42px;
+	line-height: 42px;
+	text-align: left;
+}
+
+
+#werbeagentur h2 span {
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.stats {
+	width: 23%;
+}
+
+.stats.last {
+	display: inline;
+}
+
+.stats p {
+	font-size: 10px;
+	padding: 5px 0;
+}
+
+.stats span {
+	font-size: 22px;
+}
+
+
+#design h2 span {
+	font-size: 40px;
+	line-height: 40px;
+	text-align: left;
+}
+
+#design .content {
+	width: 100%;
+}
+
+#kunden h2 {
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+}
+
+#kunden h3 {
+	letter-spacing: 0;
+}
+
+#kunden h2 span {
+	font-size: 36px;
+	line-height: 36px;
+	text-align: left;
+}
+
+#kunden .content {
+	padding: 0;
+	width: 100%;
+}
+
+#kunden .content img {
+	height: auto;
+	width: 100%;
+}
+
+
+
+#portfolio_thumbs li {
+	width: 100%;
+}
+
+.doors.in .left-door {
+	bottom: 0;
+	height: 50%;
+	width: 100%;
+}
+
+.doors.in .right-door {
+	height: 50%;
+	top: 0;
+	width: 100%;
+}
+
+.reference p.client-name, .reference p.anschrift,
+.reference .leistung, .reference .ref-nav {
+	display: none !important;
+}
+
+.reference {
+	padding: 20px 15px 0 15px;
+}
+
+.testimonial p.quote-text {
+	font-size: 16px;
+	padding: 0 10px;
+	width: auto;
+}
+
+#testimonials-nav {
+	margin: 130px auto 0;
+}
+
+#kontakt h2 {
+	font-size: 18px;
+	text-align: left;
+}
+
+#kontakt h2 span {
+	font-size: 36px;
+	line-height: 36px;
+	text-align: left;
+}
+
+#kontakt .content {
+	width: 100%;
+}
+
+#footerbox3 {
+    margin: 0 5%;
+}
+
+.footerbox {
+    width: 90%;
+}
+
+}
