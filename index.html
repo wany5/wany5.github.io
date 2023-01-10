@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>倒计时</title>
+  <title>新年倒计时</title>
   <style>
     * {
       margin: 0;
@@ -97,7 +97,7 @@
     }
 
     .clock-timer {
-      color: #131313;
+      color: #ccc;
       font-size: 46px;
       height: 120px;
       line-height: 120px;
@@ -130,39 +130,6 @@
       font-weight: 600;
     }
 
-    .page-footer {
-      position: fixed;
-      right: 0px;
-      bottom: 0px;
-      display: flex;
-      align-items: center;
-      padding: 5px;
-      color: black;
-      background: rgba(255, 255, 255, 0.65);
-    }
-
-    .page-left {
-      position: fixed;
-      left: 0px;
-      bottom: 0px;
-      display: flex;
-      align-items: center;
-      padding: 5px;
-      color: black;
-      background: rgba(255, 255, 255, 0.65);
-    }
-
-    .page-footer a {
-      display: flex;
-      margin-left: 4px;
-    }
-
-    .touxiang {
-      bottom: 0px;
-      width: 30px;
-      height: 30px;
-    }
-
     .box {
       position: absolute;
       left: 0;
@@ -178,32 +145,32 @@
     }
 
     .box1 {
-      background: #2b669a;
+      background: rgba(253, 97, 89, 0.65);
       transform: rotateY(90deg) translateZ(-80px);
     }
 
     .box2 {
-      background: #509a64;
+      background: rgba(253, 97, 89, 0.65);
       transform: rotateY(90deg) translateZ(80px);
     }
 
     .box3 {
-      background: #9a5468;
+      background: rgba(129, 53, 56, 0.65);
       transform: rotateX(-90deg) translateZ(80px);
     }
 
     .box4 {
-      background: #979a25;
+      background: rgba(3, 54, 70, 0.65);
       transform: rotateX(90deg) translateZ(80px);
     }
 
     .box5 {
-      background: #97709a;
+      background: rgba(55, 8, 67, 0.65);
       transform: rotateX(180deg) translateZ(80px);
     }
 
     .box6 {
-      background: #7f3839;
+      background: rgba(157, 52, 38, 0.65);
       transform: translateZ(80px);
     }
 
@@ -417,17 +384,17 @@
           $('.clock-minutes').text(minutes)
           $('.clock-seconds').text(seconds)
 
-          if (seconds == 0) {
+          if (seconds == 59) {
             mindeg = mindeg + 90
             $('.min-box').css({ transform: 'rotateX(' + (mindeg) + 'deg) rotateY(0deg) rotateZ(0deg)'})
           }
 
-          if (minutes == 0) {
+          if (minutes == 59) {
             hoursdeg = hoursdeg + 90
             $('.hours-box').css({ transform: 'rotateX(' + (hoursdeg) + 'deg) rotateY(0deg) rotateZ(0deg)'})
           }
 
-          if (hours == 0) {
+          if (hours == 23) {
             daydeg = daydeg + 90
             $('.day-box').css({ transform: 'rotateX(' + (daydeg) + 'deg) rotateY(0deg) rotateZ(0deg)'})
           }
