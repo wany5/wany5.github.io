@@ -1,0 +1,2423 @@
+@charset "UTF-8";
+/*  行数 */
+/*  列数 */
+/*  速度 */
+/* 使用@property 定义了N(行*列)个属性，并设置初始值为1，代表显示 */
+@property --c-0-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-0-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-1-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-2-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-3-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-4-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-5-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-6-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-7-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-8-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-9-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-10-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-11-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-12-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-13-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-14-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-15-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-16-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-17-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-18-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-0 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-1 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-2 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-3 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-4 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-5 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-6 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-7 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-8 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-9 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-10 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-11 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-12 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-13 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-14 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-15 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-16 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-17 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-18 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+@property --c-19-19 {
+  syntax: "<number>";
+  initial-value: 1;
+  inherits: false;
+}
+/* 添加动画：对自定义的N个属性由1到0这个过程，持续时间随机，延迟时间随机，这样就会出现不规则的消失，当然也可以有规则的消息，比如从左往右... */
+/* 
+使用scss中的@mixin生成mask遮罩代码
+*/
+.loveimg img {
+  transition: --c-0-0 3.6448811363s 0.2726725542s, --c-0-1 0.9424672438s 2.5283208717s, --c-0-2 3.6858553009s 4.8785905634s, --c-0-3 1.7789126151s 4.7098972368s, --c-0-4 0.7370821004s 3.1323465448s, --c-0-5 2.0113938375s 3.4198358131s, --c-0-6 2.0226530322s 3.072685203s, --c-0-7 1.4662144748s 4.6801586306s, --c-0-8 1.2880139926s 0.3316341308s, --c-0-9 3.2866716229s 1.3347202468s, --c-0-10 3.7900943638s 0.2941933491s, --c-0-11 2.4227271627s 4.8256293033s, --c-0-12 4.9545523308s 4.5696740674s, --c-0-13 0.6655944658s 3.7719631451s, --c-0-14 0.3770863644s 0.3447805437s, --c-0-15 2.2029593264s 4.8146072587s, --c-0-16 2.4660628849s 4.8457827812s, --c-0-17 0.314091794s 3.4251006118s, --c-0-18 2.8993214183s 3.2539407111s, --c-0-19 3.86321781s 4.5961901732s, --c-1-0 3.8455926871s 1.2807485045s, --c-1-1 2.8095287333s 0.3174620076s, --c-1-2 4.879717469s 0.4327106469s, --c-1-3 4.2649020014s 1.53127939s, --c-1-4 2.8524661208s 2.0011834663s, --c-1-5 2.8301622826s 2.0428881749s, --c-1-6 2.6844218025s 0.4270362579s, --c-1-7 0.0943145726s 4.6448767112s, --c-1-8 0.6179594776s 1.5294711204s, --c-1-9 3.8653275837s 2.6681363657s, --c-1-10 2.1164865073s 0.9715943538s, --c-1-11 1.7703467777s 1.90651002s, --c-1-12 3.2209197427s 3.5938551963s, --c-1-13 4.5590575425s 1.9792084699s, --c-1-14 4.9593040017s 3.2700927551s, --c-1-15 0.4519887586s 2.634726294s, --c-1-16 3.2189811511s 4.6751086727s, --c-1-17 0.9297623579s 2.2219846794s, --c-1-18 4.785324138s 2.0377528215s, --c-1-19 3.8450183569s 2.9680789902s, --c-2-0 4.8705736791s 3.6492084444s, --c-2-1 2.8900622214s 1.8583240873s, --c-2-2 1.6937426347s 1.4691908719s, --c-2-3 3.1743471302s 4.629779469s, --c-2-4 4.9063794052s 0.9435165823s, --c-2-5 0.7693385615s 1.2199361095s, --c-2-6 4.688312358s 4.7279722905s, --c-2-7 3.6407451157s 1.641174025s, --c-2-8 1.0328446946s 3.3770661336s, --c-2-9 4.9258794733s 3.0146627374s, --c-2-10 1.6107709428s 2.1198461313s, --c-2-11 4.7605090153s 1.034298343s, --c-2-12 0.5585246436s 0.1080812092s, --c-2-13 1.9212314377s 3.8481447911s, --c-2-14 4.7610415998s 3.7280968021s, --c-2-15 0.7770087824s 2.5265038583s, --c-2-16 4.5281370014s 0.9023441578s, --c-2-17 2.9276474472s 0.1289211151s, --c-2-18 4.1969604921s 1.5403703569s, --c-2-19 0.2129629693s 0.4737349518s, --c-3-0 0.1468086735s 3.4507821114s, --c-3-1 2.2944991344s 3.0674131793s, --c-3-2 2.5832429067s 2.1540376335s, --c-3-3 4.8103744449s 3.1167632518s, --c-3-4 3.4039823888s 1.1129212593s, --c-3-5 1.3094814222s 2.6889430231s, --c-3-6 3.6260512169s 0.1663000708s, --c-3-7 0.8275846287s 1.5146478622s, --c-3-8 2.3684567925s 1.1211264452s, --c-3-9 0.5630191345s 1.6420825982s, --c-3-10 0.0089605355s 2.1860445932s, --c-3-11 1.8386269774s 2.2205455613s, --c-3-12 4.3019783213s 0.8886435641s, --c-3-13 2.7163275941s 4.1820838685s, --c-3-14 0.7672360406s 1.5624557404s, --c-3-15 3.9031497747s 1.239633987s, --c-3-16 0.7485675043s 2.3712822056s, --c-3-17 3.4965115326s 4.2465466703s, --c-3-18 1.9222772308s 1.9035040458s, --c-3-19 3.4360514138s 4.2067111143s, --c-4-0 4.2152182371s 0.1103788733s, --c-4-1 3.3801367865s 3.5868401059s, --c-4-2 3.8207738687s 3.0827199899s, --c-4-3 2.8751372115s 2.8718731504s, --c-4-4 0.0136238349s 1.5030103161s, --c-4-5 2.6812295732s 2.3751751989s, --c-4-6 2.3211750528s 1.3569857418s, --c-4-7 4.9968372575s 4.2963334204s, --c-4-8 1.0627949663s 0.4872584096s, --c-4-9 4.2859697107s 1.6351834317s, --c-4-10 3.3761412745s 4.6477425531s, --c-4-11 2.168424833s 4.6401926488s, --c-4-12 1.9040375294s 2.6947218298s, --c-4-13 0.0075876175s 2.3382145124s, --c-4-14 2.5575238214s 4.8197686754s, --c-4-15 1.7414255001s 1.0891733136s, --c-4-16 4.8603299777s 1.2743500204s, --c-4-17 2.8520293569s 4.2375248594s, --c-4-18 0.1866461418s 0.3397594395s, --c-4-19 2.5738534963s 1.2560664557s, --c-5-0 1.399759958s 3.1001225704s, --c-5-1 3.8501340807s 0.0488563466s, --c-5-2 3.4339841652s 3.391146066s, --c-5-3 4.4418411728s 1.4310372051s, --c-5-4 3.2027000418s 4.9608880823s, --c-5-5 3.2918798704s 1.9500876746s, --c-5-6 0.5215715289s 0.7931174756s, --c-5-7 2.1433409294s 0.1236893317s, --c-5-8 4.1557310502s 2.7497162631s, --c-5-9 1.6124075896s 1.3060299228s, --c-5-10 4.8387991822s 2.3443942084s, --c-5-11 4.0687378494s 3.8526472009s, --c-5-12 0.8835680601s 1.2831083913s, --c-5-13 2.721172515s 1.2991395788s, --c-5-14 0.8251064362s 4.836725963s, --c-5-15 1.6002962283s 2.8891069946s, --c-5-16 3.1863953945s 2.6755480287s, --c-5-17 0.0910146149s 1.2651633019s, --c-5-18 0.2143921298s 4.4069133224s, --c-5-19 3.2243378793s 4.6334199085s, --c-6-0 2.21383585s 0.973591613s, --c-6-1 1.7294335925s 2.3865533327s, --c-6-2 2.5656346275s 0.2844369225s, --c-6-3 0.682772806s 1.5497430489s, --c-6-4 1.985749025s 2.017920794s, --c-6-5 2.8553250823s 1.4936302442s, --c-6-6 1.2941292581s 4.2680965847s, --c-6-7 3.4140361613s 2.6537924716s, --c-6-8 0.1458973773s 0.002717675s, --c-6-9 2.1669099031s 3.1178552704s, --c-6-10 0.6022476766s 0.837501687s, --c-6-11 2.6763884658s 1.5474980624s, --c-6-12 4.413040373s 4.3566193845s, --c-6-13 3.8551044362s 3.2052026653s, --c-6-14 2.9050278426s 1.3423856816s, --c-6-15 1.2451368193s 4.5012823424s, --c-6-16 3.7809444036s 2.064713422s, --c-6-17 4.5199801384s 1.5580718245s, --c-6-18 1.8636703299s 2.1214935095s, --c-6-19 4.1509693289s 2.2056101471s, --c-7-0 2.3854862859s 0.8207864333s, --c-7-1 0.1656623752s 3.7111703225s, --c-7-2 2.5177718479s 1.1570501463s, --c-7-3 1.8207841528s 1.7240966816s, --c-7-4 3.1300715479s 0.0108057087s, --c-7-5 0.6233374755s 0.6113523249s, --c-7-6 2.2343429615s 0.850783155s, --c-7-7 1.3126075893s 1.468542897s, --c-7-8 3.5910741981s 0.8165042594s, --c-7-9 0.5867537858s 1.775686399s, --c-7-10 3.769650175s 2.2602712557s, --c-7-11 2.7099676255s 4.0925169944s, --c-7-12 4.9642811096s 0.4116923984s, --c-7-13 0.1332974013s 0.7787175199s, --c-7-14 2.0485158496s 0.8788695274s, --c-7-15 0.4967763215s 0.7297760639s, --c-7-16 0.0594116729s 3.488696564s, --c-7-17 3.6238646696s 2.9722330422s, --c-7-18 3.8883810646s 1.9623942563s, --c-7-19 1.2597435039s 3.1662687801s, --c-8-0 1.987659651s 3.5597028993s, --c-8-1 0.0457116461s 1.6396565963s, --c-8-2 4.4221155061s 3.0238325412s, --c-8-3 1.6258842766s 2.0274225952s, --c-8-4 4.4243543373s 4.4363274574s, --c-8-5 4.8108243755s 3.5279981089s, --c-8-6 0.6314357432s 2.8540176312s, --c-8-7 0.4087231462s 0.9974471989s, --c-8-8 2.2430344419s 1.9488764602s, --c-8-9 0.1375574388s 0.0497182605s, --c-8-10 4.5215313928s 4.5519465488s, --c-8-11 0.9212172815s 4.027173538s, --c-8-12 2.2445467579s 0.5948130104s, --c-8-13 2.8276604329s 3.91242163s, --c-8-14 1.609062578s 0.6841836712s, --c-8-15 1.9365412422s 2.9173879826s, --c-8-16 1.3512192372s 3.5250421708s, --c-8-17 1.4422313695s 0.2084845095s, --c-8-18 4.6155421044s 2.9554941917s, --c-8-19 4.9358871759s 4.164553729s, --c-9-0 2.0545162278s 4.5792563783s, --c-9-1 4.6689310211s 4.0614830203s, --c-9-2 0.9747833411s 3.3224882652s, --c-9-3 3.4406347104s 1.1730194982s, --c-9-4 1.0061930111s 3.5177414016s, --c-9-5 2.679693137s 0.1418281962s, --c-9-6 3.0258203033s 3.1406761645s, --c-9-7 3.4505030758s 0.0738937121s, --c-9-8 3.611934808s 3.0144948546s, --c-9-9 2.7505568751s 4.8969101446s, --c-9-10 3.2835274153s 0.2436985794s, --c-9-11 2.740271781s 2.5638067803s, --c-9-12 0.9947730552s 4.0758516663s, --c-9-13 3.204417423s 2.9210189824s, --c-9-14 3.8031542002s 1.722549235s, --c-9-15 3.2903428073s 2.837870943s, --c-9-16 2.0508678635s 0.6850569587s, --c-9-17 4.1192558989s 0.4545336372s, --c-9-18 0.4194675778s 4.0276347381s, --c-9-19 0.4023097824s 4.0686685103s, --c-10-0 1.8876753106s 1.1172691215s, --c-10-1 3.1086342193s 3.9603790195s, --c-10-2 0.0732996086s 2.1862242532s, --c-10-3 0.4847022635s 4.9445703861s, --c-10-4 0.9313039722s 2.4715391827s, --c-10-5 0.5192478273s 1.3472706845s, --c-10-6 0.8529272437s 1.9824028252s, --c-10-7 0.3697379591s 2.3085993566s, --c-10-8 1.4130933129s 4.8751621133s, --c-10-9 3.2915711991s 3.104171641s, --c-10-10 2.7748589043s 3.3791367663s, --c-10-11 3.4650710655s 1.3192608205s, --c-10-12 4.5347887902s 2.3177634856s, --c-10-13 4.2105843338s 4.4503040679s, --c-10-14 4.5127098711s 0.5625862444s, --c-10-15 2.2073939693s 0.9083218949s, --c-10-16 3.8282773539s 2.2177133594s, --c-10-17 4.11800647s 4.0638240876s, --c-10-18 3.5086850482s 4.0809456708s, --c-10-19 1.195592504s 1.6150282311s, --c-11-0 3.0548232513s 1.9323102669s, --c-11-1 4.7573089904s 4.2366273924s, --c-11-2 3.2547203029s 0.2400746616s, --c-11-3 4.4176908041s 2.1925035821s, --c-11-4 2.1927606365s 0.4770637127s, --c-11-5 3.5763033653s 4.9193035128s, --c-11-6 1.5038001543s 2.9172588198s, --c-11-7 3.3317425549s 0.1328547136s, --c-11-8 3.8453426415s 4.8286433264s, --c-11-9 4.7882245643s 4.2930554456s, --c-11-10 4.4178746939s 1.9716735861s, --c-11-11 1.9100564137s 3.9391516442s, --c-11-12 2.1814291361s 2.3828821539s, --c-11-13 2.1392813144s 4.2745684398s, --c-11-14 4.9604811022s 2.5241176181s, --c-11-15 4.4874320017s 1.7577285995s, --c-11-16 0.9626916364s 1.0893180208s, --c-11-17 4.0915076992s 4.1761071687s, --c-11-18 0.058097258s 3.9965391804s, --c-11-19 0.5798452064s 3.2760438104s, --c-12-0 3.9433791952s 0.4998114514s, --c-12-1 3.1819840954s 0.4073033846s, --c-12-2 3.5142785447s 0.1771442176s, --c-12-3 3.6036372243s 4.8012770812s, --c-12-4 0.2197690449s 2.9146441344s, --c-12-5 4.744208708s 3.2370577808s, --c-12-6 3.946990141s 3.8737938786s, --c-12-7 3.0055907872s 3.7242292638s, --c-12-8 2.3144890782s 1.6875974049s, --c-12-9 4.6078650911s 1.91004864s, --c-12-10 1.5545950964s 0.037559382s, --c-12-11 4.0458539159s 4.2896843455s, --c-12-12 4.0005373031s 0.2142394277s, --c-12-13 0.9957891443s 4.523684903s, --c-12-14 3.4143969316s 3.7502303936s, --c-12-15 2.5080948666s 0.1204170432s, --c-12-16 1.9321411212s 2.9214340107s, --c-12-17 4.1510491616s 0.595053792s, --c-12-18 4.760912194s 3.8371498365s, --c-12-19 0.5626607954s 2.5471105306s, --c-13-0 0.6642059904s 1.5574663501s, --c-13-1 1.1468871474s 4.0932909506s, --c-13-2 2.2985462065s 2.6257801855s, --c-13-3 4.9277389412s 0.5196686849s, --c-13-4 3.7424214773s 3.8074090517s, --c-13-5 2.2454715138s 4.364252946s, --c-13-6 2.0723854183s 3.9083352626s, --c-13-7 2.0347659527s 4.4189991114s, --c-13-8 1.1629043191s 0.970809405s, --c-13-9 2.2616317728s 0.1514907315s, --c-13-10 3.8060335601s 2.6344038639s, --c-13-11 3.8212880669s 0.0132270295s, --c-13-12 3.1826856034s 3.1748926659s, --c-13-13 0.8738518804s 3.3158368803s, --c-13-14 2.0936274116s 2.9356791562s, --c-13-15 4.9126529856s 1.7838896592s, --c-13-16 2.3651175801s 1.648028172s, --c-13-17 1.2836822419s 2.483908187s, --c-13-18 2.3025788633s 4.6460562366s, --c-13-19 0.5706742527s 4.3872619059s, --c-14-0 3.8613720055s 3.3027002496s, --c-14-1 1.6412962802s 0.4768853762s, --c-14-2 3.3399068736s 0.0135980263s, --c-14-3 4.8853822462s 3.1965597561s, --c-14-4 1.6640258132s 2.6352718111s, --c-14-5 3.8299000817s 3.3956914748s, --c-14-6 3.3453224659s 3.1084374193s, --c-14-7 2.7318440372s 3.1169429688s, --c-14-8 1.8369151891s 2.7809621766s, --c-14-9 0.2849754267s 1.6000300352s, --c-14-10 0.655303297s 4.2618654164s, --c-14-11 1.7981777519s 1.7823474794s, --c-14-12 1.4905543882s 4.7785341081s, --c-14-13 1.4086234218s 0.1149247431s, --c-14-14 2.1806574668s 0.2874281373s, --c-14-15 4.1818062753s 1.1196016567s, --c-14-16 1.3821140899s 2.9756515655s, --c-14-17 4.2418444336s 2.5030969115s, --c-14-18 4.8149619612s 3.2124083183s, --c-14-19 4.6085737484s 0.8782705001s, --c-15-0 1.1973583566s 4.6967660677s, --c-15-1 1.8123612227s 1.6724270421s, --c-15-2 0.8883506899s 0.5056973576s, --c-15-3 4.2037331398s 3.7419226423s, --c-15-4 2.5062357844s 4.7940735768s, --c-15-5 2.5752568035s 1.7256022593s, --c-15-6 1.1514150385s 4.1077129193s, --c-15-7 3.0879017495s 1.6180784222s, --c-15-8 2.3433874436s 4.4123564772s, --c-15-9 1.7518596715s 3.4370160653s, --c-15-10 4.9934339753s 2.3727561002s, --c-15-11 4.1276033723s 3.699243719s, --c-15-12 1.3392616311s 0.3305863801s, --c-15-13 2.5371568408s 2.5848567982s, --c-15-14 4.6081751173s 0.1671030539s, --c-15-15 2.4132082447s 3.6901162936s, --c-15-16 0.7724880449s 1.4074223196s, --c-15-17 3.4999179018s 1.5193478553s, --c-15-18 2.1230456659s 1.6565480588s, --c-15-19 3.2889506594s 4.3464518391s, --c-16-0 1.5749675927s 1.6287832644s, --c-16-1 1.5598375084s 3.2458657882s, --c-16-2 3.0770942298s 0.4468263252s, --c-16-3 4.1386379873s 1.2605670224s, --c-16-4 1.40631548s 4.4860970537s, --c-16-5 3.3137756682s 4.6102837475s, --c-16-6 1.9355244346s 0.4085776861s, --c-16-7 0.9702141731s 1.4596619829s, --c-16-8 0.0028708466s 0.755137457s, --c-16-9 0.905193707s 2.7066341098s, --c-16-10 0.157466933s 3.4729350808s, --c-16-11 0.9157762472s 1.5351765269s, --c-16-12 1.3608933376s 2.5242790814s, --c-16-13 4.4142431919s 0.2696051797s, --c-16-14 1.175374882s 4.1463839395s, --c-16-15 2.2330615535s 3.7408155799s, --c-16-16 3.5420569604s 3.176725899s, --c-16-17 3.5997460403s 3.7384323159s, --c-16-18 1.3285847081s 1.7014275036s, --c-16-19 3.9192705501s 0.9827605959s, --c-17-0 2.7810731265s 4.2565163361s, --c-17-1 3.2039934106s 4.0688244573s, --c-17-2 3.3244275265s 2.203682686s, --c-17-3 3.2881423522s 3.7338187724s, --c-17-4 4.250517373s 2.4451172997s, --c-17-5 3.595349259s 1.7687217138s, --c-17-6 2.5587173589s 1.669355363s, --c-17-7 3.5711433754s 3.5047836995s, --c-17-8 3.0143109708s 3.326663085s, --c-17-9 1.1967039417s 4.0417160699s, --c-17-10 4.9936360401s 1.3876810444s, --c-17-11 1.3474768316s 1.7216130249s, --c-17-12 4.0526669185s 3.3620543673s, --c-17-13 1.9304633055s 4.8045663563s, --c-17-14 1.2135074498s 1.209575511s, --c-17-15 0.0258368315s 3.2994506236s, --c-17-16 1.9254224262s 1.8040845314s, --c-17-17 1.8328525944s 2.2595759906s, --c-17-18 0.1710630363s 2.2510248613s, --c-17-19 3.4235273786s 4.9444020567s, --c-18-0 4.7337798034s 3.3051744994s, --c-18-1 1.6457242126s 0.2296930336s, --c-18-2 3.3405625553s 3.4724074998s, --c-18-3 3.7874888516s 1.6814256604s, --c-18-4 1.6646455293s 1.1749626673s, --c-18-5 1.0942955713s 1.4241655468s, --c-18-6 1.7311246142s 0.1578617663s, --c-18-7 0.5259628835s 2.4597218238s, --c-18-8 1.0712583777s 1.1476662427s, --c-18-9 2.3795708777s 3.7971463834s, --c-18-10 0.2794234221s 2.202076755s, --c-18-11 4.0513465964s 0.9510198594s, --c-18-12 4.8142922149s 4.0214014313s, --c-18-13 1.993960956s 4.3090995944s, --c-18-14 4.3381139s 0.7415677032s, --c-18-15 1.8134103138s 2.9984229074s, --c-18-16 3.9401060643s 0.2042194323s, --c-18-17 0.829036184s 3.8847815405s, --c-18-18 4.1651226437s 4.9538802682s, --c-18-19 4.1145670281s 0.0587673021s, --c-19-0 4.6858473082s 3.5899641252s, --c-19-1 1.9526214801s 3.3208879786s, --c-19-2 4.1553843702s 4.0976957582s, --c-19-3 2.1870293723s 0.5760482775s, --c-19-4 2.9392808047s 4.007315203s, --c-19-5 3.2121523384s 1.6397516596s, --c-19-6 4.5379895714s 2.6048989569s, --c-19-7 2.7464442737s 2.9949251204s, --c-19-8 4.7622268789s 1.8589813767s, --c-19-9 0.6352898769s 3.4380112954s, --c-19-10 1.7291759142s 1.5789584637s, --c-19-11 3.6569980983s 4.5548141069s, --c-19-12 1.2410124706s 1.7220279914s, --c-19-13 0.4585542922s 3.437865971s, --c-19-14 2.3118459087s 3.4931787581s, --c-19-15 0.3925650209s 1.2995498727s, --c-19-16 0.0070401067s 4.4109097938s, --c-19-17 0.0149350643s 4.7190672544s, --c-19-18 0.2658355161s 3.0671992177s, --c-19-19 1.2922136922s 1.4770457631s;
+  -webkit-mask: linear-gradient(rgba(0, 0, 0, var(--c-0-0)) 0 0) calc(0*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-1)) 0 0) calc(0*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-2)) 0 0) calc(0*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-3)) 0 0) calc(0*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-4)) 0 0) calc(0*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-5)) 0 0) calc(0*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-6)) 0 0) calc(0*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-7)) 0 0) calc(0*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-8)) 0 0) calc(0*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-9)) 0 0) calc(0*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-10)) 0 0) calc(0*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-11)) 0 0) calc(0*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-12)) 0 0) calc(0*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-13)) 0 0) calc(0*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-14)) 0 0) calc(0*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-15)) 0 0) calc(0*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-16)) 0 0) calc(0*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-17)) 0 0) calc(0*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-18)) 0 0) calc(0*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-19)) 0 0) calc(0*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-0)) 0 0) calc(1*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-1)) 0 0) calc(1*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-2)) 0 0) calc(1*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-3)) 0 0) calc(1*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-4)) 0 0) calc(1*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-5)) 0 0) calc(1*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-6)) 0 0) calc(1*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-7)) 0 0) calc(1*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-8)) 0 0) calc(1*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-9)) 0 0) calc(1*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-10)) 0 0) calc(1*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-11)) 0 0) calc(1*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-12)) 0 0) calc(1*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-13)) 0 0) calc(1*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-14)) 0 0) calc(1*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-15)) 0 0) calc(1*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-16)) 0 0) calc(1*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-17)) 0 0) calc(1*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-18)) 0 0) calc(1*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-19)) 0 0) calc(1*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-0)) 0 0) calc(2*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-1)) 0 0) calc(2*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-2)) 0 0) calc(2*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-3)) 0 0) calc(2*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-4)) 0 0) calc(2*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-5)) 0 0) calc(2*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-6)) 0 0) calc(2*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-7)) 0 0) calc(2*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-8)) 0 0) calc(2*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-9)) 0 0) calc(2*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-10)) 0 0) calc(2*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-11)) 0 0) calc(2*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-12)) 0 0) calc(2*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-13)) 0 0) calc(2*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-14)) 0 0) calc(2*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-15)) 0 0) calc(2*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-16)) 0 0) calc(2*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-17)) 0 0) calc(2*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-18)) 0 0) calc(2*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-19)) 0 0) calc(2*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-0)) 0 0) calc(3*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-1)) 0 0) calc(3*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-2)) 0 0) calc(3*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-3)) 0 0) calc(3*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-4)) 0 0) calc(3*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-5)) 0 0) calc(3*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-6)) 0 0) calc(3*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-7)) 0 0) calc(3*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-8)) 0 0) calc(3*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-9)) 0 0) calc(3*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-10)) 0 0) calc(3*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-11)) 0 0) calc(3*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-12)) 0 0) calc(3*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-13)) 0 0) calc(3*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-14)) 0 0) calc(3*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-15)) 0 0) calc(3*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-16)) 0 0) calc(3*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-17)) 0 0) calc(3*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-18)) 0 0) calc(3*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-19)) 0 0) calc(3*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-0)) 0 0) calc(4*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-1)) 0 0) calc(4*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-2)) 0 0) calc(4*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-3)) 0 0) calc(4*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-4)) 0 0) calc(4*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-5)) 0 0) calc(4*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-6)) 0 0) calc(4*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-7)) 0 0) calc(4*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-8)) 0 0) calc(4*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-9)) 0 0) calc(4*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-10)) 0 0) calc(4*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-11)) 0 0) calc(4*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-12)) 0 0) calc(4*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-13)) 0 0) calc(4*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-14)) 0 0) calc(4*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-15)) 0 0) calc(4*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-16)) 0 0) calc(4*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-17)) 0 0) calc(4*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-18)) 0 0) calc(4*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-19)) 0 0) calc(4*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-0)) 0 0) calc(5*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-1)) 0 0) calc(5*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-2)) 0 0) calc(5*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-3)) 0 0) calc(5*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-4)) 0 0) calc(5*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-5)) 0 0) calc(5*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-6)) 0 0) calc(5*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-7)) 0 0) calc(5*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-8)) 0 0) calc(5*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-9)) 0 0) calc(5*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-10)) 0 0) calc(5*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-11)) 0 0) calc(5*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-12)) 0 0) calc(5*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-13)) 0 0) calc(5*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-14)) 0 0) calc(5*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-15)) 0 0) calc(5*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-16)) 0 0) calc(5*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-17)) 0 0) calc(5*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-18)) 0 0) calc(5*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-19)) 0 0) calc(5*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-0)) 0 0) calc(6*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-1)) 0 0) calc(6*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-2)) 0 0) calc(6*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-3)) 0 0) calc(6*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-4)) 0 0) calc(6*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-5)) 0 0) calc(6*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-6)) 0 0) calc(6*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-7)) 0 0) calc(6*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-8)) 0 0) calc(6*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-9)) 0 0) calc(6*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-10)) 0 0) calc(6*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-11)) 0 0) calc(6*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-12)) 0 0) calc(6*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-13)) 0 0) calc(6*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-14)) 0 0) calc(6*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-15)) 0 0) calc(6*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-16)) 0 0) calc(6*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-17)) 0 0) calc(6*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-18)) 0 0) calc(6*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-19)) 0 0) calc(6*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-0)) 0 0) calc(7*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-1)) 0 0) calc(7*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-2)) 0 0) calc(7*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-3)) 0 0) calc(7*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-4)) 0 0) calc(7*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-5)) 0 0) calc(7*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-6)) 0 0) calc(7*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-7)) 0 0) calc(7*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-8)) 0 0) calc(7*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-9)) 0 0) calc(7*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-10)) 0 0) calc(7*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-11)) 0 0) calc(7*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-12)) 0 0) calc(7*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-13)) 0 0) calc(7*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-14)) 0 0) calc(7*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-15)) 0 0) calc(7*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-16)) 0 0) calc(7*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-17)) 0 0) calc(7*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-18)) 0 0) calc(7*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-19)) 0 0) calc(7*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-0)) 0 0) calc(8*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-1)) 0 0) calc(8*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-2)) 0 0) calc(8*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-3)) 0 0) calc(8*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-4)) 0 0) calc(8*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-5)) 0 0) calc(8*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-6)) 0 0) calc(8*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-7)) 0 0) calc(8*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-8)) 0 0) calc(8*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-9)) 0 0) calc(8*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-10)) 0 0) calc(8*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-11)) 0 0) calc(8*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-12)) 0 0) calc(8*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-13)) 0 0) calc(8*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-14)) 0 0) calc(8*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-15)) 0 0) calc(8*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-16)) 0 0) calc(8*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-17)) 0 0) calc(8*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-18)) 0 0) calc(8*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-19)) 0 0) calc(8*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-0)) 0 0) calc(9*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-1)) 0 0) calc(9*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-2)) 0 0) calc(9*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-3)) 0 0) calc(9*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-4)) 0 0) calc(9*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-5)) 0 0) calc(9*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-6)) 0 0) calc(9*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-7)) 0 0) calc(9*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-8)) 0 0) calc(9*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-9)) 0 0) calc(9*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-10)) 0 0) calc(9*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-11)) 0 0) calc(9*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-12)) 0 0) calc(9*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-13)) 0 0) calc(9*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-14)) 0 0) calc(9*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-15)) 0 0) calc(9*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-16)) 0 0) calc(9*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-17)) 0 0) calc(9*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-18)) 0 0) calc(9*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-19)) 0 0) calc(9*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-0)) 0 0) calc(10*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-1)) 0 0) calc(10*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-2)) 0 0) calc(10*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-3)) 0 0) calc(10*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-4)) 0 0) calc(10*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-5)) 0 0) calc(10*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-6)) 0 0) calc(10*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-7)) 0 0) calc(10*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-8)) 0 0) calc(10*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-9)) 0 0) calc(10*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-10)) 0 0) calc(10*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-11)) 0 0) calc(10*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-12)) 0 0) calc(10*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-13)) 0 0) calc(10*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-14)) 0 0) calc(10*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-15)) 0 0) calc(10*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-16)) 0 0) calc(10*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-17)) 0 0) calc(10*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-18)) 0 0) calc(10*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-19)) 0 0) calc(10*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-0)) 0 0) calc(11*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-1)) 0 0) calc(11*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-2)) 0 0) calc(11*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-3)) 0 0) calc(11*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-4)) 0 0) calc(11*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-5)) 0 0) calc(11*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-6)) 0 0) calc(11*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-7)) 0 0) calc(11*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-8)) 0 0) calc(11*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-9)) 0 0) calc(11*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-10)) 0 0) calc(11*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-11)) 0 0) calc(11*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-12)) 0 0) calc(11*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-13)) 0 0) calc(11*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-14)) 0 0) calc(11*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-15)) 0 0) calc(11*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-16)) 0 0) calc(11*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-17)) 0 0) calc(11*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-18)) 0 0) calc(11*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-19)) 0 0) calc(11*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-0)) 0 0) calc(12*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-1)) 0 0) calc(12*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-2)) 0 0) calc(12*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-3)) 0 0) calc(12*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-4)) 0 0) calc(12*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-5)) 0 0) calc(12*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-6)) 0 0) calc(12*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-7)) 0 0) calc(12*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-8)) 0 0) calc(12*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-9)) 0 0) calc(12*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-10)) 0 0) calc(12*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-11)) 0 0) calc(12*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-12)) 0 0) calc(12*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-13)) 0 0) calc(12*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-14)) 0 0) calc(12*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-15)) 0 0) calc(12*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-16)) 0 0) calc(12*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-17)) 0 0) calc(12*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-18)) 0 0) calc(12*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-19)) 0 0) calc(12*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-0)) 0 0) calc(13*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-1)) 0 0) calc(13*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-2)) 0 0) calc(13*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-3)) 0 0) calc(13*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-4)) 0 0) calc(13*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-5)) 0 0) calc(13*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-6)) 0 0) calc(13*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-7)) 0 0) calc(13*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-8)) 0 0) calc(13*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-9)) 0 0) calc(13*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-10)) 0 0) calc(13*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-11)) 0 0) calc(13*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-12)) 0 0) calc(13*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-13)) 0 0) calc(13*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-14)) 0 0) calc(13*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-15)) 0 0) calc(13*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-16)) 0 0) calc(13*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-17)) 0 0) calc(13*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-18)) 0 0) calc(13*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-19)) 0 0) calc(13*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-0)) 0 0) calc(14*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-1)) 0 0) calc(14*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-2)) 0 0) calc(14*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-3)) 0 0) calc(14*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-4)) 0 0) calc(14*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-5)) 0 0) calc(14*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-6)) 0 0) calc(14*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-7)) 0 0) calc(14*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-8)) 0 0) calc(14*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-9)) 0 0) calc(14*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-10)) 0 0) calc(14*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-11)) 0 0) calc(14*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-12)) 0 0) calc(14*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-13)) 0 0) calc(14*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-14)) 0 0) calc(14*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-15)) 0 0) calc(14*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-16)) 0 0) calc(14*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-17)) 0 0) calc(14*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-18)) 0 0) calc(14*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-19)) 0 0) calc(14*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-0)) 0 0) calc(15*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-1)) 0 0) calc(15*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-2)) 0 0) calc(15*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-3)) 0 0) calc(15*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-4)) 0 0) calc(15*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-5)) 0 0) calc(15*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-6)) 0 0) calc(15*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-7)) 0 0) calc(15*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-8)) 0 0) calc(15*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-9)) 0 0) calc(15*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-10)) 0 0) calc(15*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-11)) 0 0) calc(15*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-12)) 0 0) calc(15*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-13)) 0 0) calc(15*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-14)) 0 0) calc(15*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-15)) 0 0) calc(15*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-16)) 0 0) calc(15*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-17)) 0 0) calc(15*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-18)) 0 0) calc(15*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-19)) 0 0) calc(15*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-0)) 0 0) calc(16*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-1)) 0 0) calc(16*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-2)) 0 0) calc(16*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-3)) 0 0) calc(16*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-4)) 0 0) calc(16*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-5)) 0 0) calc(16*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-6)) 0 0) calc(16*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-7)) 0 0) calc(16*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-8)) 0 0) calc(16*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-9)) 0 0) calc(16*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-10)) 0 0) calc(16*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-11)) 0 0) calc(16*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-12)) 0 0) calc(16*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-13)) 0 0) calc(16*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-14)) 0 0) calc(16*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-15)) 0 0) calc(16*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-16)) 0 0) calc(16*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-17)) 0 0) calc(16*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-18)) 0 0) calc(16*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-19)) 0 0) calc(16*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-0)) 0 0) calc(17*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-1)) 0 0) calc(17*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-2)) 0 0) calc(17*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-3)) 0 0) calc(17*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-4)) 0 0) calc(17*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-5)) 0 0) calc(17*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-6)) 0 0) calc(17*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-7)) 0 0) calc(17*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-8)) 0 0) calc(17*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-9)) 0 0) calc(17*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-10)) 0 0) calc(17*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-11)) 0 0) calc(17*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-12)) 0 0) calc(17*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-13)) 0 0) calc(17*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-14)) 0 0) calc(17*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-15)) 0 0) calc(17*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-16)) 0 0) calc(17*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-17)) 0 0) calc(17*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-18)) 0 0) calc(17*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-19)) 0 0) calc(17*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-0)) 0 0) calc(18*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-1)) 0 0) calc(18*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-2)) 0 0) calc(18*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-3)) 0 0) calc(18*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-4)) 0 0) calc(18*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-5)) 0 0) calc(18*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-6)) 0 0) calc(18*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-7)) 0 0) calc(18*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-8)) 0 0) calc(18*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-9)) 0 0) calc(18*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-10)) 0 0) calc(18*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-11)) 0 0) calc(18*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-12)) 0 0) calc(18*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-13)) 0 0) calc(18*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-14)) 0 0) calc(18*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-15)) 0 0) calc(18*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-16)) 0 0) calc(18*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-17)) 0 0) calc(18*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-18)) 0 0) calc(18*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-19)) 0 0) calc(18*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-0)) 0 0) calc(19*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-1)) 0 0) calc(19*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-2)) 0 0) calc(19*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-3)) 0 0) calc(19*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-4)) 0 0) calc(19*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-5)) 0 0) calc(19*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-6)) 0 0) calc(19*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-7)) 0 0) calc(19*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-8)) 0 0) calc(19*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-9)) 0 0) calc(19*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-10)) 0 0) calc(19*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-11)) 0 0) calc(19*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-12)) 0 0) calc(19*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-13)) 0 0) calc(19*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-14)) 0 0) calc(19*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-15)) 0 0) calc(19*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-16)) 0 0) calc(19*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-17)) 0 0) calc(19*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-18)) 0 0) calc(19*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-19)) 0 0) calc(19*100%/(20 - 1)) calc(19*100%/(20 - 1));
+  mask: linear-gradient(rgba(0, 0, 0, var(--c-0-0)) 0 0) calc(0*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-1)) 0 0) calc(0*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-2)) 0 0) calc(0*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-3)) 0 0) calc(0*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-4)) 0 0) calc(0*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-5)) 0 0) calc(0*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-6)) 0 0) calc(0*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-7)) 0 0) calc(0*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-8)) 0 0) calc(0*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-9)) 0 0) calc(0*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-10)) 0 0) calc(0*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-11)) 0 0) calc(0*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-12)) 0 0) calc(0*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-13)) 0 0) calc(0*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-14)) 0 0) calc(0*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-15)) 0 0) calc(0*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-16)) 0 0) calc(0*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-17)) 0 0) calc(0*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-18)) 0 0) calc(0*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-0-19)) 0 0) calc(0*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-0)) 0 0) calc(1*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-1)) 0 0) calc(1*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-2)) 0 0) calc(1*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-3)) 0 0) calc(1*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-4)) 0 0) calc(1*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-5)) 0 0) calc(1*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-6)) 0 0) calc(1*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-7)) 0 0) calc(1*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-8)) 0 0) calc(1*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-9)) 0 0) calc(1*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-10)) 0 0) calc(1*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-11)) 0 0) calc(1*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-12)) 0 0) calc(1*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-13)) 0 0) calc(1*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-14)) 0 0) calc(1*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-15)) 0 0) calc(1*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-16)) 0 0) calc(1*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-17)) 0 0) calc(1*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-18)) 0 0) calc(1*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-1-19)) 0 0) calc(1*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-0)) 0 0) calc(2*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-1)) 0 0) calc(2*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-2)) 0 0) calc(2*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-3)) 0 0) calc(2*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-4)) 0 0) calc(2*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-5)) 0 0) calc(2*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-6)) 0 0) calc(2*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-7)) 0 0) calc(2*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-8)) 0 0) calc(2*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-9)) 0 0) calc(2*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-10)) 0 0) calc(2*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-11)) 0 0) calc(2*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-12)) 0 0) calc(2*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-13)) 0 0) calc(2*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-14)) 0 0) calc(2*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-15)) 0 0) calc(2*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-16)) 0 0) calc(2*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-17)) 0 0) calc(2*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-18)) 0 0) calc(2*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-2-19)) 0 0) calc(2*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-0)) 0 0) calc(3*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-1)) 0 0) calc(3*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-2)) 0 0) calc(3*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-3)) 0 0) calc(3*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-4)) 0 0) calc(3*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-5)) 0 0) calc(3*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-6)) 0 0) calc(3*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-7)) 0 0) calc(3*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-8)) 0 0) calc(3*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-9)) 0 0) calc(3*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-10)) 0 0) calc(3*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-11)) 0 0) calc(3*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-12)) 0 0) calc(3*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-13)) 0 0) calc(3*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-14)) 0 0) calc(3*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-15)) 0 0) calc(3*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-16)) 0 0) calc(3*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-17)) 0 0) calc(3*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-18)) 0 0) calc(3*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-3-19)) 0 0) calc(3*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-0)) 0 0) calc(4*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-1)) 0 0) calc(4*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-2)) 0 0) calc(4*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-3)) 0 0) calc(4*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-4)) 0 0) calc(4*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-5)) 0 0) calc(4*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-6)) 0 0) calc(4*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-7)) 0 0) calc(4*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-8)) 0 0) calc(4*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-9)) 0 0) calc(4*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-10)) 0 0) calc(4*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-11)) 0 0) calc(4*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-12)) 0 0) calc(4*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-13)) 0 0) calc(4*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-14)) 0 0) calc(4*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-15)) 0 0) calc(4*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-16)) 0 0) calc(4*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-17)) 0 0) calc(4*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-18)) 0 0) calc(4*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-4-19)) 0 0) calc(4*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-0)) 0 0) calc(5*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-1)) 0 0) calc(5*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-2)) 0 0) calc(5*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-3)) 0 0) calc(5*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-4)) 0 0) calc(5*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-5)) 0 0) calc(5*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-6)) 0 0) calc(5*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-7)) 0 0) calc(5*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-8)) 0 0) calc(5*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-9)) 0 0) calc(5*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-10)) 0 0) calc(5*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-11)) 0 0) calc(5*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-12)) 0 0) calc(5*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-13)) 0 0) calc(5*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-14)) 0 0) calc(5*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-15)) 0 0) calc(5*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-16)) 0 0) calc(5*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-17)) 0 0) calc(5*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-18)) 0 0) calc(5*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-5-19)) 0 0) calc(5*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-0)) 0 0) calc(6*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-1)) 0 0) calc(6*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-2)) 0 0) calc(6*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-3)) 0 0) calc(6*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-4)) 0 0) calc(6*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-5)) 0 0) calc(6*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-6)) 0 0) calc(6*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-7)) 0 0) calc(6*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-8)) 0 0) calc(6*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-9)) 0 0) calc(6*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-10)) 0 0) calc(6*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-11)) 0 0) calc(6*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-12)) 0 0) calc(6*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-13)) 0 0) calc(6*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-14)) 0 0) calc(6*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-15)) 0 0) calc(6*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-16)) 0 0) calc(6*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-17)) 0 0) calc(6*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-18)) 0 0) calc(6*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-6-19)) 0 0) calc(6*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-0)) 0 0) calc(7*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-1)) 0 0) calc(7*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-2)) 0 0) calc(7*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-3)) 0 0) calc(7*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-4)) 0 0) calc(7*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-5)) 0 0) calc(7*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-6)) 0 0) calc(7*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-7)) 0 0) calc(7*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-8)) 0 0) calc(7*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-9)) 0 0) calc(7*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-10)) 0 0) calc(7*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-11)) 0 0) calc(7*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-12)) 0 0) calc(7*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-13)) 0 0) calc(7*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-14)) 0 0) calc(7*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-15)) 0 0) calc(7*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-16)) 0 0) calc(7*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-17)) 0 0) calc(7*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-18)) 0 0) calc(7*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-7-19)) 0 0) calc(7*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-0)) 0 0) calc(8*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-1)) 0 0) calc(8*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-2)) 0 0) calc(8*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-3)) 0 0) calc(8*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-4)) 0 0) calc(8*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-5)) 0 0) calc(8*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-6)) 0 0) calc(8*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-7)) 0 0) calc(8*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-8)) 0 0) calc(8*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-9)) 0 0) calc(8*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-10)) 0 0) calc(8*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-11)) 0 0) calc(8*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-12)) 0 0) calc(8*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-13)) 0 0) calc(8*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-14)) 0 0) calc(8*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-15)) 0 0) calc(8*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-16)) 0 0) calc(8*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-17)) 0 0) calc(8*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-18)) 0 0) calc(8*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-8-19)) 0 0) calc(8*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-0)) 0 0) calc(9*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-1)) 0 0) calc(9*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-2)) 0 0) calc(9*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-3)) 0 0) calc(9*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-4)) 0 0) calc(9*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-5)) 0 0) calc(9*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-6)) 0 0) calc(9*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-7)) 0 0) calc(9*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-8)) 0 0) calc(9*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-9)) 0 0) calc(9*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-10)) 0 0) calc(9*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-11)) 0 0) calc(9*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-12)) 0 0) calc(9*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-13)) 0 0) calc(9*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-14)) 0 0) calc(9*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-15)) 0 0) calc(9*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-16)) 0 0) calc(9*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-17)) 0 0) calc(9*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-18)) 0 0) calc(9*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-9-19)) 0 0) calc(9*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-0)) 0 0) calc(10*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-1)) 0 0) calc(10*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-2)) 0 0) calc(10*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-3)) 0 0) calc(10*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-4)) 0 0) calc(10*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-5)) 0 0) calc(10*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-6)) 0 0) calc(10*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-7)) 0 0) calc(10*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-8)) 0 0) calc(10*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-9)) 0 0) calc(10*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-10)) 0 0) calc(10*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-11)) 0 0) calc(10*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-12)) 0 0) calc(10*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-13)) 0 0) calc(10*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-14)) 0 0) calc(10*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-15)) 0 0) calc(10*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-16)) 0 0) calc(10*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-17)) 0 0) calc(10*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-18)) 0 0) calc(10*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-10-19)) 0 0) calc(10*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-0)) 0 0) calc(11*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-1)) 0 0) calc(11*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-2)) 0 0) calc(11*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-3)) 0 0) calc(11*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-4)) 0 0) calc(11*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-5)) 0 0) calc(11*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-6)) 0 0) calc(11*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-7)) 0 0) calc(11*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-8)) 0 0) calc(11*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-9)) 0 0) calc(11*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-10)) 0 0) calc(11*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-11)) 0 0) calc(11*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-12)) 0 0) calc(11*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-13)) 0 0) calc(11*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-14)) 0 0) calc(11*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-15)) 0 0) calc(11*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-16)) 0 0) calc(11*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-17)) 0 0) calc(11*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-18)) 0 0) calc(11*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-11-19)) 0 0) calc(11*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-0)) 0 0) calc(12*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-1)) 0 0) calc(12*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-2)) 0 0) calc(12*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-3)) 0 0) calc(12*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-4)) 0 0) calc(12*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-5)) 0 0) calc(12*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-6)) 0 0) calc(12*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-7)) 0 0) calc(12*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-8)) 0 0) calc(12*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-9)) 0 0) calc(12*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-10)) 0 0) calc(12*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-11)) 0 0) calc(12*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-12)) 0 0) calc(12*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-13)) 0 0) calc(12*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-14)) 0 0) calc(12*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-15)) 0 0) calc(12*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-16)) 0 0) calc(12*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-17)) 0 0) calc(12*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-18)) 0 0) calc(12*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-12-19)) 0 0) calc(12*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-0)) 0 0) calc(13*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-1)) 0 0) calc(13*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-2)) 0 0) calc(13*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-3)) 0 0) calc(13*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-4)) 0 0) calc(13*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-5)) 0 0) calc(13*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-6)) 0 0) calc(13*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-7)) 0 0) calc(13*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-8)) 0 0) calc(13*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-9)) 0 0) calc(13*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-10)) 0 0) calc(13*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-11)) 0 0) calc(13*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-12)) 0 0) calc(13*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-13)) 0 0) calc(13*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-14)) 0 0) calc(13*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-15)) 0 0) calc(13*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-16)) 0 0) calc(13*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-17)) 0 0) calc(13*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-18)) 0 0) calc(13*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-13-19)) 0 0) calc(13*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-0)) 0 0) calc(14*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-1)) 0 0) calc(14*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-2)) 0 0) calc(14*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-3)) 0 0) calc(14*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-4)) 0 0) calc(14*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-5)) 0 0) calc(14*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-6)) 0 0) calc(14*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-7)) 0 0) calc(14*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-8)) 0 0) calc(14*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-9)) 0 0) calc(14*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-10)) 0 0) calc(14*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-11)) 0 0) calc(14*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-12)) 0 0) calc(14*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-13)) 0 0) calc(14*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-14)) 0 0) calc(14*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-15)) 0 0) calc(14*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-16)) 0 0) calc(14*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-17)) 0 0) calc(14*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-18)) 0 0) calc(14*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-14-19)) 0 0) calc(14*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-0)) 0 0) calc(15*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-1)) 0 0) calc(15*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-2)) 0 0) calc(15*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-3)) 0 0) calc(15*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-4)) 0 0) calc(15*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-5)) 0 0) calc(15*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-6)) 0 0) calc(15*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-7)) 0 0) calc(15*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-8)) 0 0) calc(15*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-9)) 0 0) calc(15*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-10)) 0 0) calc(15*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-11)) 0 0) calc(15*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-12)) 0 0) calc(15*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-13)) 0 0) calc(15*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-14)) 0 0) calc(15*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-15)) 0 0) calc(15*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-16)) 0 0) calc(15*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-17)) 0 0) calc(15*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-18)) 0 0) calc(15*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-15-19)) 0 0) calc(15*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-0)) 0 0) calc(16*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-1)) 0 0) calc(16*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-2)) 0 0) calc(16*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-3)) 0 0) calc(16*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-4)) 0 0) calc(16*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-5)) 0 0) calc(16*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-6)) 0 0) calc(16*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-7)) 0 0) calc(16*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-8)) 0 0) calc(16*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-9)) 0 0) calc(16*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-10)) 0 0) calc(16*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-11)) 0 0) calc(16*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-12)) 0 0) calc(16*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-13)) 0 0) calc(16*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-14)) 0 0) calc(16*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-15)) 0 0) calc(16*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-16)) 0 0) calc(16*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-17)) 0 0) calc(16*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-18)) 0 0) calc(16*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-16-19)) 0 0) calc(16*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-0)) 0 0) calc(17*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-1)) 0 0) calc(17*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-2)) 0 0) calc(17*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-3)) 0 0) calc(17*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-4)) 0 0) calc(17*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-5)) 0 0) calc(17*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-6)) 0 0) calc(17*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-7)) 0 0) calc(17*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-8)) 0 0) calc(17*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-9)) 0 0) calc(17*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-10)) 0 0) calc(17*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-11)) 0 0) calc(17*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-12)) 0 0) calc(17*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-13)) 0 0) calc(17*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-14)) 0 0) calc(17*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-15)) 0 0) calc(17*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-16)) 0 0) calc(17*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-17)) 0 0) calc(17*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-18)) 0 0) calc(17*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-17-19)) 0 0) calc(17*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-0)) 0 0) calc(18*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-1)) 0 0) calc(18*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-2)) 0 0) calc(18*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-3)) 0 0) calc(18*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-4)) 0 0) calc(18*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-5)) 0 0) calc(18*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-6)) 0 0) calc(18*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-7)) 0 0) calc(18*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-8)) 0 0) calc(18*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-9)) 0 0) calc(18*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-10)) 0 0) calc(18*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-11)) 0 0) calc(18*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-12)) 0 0) calc(18*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-13)) 0 0) calc(18*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-14)) 0 0) calc(18*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-15)) 0 0) calc(18*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-16)) 0 0) calc(18*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-17)) 0 0) calc(18*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-18)) 0 0) calc(18*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-18-19)) 0 0) calc(18*100%/(20 - 1)) calc(19*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-0)) 0 0) calc(19*100%/(20 - 1)) calc(0*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-1)) 0 0) calc(19*100%/(20 - 1)) calc(1*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-2)) 0 0) calc(19*100%/(20 - 1)) calc(2*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-3)) 0 0) calc(19*100%/(20 - 1)) calc(3*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-4)) 0 0) calc(19*100%/(20 - 1)) calc(4*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-5)) 0 0) calc(19*100%/(20 - 1)) calc(5*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-6)) 0 0) calc(19*100%/(20 - 1)) calc(6*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-7)) 0 0) calc(19*100%/(20 - 1)) calc(7*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-8)) 0 0) calc(19*100%/(20 - 1)) calc(8*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-9)) 0 0) calc(19*100%/(20 - 1)) calc(9*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-10)) 0 0) calc(19*100%/(20 - 1)) calc(10*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-11)) 0 0) calc(19*100%/(20 - 1)) calc(11*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-12)) 0 0) calc(19*100%/(20 - 1)) calc(12*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-13)) 0 0) calc(19*100%/(20 - 1)) calc(13*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-14)) 0 0) calc(19*100%/(20 - 1)) calc(14*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-15)) 0 0) calc(19*100%/(20 - 1)) calc(15*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-16)) 0 0) calc(19*100%/(20 - 1)) calc(16*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-17)) 0 0) calc(19*100%/(20 - 1)) calc(17*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-18)) 0 0) calc(19*100%/(20 - 1)) calc(18*100%/(20 - 1)), linear-gradient(rgba(0, 0, 0, var(--c-19-19)) 0 0) calc(19*100%/(20 - 1)) calc(19*100%/(20 - 1));
+  /* 设置遮罩大小 */
+  -webkit-mask-size: calc(100%/20) calc(100%/20);
+  -webkit-mask-repeat: no-repeat;
+  mask-size: calc(100%/20) calc(100%/20);
+  mask-repeat: no-repeat;
+}
+
+/* 鼠标悬停触发：将上面自定义的N个属性值由1改为0 */
+.loveimg img.hover {
+  --c-0-0: 0;
+  --c-0-1: 0;
+  --c-0-2: 0;
+  --c-0-3: 0;
+  --c-0-4: 0;
+  --c-0-5: 0;
+  --c-0-6: 0;
+  --c-0-7: 0;
+  --c-0-8: 0;
+  --c-0-9: 0;
+  --c-0-10: 0;
+  --c-0-11: 0;
+  --c-0-12: 0;
+  --c-0-13: 0;
+  --c-0-14: 0;
+  --c-0-15: 0;
+  --c-0-16: 0;
+  --c-0-17: 0;
+  --c-0-18: 0;
+  --c-0-19: 0;
+  --c-1-0: 0;
+  --c-1-1: 0;
+  --c-1-2: 0;
+  --c-1-3: 0;
+  --c-1-4: 0;
+  --c-1-5: 0;
+  --c-1-6: 0;
+  --c-1-7: 0;
+  --c-1-8: 0;
+  --c-1-9: 0;
+  --c-1-10: 0;
+  --c-1-11: 0;
+  --c-1-12: 0;
+  --c-1-13: 0;
+  --c-1-14: 0;
+  --c-1-15: 0;
+  --c-1-16: 0;
+  --c-1-17: 0;
+  --c-1-18: 0;
+  --c-1-19: 0;
+  --c-2-0: 0;
+  --c-2-1: 0;
+  --c-2-2: 0;
+  --c-2-3: 0;
+  --c-2-4: 0;
+  --c-2-5: 0;
+  --c-2-6: 0;
+  --c-2-7: 0;
+  --c-2-8: 0;
+  --c-2-9: 0;
+  --c-2-10: 0;
+  --c-2-11: 0;
+  --c-2-12: 0;
+  --c-2-13: 0;
+  --c-2-14: 0;
+  --c-2-15: 0;
+  --c-2-16: 0;
+  --c-2-17: 0;
+  --c-2-18: 0;
+  --c-2-19: 0;
+  --c-3-0: 0;
+  --c-3-1: 0;
+  --c-3-2: 0;
+  --c-3-3: 0;
+  --c-3-4: 0;
+  --c-3-5: 0;
+  --c-3-6: 0;
+  --c-3-7: 0;
+  --c-3-8: 0;
+  --c-3-9: 0;
+  --c-3-10: 0;
+  --c-3-11: 0;
+  --c-3-12: 0;
+  --c-3-13: 0;
+  --c-3-14: 0;
+  --c-3-15: 0;
+  --c-3-16: 0;
+  --c-3-17: 0;
+  --c-3-18: 0;
+  --c-3-19: 0;
+  --c-4-0: 0;
+  --c-4-1: 0;
+  --c-4-2: 0;
+  --c-4-3: 0;
+  --c-4-4: 0;
+  --c-4-5: 0;
+  --c-4-6: 0;
+  --c-4-7: 0;
+  --c-4-8: 0;
+  --c-4-9: 0;
+  --c-4-10: 0;
+  --c-4-11: 0;
+  --c-4-12: 0;
+  --c-4-13: 0;
+  --c-4-14: 0;
+  --c-4-15: 0;
+  --c-4-16: 0;
+  --c-4-17: 0;
+  --c-4-18: 0;
+  --c-4-19: 0;
+  --c-5-0: 0;
+  --c-5-1: 0;
+  --c-5-2: 0;
+  --c-5-3: 0;
+  --c-5-4: 0;
+  --c-5-5: 0;
+  --c-5-6: 0;
+  --c-5-7: 0;
+  --c-5-8: 0;
+  --c-5-9: 0;
+  --c-5-10: 0;
+  --c-5-11: 0;
+  --c-5-12: 0;
+  --c-5-13: 0;
+  --c-5-14: 0;
+  --c-5-15: 0;
+  --c-5-16: 0;
+  --c-5-17: 0;
+  --c-5-18: 0;
+  --c-5-19: 0;
+  --c-6-0: 0;
+  --c-6-1: 0;
+  --c-6-2: 0;
+  --c-6-3: 0;
+  --c-6-4: 0;
+  --c-6-5: 0;
+  --c-6-6: 0;
+  --c-6-7: 0;
+  --c-6-8: 0;
+  --c-6-9: 0;
+  --c-6-10: 0;
+  --c-6-11: 0;
+  --c-6-12: 0;
+  --c-6-13: 0;
+  --c-6-14: 0;
+  --c-6-15: 0;
+  --c-6-16: 0;
+  --c-6-17: 0;
+  --c-6-18: 0;
+  --c-6-19: 0;
+  --c-7-0: 0;
+  --c-7-1: 0;
+  --c-7-2: 0;
+  --c-7-3: 0;
+  --c-7-4: 0;
+  --c-7-5: 0;
+  --c-7-6: 0;
+  --c-7-7: 0;
+  --c-7-8: 0;
+  --c-7-9: 0;
+  --c-7-10: 0;
+  --c-7-11: 0;
+  --c-7-12: 0;
+  --c-7-13: 0;
+  --c-7-14: 0;
+  --c-7-15: 0;
+  --c-7-16: 0;
+  --c-7-17: 0;
+  --c-7-18: 0;
+  --c-7-19: 0;
+  --c-8-0: 0;
+  --c-8-1: 0;
+  --c-8-2: 0;
+  --c-8-3: 0;
+  --c-8-4: 0;
+  --c-8-5: 0;
+  --c-8-6: 0;
+  --c-8-7: 0;
+  --c-8-8: 0;
+  --c-8-9: 0;
+  --c-8-10: 0;
+  --c-8-11: 0;
+  --c-8-12: 0;
+  --c-8-13: 0;
+  --c-8-14: 0;
+  --c-8-15: 0;
+  --c-8-16: 0;
+  --c-8-17: 0;
+  --c-8-18: 0;
+  --c-8-19: 0;
+  --c-9-0: 0;
+  --c-9-1: 0;
+  --c-9-2: 0;
+  --c-9-3: 0;
+  --c-9-4: 0;
+  --c-9-5: 0;
+  --c-9-6: 0;
+  --c-9-7: 0;
+  --c-9-8: 0;
+  --c-9-9: 0;
+  --c-9-10: 0;
+  --c-9-11: 0;
+  --c-9-12: 0;
+  --c-9-13: 0;
+  --c-9-14: 0;
+  --c-9-15: 0;
+  --c-9-16: 0;
+  --c-9-17: 0;
+  --c-9-18: 0;
+  --c-9-19: 0;
+  --c-10-0: 0;
+  --c-10-1: 0;
+  --c-10-2: 0;
+  --c-10-3: 0;
+  --c-10-4: 0;
+  --c-10-5: 0;
+  --c-10-6: 0;
+  --c-10-7: 0;
+  --c-10-8: 0;
+  --c-10-9: 0;
+  --c-10-10: 0;
+  --c-10-11: 0;
+  --c-10-12: 0;
+  --c-10-13: 0;
+  --c-10-14: 0;
+  --c-10-15: 0;
+  --c-10-16: 0;
+  --c-10-17: 0;
+  --c-10-18: 0;
+  --c-10-19: 0;
+  --c-11-0: 0;
+  --c-11-1: 0;
+  --c-11-2: 0;
+  --c-11-3: 0;
+  --c-11-4: 0;
+  --c-11-5: 0;
+  --c-11-6: 0;
+  --c-11-7: 0;
+  --c-11-8: 0;
+  --c-11-9: 0;
+  --c-11-10: 0;
+  --c-11-11: 0;
+  --c-11-12: 0;
+  --c-11-13: 0;
+  --c-11-14: 0;
+  --c-11-15: 0;
+  --c-11-16: 0;
+  --c-11-17: 0;
+  --c-11-18: 0;
+  --c-11-19: 0;
+  --c-12-0: 0;
+  --c-12-1: 0;
+  --c-12-2: 0;
+  --c-12-3: 0;
+  --c-12-4: 0;
+  --c-12-5: 0;
+  --c-12-6: 0;
+  --c-12-7: 0;
+  --c-12-8: 0;
+  --c-12-9: 0;
+  --c-12-10: 0;
+  --c-12-11: 0;
+  --c-12-12: 0;
+  --c-12-13: 0;
+  --c-12-14: 0;
+  --c-12-15: 0;
+  --c-12-16: 0;
+  --c-12-17: 0;
+  --c-12-18: 0;
+  --c-12-19: 0;
+  --c-13-0: 0;
+  --c-13-1: 0;
+  --c-13-2: 0;
+  --c-13-3: 0;
+  --c-13-4: 0;
+  --c-13-5: 0;
+  --c-13-6: 0;
+  --c-13-7: 0;
+  --c-13-8: 0;
+  --c-13-9: 0;
+  --c-13-10: 0;
+  --c-13-11: 0;
+  --c-13-12: 0;
+  --c-13-13: 0;
+  --c-13-14: 0;
+  --c-13-15: 0;
+  --c-13-16: 0;
+  --c-13-17: 0;
+  --c-13-18: 0;
+  --c-13-19: 0;
+  --c-14-0: 0;
+  --c-14-1: 0;
+  --c-14-2: 0;
+  --c-14-3: 0;
+  --c-14-4: 0;
+  --c-14-5: 0;
+  --c-14-6: 0;
+  --c-14-7: 0;
+  --c-14-8: 0;
+  --c-14-9: 0;
+  --c-14-10: 0;
+  --c-14-11: 0;
+  --c-14-12: 0;
+  --c-14-13: 0;
+  --c-14-14: 0;
+  --c-14-15: 0;
+  --c-14-16: 0;
+  --c-14-17: 0;
+  --c-14-18: 0;
+  --c-14-19: 0;
+  --c-15-0: 0;
+  --c-15-1: 0;
+  --c-15-2: 0;
+  --c-15-3: 0;
+  --c-15-4: 0;
+  --c-15-5: 0;
+  --c-15-6: 0;
+  --c-15-7: 0;
+  --c-15-8: 0;
+  --c-15-9: 0;
+  --c-15-10: 0;
+  --c-15-11: 0;
+  --c-15-12: 0;
+  --c-15-13: 0;
+  --c-15-14: 0;
+  --c-15-15: 0;
+  --c-15-16: 0;
+  --c-15-17: 0;
+  --c-15-18: 0;
+  --c-15-19: 0;
+  --c-16-0: 0;
+  --c-16-1: 0;
+  --c-16-2: 0;
+  --c-16-3: 0;
+  --c-16-4: 0;
+  --c-16-5: 0;
+  --c-16-6: 0;
+  --c-16-7: 0;
+  --c-16-8: 0;
+  --c-16-9: 0;
+  --c-16-10: 0;
+  --c-16-11: 0;
+  --c-16-12: 0;
+  --c-16-13: 0;
+  --c-16-14: 0;
+  --c-16-15: 0;
+  --c-16-16: 0;
+  --c-16-17: 0;
+  --c-16-18: 0;
+  --c-16-19: 0;
+  --c-17-0: 0;
+  --c-17-1: 0;
+  --c-17-2: 0;
+  --c-17-3: 0;
+  --c-17-4: 0;
+  --c-17-5: 0;
+  --c-17-6: 0;
+  --c-17-7: 0;
+  --c-17-8: 0;
+  --c-17-9: 0;
+  --c-17-10: 0;
+  --c-17-11: 0;
+  --c-17-12: 0;
+  --c-17-13: 0;
+  --c-17-14: 0;
+  --c-17-15: 0;
+  --c-17-16: 0;
+  --c-17-17: 0;
+  --c-17-18: 0;
+  --c-17-19: 0;
+  --c-18-0: 0;
+  --c-18-1: 0;
+  --c-18-2: 0;
+  --c-18-3: 0;
+  --c-18-4: 0;
+  --c-18-5: 0;
+  --c-18-6: 0;
+  --c-18-7: 0;
+  --c-18-8: 0;
+  --c-18-9: 0;
+  --c-18-10: 0;
+  --c-18-11: 0;
+  --c-18-12: 0;
+  --c-18-13: 0;
+  --c-18-14: 0;
+  --c-18-15: 0;
+  --c-18-16: 0;
+  --c-18-17: 0;
+  --c-18-18: 0;
+  --c-18-19: 0;
+  --c-19-0: 0;
+  --c-19-1: 0;
+  --c-19-2: 0;
+  --c-19-3: 0;
+  --c-19-4: 0;
+  --c-19-5: 0;
+  --c-19-6: 0;
+  --c-19-7: 0;
+  --c-19-8: 0;
+  --c-19-9: 0;
+  --c-19-10: 0;
+  --c-19-11: 0;
+  --c-19-12: 0;
+  --c-19-13: 0;
+  --c-19-14: 0;
+  --c-19-15: 0;
+  --c-19-16: 0;
+  --c-19-17: 0;
+  --c-19-18: 0;
+  --c-19-19: 0;
+}
