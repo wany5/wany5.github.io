@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>故事</title>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/highlight/highlight.pack.js"></script>
+    <link rel="stylesheet" href="../js/highlight/styles/atom-one-dark.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/bg.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+
+<body>
+    <div class="index-bg">
+        <div class="nav-page">
+            <div class="header">
+            </div>
+            <div class="body">
+                <div class="lunbo">
+                    <!-- <img src="../images/kontakt/bg-kontakt-1280.jpg" alt=""> -->
+                </div>
+                <div class="content">
+                    <div class="nav-list">
+                        <div class="nav-item" id="fzls">
+                            <div class="nitem-box">
+                                <h2 class="ihead">
+                                    <!-- JavaScript发展历史 -->
+                                    <a class="link link--yaku" href="#">
+                                        <span>学</span><span>习</span><span>目</span><span>标</span>
+                                    </a>
+                                </h2>
+                                <div class="icontent">
+                                    <p class="p1">
+                                        喜欢一个女孩儿，我们不在同一个城市工作，但老家是同一个地方的。今年春节见面的时候她说我们的属相不合，然后想再约她出来，她就一直说有事儿。现在不知道该咋办了，也不知道是不是已经被拍死了。
+                                        我跟她相识于2022年10月3日，那天我同学结婚，她是同学新娘的伴娘，婚礼仪式结束之后我给她送手捧花加的微信。晚上的时候开始找她聊天，也就问了一些名字、年龄之类的基本问题。
+                                        随后是隔了一天找她聊，这次倒是聊了挺久的。她说她六号晚上就要走了，我也是真的蠢当时也没在走之前约约她。
+                                        之后我们基本上天天也都有聊，聊的话题倒是不深入就一些琐事儿，也一块儿打王者（我是个菜鸡，很久之前玩过，现在基本是从头开始，我们也就一块儿玩玩娱乐模式）。期间说给她买点儿零食什么的她都拒绝了，刚开始是我不知道她的详细地址，
+                                        十二月份的时候才通过某宝农场种出来的免费苹果知道地址。再然后我就阳了，期间也给我分享好多缓解症状的方法，她是到现在都没啥事儿。
+                                        这段时间很多次想去找她，不过由于yq原因没能去成。她国庆节走的时候坐的那趟车有确诊，到地方被通知要去集中隔离，
+                                        她隔离还没结束，我这儿封城了，一直到十二月份全面放开，放开之后过了几天我就阳了。最好的机会是元旦，但是她奶奶去世了，她也回老家了，我这次是又犯蠢了，我没回去，也不知道怎么安慰，净扯一些无关紧要的东西。
+                                        
+                                        喜欢一个女孩儿，我们不在同一个城市工作，但老家是同一个地方的。从十月份到现在基本上天天都有聊，聊的话题倒是不深入就一些琐事儿，也一块儿打王者（我是个菜鸡，很久之前玩过，现在基本是从头开始，我们也就一块儿玩玩娱乐模式）。
+                                        今年春节见面的时候她说我们的属相不合，我跟她举了很多身边相合的例子，她就一直说前车之鉴。
+                                        回家的时候，也没收我的礼物，除夕发的红包也没收。想再约她出来，她一直说有事儿。现在她要从我这儿转车，我问她几点哪一班，她说保密。
+                                        我是不是已经被拍死了？但是真的很喜欢她，这段时间干啥都提不起劲儿，觉也睡不好。
+                                        我也没啥不良嗜好，不抽烟，酒是只在过年的时候喝一点儿，92年属猴，母胎单身。唉，不知道该咋办了。
+                                        
+
+                                        然后就是春节放假回来见的那一面，她说属猪的跟属猴的不合，我跟她举了很多身边相合的例子，她就一直说前车之鉴。回家的时候，也没收我的礼物，除夕发的红包也没收。想再约她出来，她一直说有事儿。
+                                        现在她要从我在的这个城市转车，我问她几点哪一班车，她说保密
+                                    </p>
+                                    <p class="p1"></p>
+                                    <p class="p1"></p>
+                                </div>
+                                <!-- <div class="ibot">
+                                    编辑时间：2020-12-12
+                                </div> -->
+                            </div>
+                            <!-- <div class="nitem-arrow"></div> -->
+                            <div class="nitem-cir"></div>
+                        </div>
+
+                    </div>
+                    <div class="art-list">
+                        <div class="art-item">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                欢迎
+            </div>
+        </div>
+        <div class="offbtn">
+            <a class="link link--surinami" href="#"><span data-letters-l="点我" data-letters-r="点我">点我点我</span></a>
+        </div>
+        <canvas></canvas>
+
+    </div>
+</body>
+<script src="../js/bg.js"></script>
+<script>
+    // 页面代码高亮
+    hljs.initHighlightingOnLoad();
+
+    var off = false;
+
+    var content = $(".content");
+    $(document).on("mousemove", function (e) {
+        if (!off) {
+            return;
+        }
+        var ax = -($(window).innerWidth() / 2 - e.pageX) / 20;
+        var ay = ($(window).innerHeight() / 2 - e.pageY) / 10;
+        content.attr("style", "transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-webkit-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg);-moz-transform: rotateY(" + ax + "deg) rotateX(" + ay + "deg)");
+    });
+
+    $('.offbtn').on('click', function () {
+        off = !off;
+    });
+
+    $('.ihead').on('click', function () {
+        $(this).siblings('.icontent').slideToggle(500);
+        // if ($(this).siblings('.icontent').hasClass('open')) {
+        //     $(this).siblings('.icontent').removeClass('open').hide(500);
+        // } else {
+        //     $(this).siblings('.icontent').addClass('open').show(500);
+        // }
+
+    })
+
+</script>
+
+</html>
+

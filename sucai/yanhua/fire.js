@@ -24,6 +24,7 @@ function initAnimate() {
     animate()
 }
 var lastTime;
+// var preShape = 0;
 function animate() {
     ctx.save();
     ctx.fillStyle = "rgba(0,5,24,0.1)";
@@ -45,8 +46,14 @@ function animate() {
                     x: canvas.width / 2,
                     y: 200
                 },
+                // document.querySelectorAll(".shape")[preShape]);
                 document.querySelectorAll(".shape")[parseInt(getRandom(0, document.querySelectorAll(".shape").length))]);
             bigbooms.push(bigboom)
+            // if (preShape == document.querySelectorAll(".shape").length - 1) {
+            //     preShape = 0
+            // } else {
+            //     preShape ++;
+            // }
         }
         lastTime = newTime;
         console.log(bigbooms)
@@ -215,10 +222,12 @@ function putValue(canvas, context, ele, dr, callback) {
     context.clearRect(0, 0, canvas.width, canvas.height);
     var img = new Image();
     if (ele.innerHTML.indexOf("img") >= 0) {
+        img.crossOrigin = 'anonymous'
         img.src = ele.getElementsByTagName("img")[0].src;
         imgload(img,
             function() {
-                context.drawImage(img, canvas.width / 2 - img.width / 2, canvas.height / 2 - img.width / 2);
+                // context.drawImage(img, canvas.width / 2 - img.width / 2, canvas.height / 2 - img.width / 2);
+                context.drawImage(img, 100, 200);
                 dots = getimgData(canvas, context, dr);
                 callback(dots)
             })
@@ -246,8 +255,11 @@ function imgload(img, callback) {
     }
 }
 function getimgData(canvas, context, dr) {
+    console.log(canvas, 'canvas.....')
     var imgData = context.getImageData(0, 0, canvas.width, canvas.height);
+    // var imgData = context.getImageData(0, 0, 100, 200);
     context.clearRect(0, 0, canvas.width, canvas.height);
+    // context.clearRect(0, 0, 100, 200);
     var dots = [];
     for (var x = 0; x < imgData.width; x += dr) {
         for (var y = 0; y < imgData.height; y += dr) {
