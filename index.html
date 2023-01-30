@@ -3,38 +3,131 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <style>
-        body{margin:0;padding:0;overflow: hidden;} .city{width:100%;position:fixed;bottom:
-                0px;z-index: 100;} .city img{width: 100%;}
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+            padding:0;
+            overflow: hidden;
+            /* background-image: url('./sucai/yanhua/bg.jpg');
+            background-position: center;
+            background-size: 100%, 100%;
+            background-repeat: no-repeat; */
+        } 
+        .city{width:100%;position:fixed;bottom:0px;z-index: 100;} 
+        .city img{width: 100%;}
         audio{
             opacity: 0;
         }
+        .login-model {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            /* background-color: #ccc; */
+            z-index: 999;
+        }
+        .model-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -80%) rotate(0deg);
+            /* margin: 200px auto 0; */
+            color: #328c8f;
+            width: 33%;
+            border: 2px solid rgb(25 80 82);
+            border-radius: 12px;
+            padding: 30px;
+            /* filter: 1; */
+            background-color: rgba(30, 87, 89, .27);
+            transition: all 2s ease;
+        }
+        .model-content.error {
+            /* top: 20%; */
+        }
+        .model-content.success {
+            /* top: 80%; */
+        }
+        .model-content.hide-model {
+            /* display: none; */
+            /* filter: 0; */
+            transform: translate(-0, 0) rotate(360deg);
+            left: -800px;
+            visibility: hidden;
+        }
+        .tit {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .model-btn {
+            position: relative;
+            margin: 0 auto;
+            width: 150px;
+            /* text-align: center; */
+            padding-left: 50px;
+            font-size: 22px;
+            height: 40px;
+            line-height: 36px;
+            border: 2px solid #195052;
+            border-radius: 40px;
+            background: rgb(25 80 82);
+            cursor: pointer;
+            text-transform: uppercase;
+            /* 5f55af */
+            background: linear-gradient(to right, #195052 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 2s ease;
+        }
+        .model-btn:hover {
+            background-position: left bottom;
+        }
+        .btn-img {
+            width: 40px;
+            height: 40px;
+            font-size: 0;
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background: #195052;
+            border-radius: 50%;
+        }
+        .btn-img img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .model-input input {
+            background: transparent;
+            border: 0;
+            border-bottom: 2px solid rgb(25 80 82);
+            text-decoration: none;
+            outline: none;
+            color: #328c8f;
+            width: 100%;
+            font-size: 22px;
+            padding: 6px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
     </style>
     <title>
-        烟花
+        等你来
     </title>
-    <link href="./sucai/yanhua/modal.css" rel="stylesheet"/>
+    <!-- <link href="./sucai/yanhua/modal.css" rel="stylesheet"/> -->
     <link href="./sucai/yanhua/hover.css" rel="stylesheet"/>
 </head>
 <body>
-<!--对话部分-->
-<div class="share_img"><img src="./sucai/yanhua/a8b.png" alt=""></div>
-
-<div class="page_one">
-    <!-- <div class="content">
-        <div class="text_wrapper">
-            <img src="a8.png" alt="">
-            <div class="text">
-                小姐姐，我好喜欢你，你愿意做我女朋友吗？
-            </div>
-        </div>
+<!-- <div class="loveimgleft">
+    <div class="imgbg">
+        <img class="hover" src="./sucai/yanhua/lover.png" alt="">
     </div>
-    <div class="btn-groups">
-        <div class="heart-btn">
-            <div id="yes" class="btn btn-a"><span>愿意</span></div>
-        </div>
-        <div id="no" class="btn btn-b"><span>不愿意</span></div>
-    </div> -->
-</div>
+</div> -->
+
 <!--烟花部分-->
 <canvas id='cas' style="background-color:rgba(0,5,24,1)">
     浏览器不支持canvas
@@ -42,20 +135,7 @@
 <div class="city">
     <img src="./sucai/yanhua/city.png" alt="" />
 </div>
-<div class="loveimgleft">
-    <!-- <div class="love"></div>
-    <div class="lovebg"></div> -->
-    <div class="imgbg">
-        <img class="hover" src="./sucai/yanhua/lover.png" alt="">
-    </div>
-</div>
-<div class="loveimgright">
-    <!-- <div class="love"></div>
-    <div class="lovebg"></div> -->
-    <div class="imgbg">
-        <img class="hover" src="./sucai/yanhua/lover.png" alt="">
-    </div>
-</div>
+
 <img src="./sucai/yanhua/moon.png" alt="" id="moon" style="visibility: hidden;" />
 <div style="display:none">
     <!-- <div class="shape">
@@ -70,8 +150,50 @@
     <!-- <div class="shape">
         <img width="130" height="200" src="https://wany5.github.io/sucai/yanhua/lover.png" alt="">
     </div> -->
-    <!-- 疑是仙女下凡来 -->
-    <!-- 回眸一笑胜星凡 -->
+</div>
+<!-- 询问弹框 -->
+<div class="login-model">
+    <div class="model-content login">
+        <div class="tit">你是谁？</div>
+        <div class="model-input">
+            <input id="name" type="text" placeholder="请输入姓名，看看是不是我等的人">
+        </div>
+        <div class="model-btn" id="login-btn">
+            <div class="btn-img"><img src="./icon/right.png" alt=""></div>
+            <span>我来喽</span>
+        </div>
+    </div>
+    <div class="model-content error hide-model">
+        <div class="tit">你不是我要等的人哦</div>
+        <div class="model-input">
+            
+        </div>
+        <div class="model-btn" id="reset-btn">
+            <div class="btn-img"><img src="./icon/right.png" alt=""></div>
+            <span>填错啦</span>
+        </div>
+    </div>
+    <div class="model-content success hide-model">
+        <div class="tit">终于来了，等的就是你</div>
+        <!-- <div class="model-input">
+            <input id="name" type="text" placeholder="请输入姓名，看看是不是我等的人">
+        </div> -->
+    </div>
+    <div class="model-content see hide-model">
+        <div class="tit">来，看烟花了</div>
+        <!-- <div class="model-input">
+            <input id="name" type="text" placeholder="请输入姓名，看看是不是我等的人">
+        </div> -->
+    </div>
+    <div class="model-content skip hide-model">
+        <div class="tit">走，后边还有更好的</div>
+        <div class="model-input">
+        </div>
+        <div class="model-btn" id="skip-btn">
+            <div class="btn-img"><img src="./icon/right.png" alt=""></div>
+            <span>走走走</span>
+        </div>
+    </div>
 </div>
 <!--音乐部分-->
 <!-- <audio autoplay loop id="music">
@@ -83,14 +205,51 @@
 <!-- <script src="talk.js"></script> -->
 </body>
 <script>
-    setTimeout(function() {
-        $('.imgbg img').removeClass('hover')
-    }, 2000)
-    $('.page_one').addClass('hide');
-    initAnimate();
-    setTimeout(function() {
-        window.location = location.origin + '/sucai/love/index.html'
-    }, 10000)
+    // setTimeout(function() {
+    //     $('.imgbg img').removeClass('hover')
+    // }, 2000)
+    // $('.page_one').addClass('hide');
+    // initAnimate();
+    // setTimeout(function() {
+    //     window.location = location.origin + '/sucai/love/index.html'
+    // }, 30000)
+    $(function() {
+        $('#login-btn').click(function(){
+            var inputVal = $('#name').val()
+            if (inputVal === '杨玉仙') {
+                $('.login').addClass('hide-model')
+                $('.success').removeClass('hide-model')
+                setTimeout(function() {
+                    $('.success').addClass('hide-model')
+                    $('.see').removeClass('hide-model')
+                }, 5000)
+                setTimeout(function() {
+                    $('.see').addClass('hide-model')
+                    seeYanHua()
+                }, 10000)
+            } else {
+                $('.login').addClass('hide-model')
+                $('.error').removeClass('hide-model')
+            }
+        })
+        $('#reset-btn').click(function(){
+            $('.login').removeClass('hide-model')
+            $('.error').addClass('hide-model')
+        })
+
+        $('#skip-btn').click(function(){
+            $('.skip').addClass('hide-model')
+            window.location = location.origin + '/sucai/love/index.html'
+        })
+
+
+        function seeYanHua() {
+            initAnimate();
+            setTimeout(function() {
+                $('.skip').removeClass('hide-model')
+            }, 30000)
+        }
+    })
 </script>
 
 </html>
