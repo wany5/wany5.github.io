@@ -114,6 +114,10 @@
             margin-bottom: 30px;
             text-align: center;
         }
+        .model-input input:focus {
+            outline: none;
+            background: transparent;
+        }
     </style>
     <title>
         等你来
@@ -216,7 +220,7 @@
     $(function() {
         $('#login-btn').click(function(){
             var inputVal = $('#name').val()
-            if (inputVal === '杨玉仙') {
+            if (encodeURIComponent(inputVal) === '%E6%9D%A8%E7%8E%89%E4%BB%99') {
                 $('.login').addClass('hide-model')
                 $('.success').removeClass('hide-model')
                 setTimeout(function() {
