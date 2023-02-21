@@ -6,6 +6,10 @@ ocas.width = canvas.width = window.innerWidth;
 ocas.height = canvas.height = window.innerHeight;
 var bigbooms = [];
 
+// 文字或者图片
+var shapIdx = 0;
+var preTime = 0;
+
 // window.onload = function() {
 //     initAnimate();
 // };
@@ -35,20 +39,24 @@ function animate() {
         var random = Math.random() * 100 > 33 ? true: false;
         var x = getRandom(canvas.width / 5, canvas.width * 4 / 5);
         var y = getRandom(50, 200);
-        if (random) {
+        if (!random && getTimeCount(preTime) >= 1000) {
+            preTime = (new Date()).valueOf()
+            shapIdx ++;
+            var bigboom = new Boom(getRandom(canvas.width / 3, canvas.width * 2 / 3), 2, "#FFF", {
+                    x: canvas.width / 2,
+                    y: 200
+                },
+                document.querySelectorAll(".shape")[getShapIndex(shapIdx, document.querySelectorAll(".shape").length)]);
+                // document.querySelectorAll(".shape")[parseInt(getRandom(0, document.querySelectorAll(".shape").length))]);
+                // document.querySelectorAll(".shape")[parseInt(getRandom(0, document.querySelectorAll(".shape").length))]);
+            bigbooms.push(bigboom)
+        } else {
             var bigboom = new Boom(getRandom(canvas.width / 3, canvas.width * 2 / 3), 2, "#FFF", {
                 x: x,
                 y: y
             });
             bigbooms.push(bigboom)
-        } else {
-            var bigboom = new Boom(getRandom(canvas.width / 3, canvas.width * 2 / 3), 2, "#FFF", {
-                    x: canvas.width / 2,
-                    y: 200
-                },
-                // document.querySelectorAll(".shape")[preShape]);
-                document.querySelectorAll(".shape")[parseInt(getRandom(0, document.querySelectorAll(".shape").length))]);
-            bigbooms.push(bigboom)
+            
             // if (preShape == document.querySelectorAll(".shape").length - 1) {
             //     preShape = 0
             // } else {
@@ -56,7 +64,7 @@ function animate() {
             // }
         }
         lastTime = newTime;
-        console.log(bigbooms)
+        // console.log(bigbooms)
     }
     stars.foreach(function() {
         this.paint()
@@ -226,8 +234,8 @@ function putValue(canvas, context, ele, dr, callback) {
         img.src = ele.getElementsByTagName("img")[0].src;
         imgload(img,
             function() {
-                // context.drawImage(img, canvas.width / 2 - img.width / 2, canvas.height / 2 - img.width / 2);
-                context.drawImage(img, 100, 200);
+                context.drawImage(img, canvas.width / 2 - img.width / 2, canvas.height / 2 - img.width / 2 - 100);
+                // context.drawImage(img, 100, 200);
                 dots = getimgData(canvas, context, dr);
                 callback(dots)
             })
@@ -280,6 +288,13 @@ function getimgData(canvas, context, dr) {
 }
 function getRandom(a, b) {
     return Math.random() * (b - a) + a
+}
+function getShapIndex(a, b) {
+    return a % b
+}
+function getTimeCount(pre) {
+    var newTime = (new Date()).valueOf()
+    return newTime - pre
 }
 var maxRadius = 1,
     stars = [];
